@@ -1,6 +1,6 @@
 {
   "aktualisiert_am": "2026-08-07",
-  "hinweis_datenquelle": "Die eigentlich vorgesehene Datenquelle openligadb.de (api.openligadb.de) ist in dieser Ausfuehrungsumgebung durch die Netzwerk-Egress-Policy vollstaendig gesperrt (403 Forbidden) - sowohl bei direkten Aufrufen als auch ueber das WebFetch-Tool. Zusaetzlich ist WebFetch fuer praktisch alle getesteten externen Domains in dieser Session blockiert (u.a. wikipedia.org, fussballdaten.de, sportschau.de). Die folgenden Werte stammen daher aus mehrfach uebereinstimmenden WebSearch-Recherchen (u.a. DFB-Datencenter, kicker.de, bundesliga.com, ESPN, Sportschau) und beziehen sich auf die zuletzt abgeschlossene Saison 2025/26, da die Saison 2026/27 erst am 28.08.2026 beginnt und somit noch keine Tabelle existiert. Die Zahlen konnten mangels direktem Seitenzugriff nicht an einer Primaerquelle verifiziert werden.",
+  "hinweis_datenquelle": "Die vorgesehene Datenquelle openligadb.de (api.openligadb.de) ist in dieser Ausfuehrungsumgebung weiterhin per WebFetch vollstaendig gesperrt (EGRESS_BLOCKED). Ebenso blockiert ist u.a. en.wikipedia.org. Die Zahlen unten stammen daher aus WebSearch-Recherchen und beziehen sich auf die zuletzt abgeschlossene Saison 2025/26, da die Saison 2026/27 erst am 28.08.2026 beginnt und somit noch keine Tabelle existiert. Tabellenplatz/Punkte/Bilanz sind mehrfach uebereinstimmend belegt (u.a. fussballtransfers.com, news.de, sportschau.de).",
   "bundesliga": {
     "tabellenplatz": 7,
     "punkte": 47,
@@ -11,17 +11,17 @@
     "tordifferenz": -6
   },
   "letzte_ergebnisse": [],
-  "letzte_ergebnisse_hinweis": "Fuer die letzten 5 Bundesliga-Spiele von SC Freiburg (Saison 2025/26) lieferte die WebSearch-Recherche keine verlaesslichen, in sich konsistenten Spieltag-Daten (Datum/Ergebnis/Gegner) - mehrere Abfragen widersprachen sich gegenseitig (z.B. nicht plausible Punktestaende). Um keine falschen Ergebnisse zu erfinden, bleibt dieses Feld leer. Einzig mehrfach uebereinstimmend belegt: SC Freiburg verlor am 28. Spieltag (04.04.2026) zuhause 2:3 gegen den FC Bayern Muenchen (Tore Freiburg: Manzambi, Hoeler). Fuer die exakten letzten 5 Spiele bitte kicker.de oder bundesliga.com direkt pruefen.",
+  "letzte_ergebnisse_hinweis": "Fuer die letzten 5 Bundesliga-Spiele von SC Freiburg (Saison 2025/26) lieferten mehrere WebSearch-Abfragen widerspruechliche bzw. nicht plausible Spieltag-Termine (z.B. Spieltag 32 und 34 nur 2 Tage auseinander). Um keine falschen Ergebnisse zu erfinden, bleibt dieses Feld leer. Einzelne, mehrfach bestaetigte Datenpunkte: 34. (letzter) Spieltag SC Freiburg 4:1 RB Leipzig (Saisonabschluss); 28. Spieltag SC Freiburg 2:3 FC Bayern Muenchen (Tore Freiburg: Manzambi, Hoeler). Fuer die exakten letzten 5 Spiele bitte kicker.de oder bundesliga.com direkt pruefen.",
   "news": [
     {
-      "titel": "Vorbereitung endet mit 0:3-Testspielniederlage gegen Greuther Fuerth",
-      "zusammenfassung": "Das Trainingslager im oesterreichischen Schruns endete fuer den SC Freiburg mit einer ueberraschend deutlichen 0:3-Testspielniederlage gegen Zweitligist SpVgg Greuther Fuerth (Foulelfmeter Klaus 5., Sillah 37./90.+1) - neuer Torwart Mio Backhaus kassierte dabei sein erstes Gegentor im SC-Trikot. Zuvor hatte der Europa-League-Finalist noch 3:1 gegen den englischen Zweitligisten Derby County gewonnen.",
-      "quelle_url": "https://www.badische-zeitung.de/freiburg-kassiert-testspiel-niederlage-gegen-fuerth"
+      "titel": "Atubolu lehnt Angebote von Hull City und Coventry City ab, Wechselpoker geht weiter",
+      "zusammenfassung": "Torwart Noah Atubolu hat einen Wechselwunsch hinterlegt und trainiert weiterhin individuell abseits der Mannschaft. Er soll Offerten der englischen Aufsteiger Hull City und Coventry City abgelehnt haben und bevorzugt die Premier League; AFC Bournemouth und Europa-League-Sieger Aston Villa sollen Interesse zeigen, daneben werden Olympique Marseille, Juventus Turin und SSC Neapel gehandelt. Freiburg soll rund 20 Mio. Euro Abloese fordern, nachdem mit Mio Backhaus bereits ein Nachfolger verpflichtet wurde.",
+      "quelle_url": "https://www.spox.com/fussball/news/auch-das-ist-ungewoehnlich-sc-freiburg-und-noah-atubolu-treffen-sehr-konsequente-entscheidung/blt8b0ef8dc732907db"
     },
     {
-      "titel": "Zukunft von Torwart Noah Atubolu weiter offen",
-      "zusammenfassung": "Stammkeeper Noah Atubolu trainiert weiterhin individuell abseits der Mannschaft, da er den Verein trotz laufendem Vertrag bis 2027 verlassen moechte. Gehandelt werden u.a. der SSC Napoli, Juventus Turin und Olympique Marseille; der SC Freiburg soll rund 15 Mio. Euro Abloese fordern.",
-      "quelle_url": "https://www.spox.com/fussball/news/auch-das-ist-ungewoehnlich-sc-freiburg-und-noah-atubolu-treffen-sehr-konsequente-entscheidung/blt8b0ef8dc732907db"
+      "titel": "Vorbereitung: 0:3 gegen Greuther Fuerth, davor 3:1 gegen Derby County",
+      "zusammenfassung": "Das Trainingslager im oesterreichischen Schruns endete mit einer deutlichen 0:3-Testspielniederlage gegen Zweitligist SpVgg Greuther Fuerth (Foulelfmeter Klaus 5., Sillah 37./90.+1) - neuer Torwart Mio Backhaus kassierte dabei sein erstes Gegentor im SC-Trikot. Zuvor hatte der Europa-League-Finalist noch 3:1 gegen den englischen Zweitligisten Derby County gewonnen.",
+      "quelle_url": "https://www.badische-zeitung.de/freiburg-kassiert-testspiel-niederlage-gegen-fuerth"
     },
     {
       "titel": "Mio Backhaus als neue Nummer eins verpflichtet",
@@ -34,9 +34,9 @@
       "quelle_url": "https://www.baden24.de/sport/sc-freiburg/transfer-ticker-sport-club-scf-sommer-neuzugang-abgang-wechsel-infos-news-94318691.html"
     },
     {
-      "titel": "Letzter Test vor Saisonstart: Racing Strassburg zu Gast",
-      "zusammenfassung": "Am 8. August empfaengt der SC Freiburg den franzoesischen Erstligisten Racing Strassburg zum letzten Testspiel vor dem Bundesliga-Auftakt am 28. August. Trainer Julian Schuster zog nach dem Trainingslager eine positive Bilanz mit hoher Intensitaet und fast komplettem Kader.",
-      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/julian-schuster-zieht-trainingslager-bilanz"
+      "titel": "Doppel-Test gegen Racing Strassburg am 8. August (noch ausstehend)",
+      "zusammenfassung": "Am 8. August empfaengt der SC Freiburg den franzoesischen Erstligisten Racing Strassburg zu zwei Testspielen (Anstoss 12:30 und 15:30 Uhr) als letzten Test vor dem Bundesliga-Auftakt am 28. August. Die Partien finden wegen Rasenbauarbeiten am Europa-Park Stadion ohne Zuschauer statt. Ergebnisse lagen zum Zeitpunkt dieser Recherche noch nicht vor.",
+      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/doppel-test-gegen-racing-strassburg"
     }
   ],
   "experteneinschaetzungen": [

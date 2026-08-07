@@ -32,3 +32,30 @@ Experteneinschaetzungen:
 - Sportschau/SWR: Schuster setzt auf Kontinuitaet statt Umbruch nach historischem Europa-League-Finaleinzug
 - LigaInsider: Rihito Yamamoto als moeglicher "Koenigstransfer" fuers Mittelfeld
 ```
+
+## 2026-08-07
+
+```
+Hinweis: openligadb.de bleibt per WebFetch vollstaendig gesperrt (EGRESS_BLOCKED), ebenso en.wikipedia.org. Zahlen unten per WebSearch-Recherche (Saison 2025/26, letzte abgeschlossene Saison - 2026/27 startet erst am 28.08.2026).
+
+Letzte Ergebnisse:
+Keine verlaesslichen Spieltag-fuer-Spieltag-Daten fuer die letzten 5 Spiele ermittelbar (widerspruechliche/unplausible Termine in den Suchergebnissen). Mehrfach bestaetigt: 34. (letzter) Spieltag SC Freiburg 4:1 RB Leipzig (Saisonabschluss); 28. Spieltag SC Freiburg 2:3 FC Bayern Muenchen (Tore: Manzambi, Hoeler).
+
+Tabellenplatz: 7. (Saison 2025/26)
+Punkte: 47
+Bilanz: 13S / 8U / 13N
+Tordifferenz: -6
+
+News der Woche:
+- Atubolu lehnt Angebote von Hull City und Coventry City ab; Interesse von Bournemouth, Aston Villa, Marseille, Juventus, Neapel; Freiburg fordert nun ca. 20 Mio. Euro Abloese
+- Trainingslager in Schruns endete mit 0:3-Testspielniederlage gegen Greuther Fuerth, zuvor 3:1-Sieg gegen Derby County
+- Mio Backhaus (ex-Werder Bremen, ca. 12 Mio. Euro) als neue Nummer eins verpflichtet
+- Weitere Neuzugaenge: Keisuke Goto, Yannik Engelhardt, Rihito Yamamoto; Abgaenge: Johan Manzambi (Rekordtransfer ca. 70 Mio. Euro zu Aston Villa), Junior Adamu (zu Schalke 04)
+- Doppel-Test gegen Racing Strassburg am 8. August (Ergebnis lag zum Recherchezeitpunkt noch nicht vor); Bundesliga-Auftakt am 28. August
+
+Experteneinschaetzungen:
+- Lothar Matthaeus: Nebeneinander von Backhaus und Atubolu unrealistisch, Atubolu strebt wohl in die Premier League
+- kicker.de: Torwart-Umbruch als bewusste strategische Entscheidung, um abloesefreien Abgang 2027 zu vermeiden
+- Sportschau/SWR: Schuster setzt auf Kontinuitaet statt Umbruch nach historischem Europa-League-Finaleinzug
+- LigaInsider: Rihito Yamamoto als moeglicher "Koenigstransfer" fuers Mittelfeld
+```
