@@ -1,6 +1,6 @@
 {
   "aktualisiert_am": "2026-08-07",
-  "hinweis_datenquelle": "Die vorgesehene Datenquelle openligadb.de (api.openligadb.de) ist in dieser Ausfuehrungsumgebung weiterhin per WebFetch vollstaendig gesperrt (EGRESS_BLOCKED). Ebenso blockiert ist u.a. en.wikipedia.org. Die Zahlen unten stammen daher aus WebSearch-Recherchen und beziehen sich auf die zuletzt abgeschlossene Saison 2025/26, da die Saison 2026/27 erst am 28.08.2026 beginnt und somit noch keine Tabelle existiert. Tabellenplatz/Punkte/Bilanz sind mehrfach uebereinstimmend belegt (u.a. fussballtransfers.com, news.de, sportschau.de).",
+  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausfuehrungsumgebung per WebFetch weiterhin vollstaendig gesperrt (EGRESS_BLOCKED). Ebenso gesperrt sind u.a. transfermarkt.us und sportschau.de per direktem WebFetch. Die Zahlen unten stammen daher aus mehrfach uebereinstimmenden WebSearch-Recherchen und beziehen sich auf die zuletzt abgeschlossene Saison 2025/26, da die Saison 2026/27 erst am 28.08.2026 beginnt und noch keine Tabelle existiert.",
   "bundesliga": {
     "tabellenplatz": 7,
     "punkte": 47,
@@ -10,38 +10,43 @@
     "niederlagen": 13,
     "tordifferenz": -6
   },
-  "letzte_ergebnisse": [],
-  "letzte_ergebnisse_hinweis": "Fuer die letzten 5 Bundesliga-Spiele von SC Freiburg (Saison 2025/26) lieferten mehrere WebSearch-Abfragen widerspruechliche bzw. nicht plausible Spieltag-Termine (z.B. Spieltag 32 und 34 nur 2 Tage auseinander). Um keine falschen Ergebnisse zu erfinden, bleibt dieses Feld leer. Einzelne, mehrfach bestaetigte Datenpunkte: 34. (letzter) Spieltag SC Freiburg 4:1 RB Leipzig (Saisonabschluss); 28. Spieltag SC Freiburg 2:3 FC Bayern Muenchen (Tore Freiburg: Manzambi, Hoeler). Fuer die exakten letzten 5 Spiele bitte kicker.de oder bundesliga.com direkt pruefen.",
+  "letzte_ergebnisse": [
+    {"datum": "2026-05-16", "wettbewerb": "Bundesliga (34. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "RB Leipzig"},
+    {"datum": "2026-05-10", "wettbewerb": "Bundesliga (33. Spieltag)", "heimteam": "Hamburger SV", "ergebnis": "3:2", "auswaertsteam": "SC Freiburg"},
+    {"datum": "2026-05-03", "wettbewerb": "Bundesliga (32. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "1:1", "auswaertsteam": "VfL Wolfsburg"},
+    {"datum": "2026-04-26", "wettbewerb": "Bundesliga (31. Spieltag)", "heimteam": "Borussia Dortmund", "ergebnis": "4:0", "auswaertsteam": "SC Freiburg"},
+    {"datum": "2026-04-19", "wettbewerb": "Bundesliga (30. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "2:1", "auswaertsteam": "1. FC Heidenheim"}
+  ],
   "news": [
     {
-      "titel": "Atubolu lehnt Angebote von Hull City und Coventry City ab, Wechselpoker geht weiter",
-      "zusammenfassung": "Torwart Noah Atubolu hat einen Wechselwunsch hinterlegt und trainiert weiterhin individuell abseits der Mannschaft. Er soll Offerten der englischen Aufsteiger Hull City und Coventry City abgelehnt haben und bevorzugt die Premier League; AFC Bournemouth und Europa-League-Sieger Aston Villa sollen Interesse zeigen, daneben werden Olympique Marseille, Juventus Turin und SSC Neapel gehandelt. Freiburg soll rund 20 Mio. Euro Abloese fordern, nachdem mit Mio Backhaus bereits ein Nachfolger verpflichtet wurde.",
-      "quelle_url": "https://www.spox.com/fussball/news/auch-das-ist-ungewoehnlich-sc-freiburg-und-noah-atubolu-treffen-sehr-konsequente-entscheidung/blt8b0ef8dc732907db"
+      "titel": "Christian Günter bleibt Kapitän, Grifo und Eggestein weiter Vizekapitäne",
+      "zusammenfassung": "Im Trainingslager in Schruns hat die Mannschaft den 33-jaehrigen Christian Guenter von den Mitspielern erneut zum Kapitaen gewaehlt - er geht damit in seine siebte Saison mit der Binde. Vincenzo Grifo und Maximilian Eggestein bleiben seine Stellvertreter.",
+      "quelle_url": "https://www.kicker.de/im-trainingslager-wiedergewaehlt-guenter-bleibt-freiburgs-kapitaen-1239296/artikel"
     },
     {
-      "titel": "Vorbereitung: 0:3 gegen Greuther Fuerth, davor 3:1 gegen Derby County",
-      "zusammenfassung": "Das Trainingslager im oesterreichischen Schruns endete mit einer deutlichen 0:3-Testspielniederlage gegen Zweitligist SpVgg Greuther Fuerth (Foulelfmeter Klaus 5., Sillah 37./90.+1) - neuer Torwart Mio Backhaus kassierte dabei sein erstes Gegentor im SC-Trikot. Zuvor hatte der Europa-League-Finalist noch 3:1 gegen den englischen Zweitligisten Derby County gewonnen.",
-      "quelle_url": "https://www.badische-zeitung.de/freiburg-kassiert-testspiel-niederlage-gegen-fuerth"
+      "titel": "Atubolu: Unbekannter Premier-League-Topklub 'volle Kanone' interessiert",
+      "zusammenfassung": "Laut Sky ist ein bislang nicht genannter englischer Topklub ernsthaft an Torwart Noah Atubolu dran; Hull City und Coventry City wurden bereits abgesagt, konkret bemuehen sich wohl Aston Villa und AFC Bournemouth. Freiburg hofft auf rund 20 Mio. Euro Abloese - fuer den bis 2027 gebundenen Atubolu die letzte Gelegenheit auf eine nennenswerte Ablösesumme.",
+      "quelle_url": "https://www.tipico.de/wett-tipps/sportwetten-news/sc-freiburg-ueberraschende-transfer-wende-bei-atubolu-topklub-macht-ernst"
     },
     {
-      "titel": "Mio Backhaus als neue Nummer eins verpflichtet",
-      "zusammenfassung": "Fuer rund 12 Mio. Euro wechselte Torhueter Mio Backhaus von Werder Bremen nach Freiburg und soll Atubolu als Stammkeeper beerben. Weitere Sommer-Neuzugaenge: Keisuke Goto (RSC Anderlecht), Yannik Engelhardt (Como 1907, 7,5 Mio. Euro) und Rihito Yamamoto.",
+      "titel": "Berkay Yilmaz nach zwei Leihjahren in Nürnberg zurück in Freiburg",
+      "zusammenfassung": "Der 21-jaehrige Berkay Yilmaz, seit 2020 unter Vertrag beim SC, ist nach zwei Leihjahren beim 1. FC Nuernberg zurueck am Dreisam-Ufer. Er freut sich ueber die Naehe zur Heimat und die Arbeit unter Trainer Miroslav Klose im Nachwuchs- bzw. Perspektivbereich.",
+      "quelle_url": "https://www.scfreiburg.com/en/latest/news/all-news"
+    },
+    {
+      "titel": "Mio Backhaus als neue Nummer eins verpflichtet, Manzambi-Rekordtransfer zu Aston Villa",
+      "zusammenfassung": "Torhueter Mio Backhaus wechselte von Werder Bremen nach Freiburg und soll Atubolu als Stammkeeper beerben. Nachwuchsspieler Johan Manzambi verliess den Verein im Zuge eines Vereinsrekord-Transfers (ca. 70 Mio. Euro) ausgerechnet zu Aston Villa, dem Gegner aus dem verlorenen Europa-League-Finale. Junior Adamu wechselte zu Schalke 04, weitere Neuzugaenge sind Keisuke Goto, Yannik Engelhardt und Rihito Yamamoto.",
       "quelle_url": "https://www.sportschau.de/regional/swr/swr-sc-freiburg-verpflichtet-torwart-mio-backhaus-was-passiert-nun-mit-noah-atubolu-100.html"
     },
     {
-      "titel": "Rekordtransfer: Manzambi wechselt fuer rund 70 Mio. Euro zu Aston Villa",
-      "zusammenfassung": "Nachwuchsspieler Johan Manzambi verlaesst den SC Freiburg im Zuge eines Vereinsrekord-Transfers (Gesamtpaket ca. 70 Mio. Euro) ausgerechnet zu Aston Villa - dem Gegner aus dem verlorenen Europa-League-Finale (0:3, 20.05.2026 in Istanbul). Zudem wechselte Junior Adamu zu Schalke 04.",
-      "quelle_url": "https://www.baden24.de/sport/sc-freiburg/transfer-ticker-sport-club-scf-sommer-neuzugang-abgang-wechsel-infos-news-94318691.html"
-    },
-    {
-      "titel": "Doppel-Test gegen Racing Strassburg am 8. August (noch ausstehend)",
-      "zusammenfassung": "Am 8. August empfaengt der SC Freiburg den franzoesischen Erstligisten Racing Strassburg zu zwei Testspielen (Anstoss 12:30 und 15:30 Uhr) als letzten Test vor dem Bundesliga-Auftakt am 28. August. Die Partien finden wegen Rasenbauarbeiten am Europa-Park Stadion ohne Zuschauer statt. Ergebnisse lagen zum Zeitpunkt dieser Recherche noch nicht vor.",
-      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/doppel-test-gegen-racing-strassburg"
+      "titel": "Vorbereitung: 3:1 gegen Derby County, 0:3 gegen Greuther Fürth - Doppeltest gegen Racing Straßburg steht bevor",
+      "zusammenfassung": "Im Trainingslager in Schruns gewann Freiburg zunaechst 3:1 gegen den englischen Zweitligisten Derby County (Tore: Irié, Grifo, Catak), verlor danach aber 0:3 gegen Zweitligist Greuther Fuerth. Am 8. August (dem Tag nach dieser Recherche) empfaengt der SC Racing Strassburg zu zwei Testspielen ohne Zuschauer als letzten Test vor dem Bundesliga-Auftakt am 28. August.",
+      "quelle_url": "https://www.badische-zeitung.de/freiburg-kassiert-testspiel-niederlage-gegen-fuerth"
     }
   ],
   "experteneinschaetzungen": [
     {
-      "quelle": "Lothar Matthaeus (Sky/kicker-Experte)",
+      "quelle": "Lothar Matthäus (Sky/kicker-Experte)",
       "einschaetzung": "Matthaeus haelt es fuer ausgeschlossen, dass Freiburg Backhaus nur als Nummer zwei verpflichtet haette, und geht davon aus, dass Atubolu einen Wechsel in die Premier League anstrebt - ein Nebeneinander beider Torhueter sei unrealistisch.",
       "quelle_url": "https://www.spox.com/fussball/news/auch-das-ist-ungewoehnlich-sc-freiburg-und-noah-atubolu-treffen-sehr-konsequente-entscheidung/blt8b0ef8dc732907db"
     },
