@@ -1,36 +1,78 @@
 {
   "aktualisiert_am": "2026-08-07",
-  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausfuehrungsumgebung per WebFetch weiterhin vollstaendig gesperrt (EGRESS_BLOCKED). Ebenso gesperrt sind u.a. transfermarkt.us und sportschau.de per direktem WebFetch. Die Zahlen unten stammen daher aus mehrfach uebereinstimmenden WebSearch-Recherchen und beziehen sich auf die zuletzt abgeschlossene Saison 2025/26, da die Saison 2026/27 erst am 28.08.2026 beginnt und noch keine Tabelle existiert.",
+  "saison": "2026/27",
+  "hinweis_datenquelle": "Die Saison 2026/27 hat noch nicht begonnen (Bundesliga-Auftakt 29.-31.08.2026, DFB-Pokal 1. Runde 23.08.2026, Conference-League-Play-offs 20./27.08.2026). Fuer Bundesliga und Conference League existiert daher noch keine echte Tabelle 2026/27. Die gezeigte Bundesliga-Tabelle ist der zuletzt bekannte Stand (Saisonabschluss 2025/26, verifiziert ueber die OpenLigaDB-API); in der Conference League ist es die erste Teilnahme des SC Freiburg ueberhaupt, es gibt keine Referenztabelle. Alle Termine und News stammen aus WebSearch-Recherchen, da api.openligadb.de und mehrere Nachrichtenseiten per WebFetch in dieser Ausfuehrungsumgebung gesperrt sind (EGRESS_BLOCKED).",
   "bundesliga": {
-    "tabellenplatz": 7,
-    "punkte": 47,
-    "spiele": 34,
-    "siege": 13,
-    "unentschieden": 8,
-    "niederlagen": 13,
-    "tordifferenz": -6
+    "status": "vor_saisonstart",
+    "status_label": "Vor Saisonstart",
+    "naechstes_spiel": "29.-31.08.2026, Heim vs. Werder Bremen (1. Spieltag)",
+    "tabellenplatz": null,
+    "punkte": null,
+    "spiele": null,
+    "siege": null,
+    "unentschieden": null,
+    "niederlagen": null,
+    "tordifferenz": null,
+    "tabellenausschnitt": [
+      {"platz": 2, "verein": "Borussia Dortmund", "spiele": 34, "tordifferenz": 36, "punkte": 73, "hervorheben": false},
+      {"platz": 3, "verein": "RB Leipzig", "spiele": 34, "tordifferenz": 19, "punkte": 65, "hervorheben": false},
+      {"platz": 4, "verein": "VfB Stuttgart", "spiele": 34, "tordifferenz": 22, "punkte": 62, "hervorheben": false},
+      {"platz": 5, "verein": "TSG Hoffenheim", "spiele": 34, "tordifferenz": 13, "punkte": 61, "hervorheben": false},
+      {"platz": 6, "verein": "Bayer 04 Leverkusen", "spiele": 34, "tordifferenz": 21, "punkte": 59, "hervorheben": false},
+      {"platz": 7, "verein": "SC Freiburg", "spiele": 34, "tordifferenz": -6, "punkte": 47, "hervorheben": true},
+      {"platz": 8, "verein": "Eintracht Frankfurt", "spiele": 34, "tordifferenz": -4, "punkte": 44, "hervorheben": false},
+      {"platz": 9, "verein": "FC Augsburg", "spiele": 34, "tordifferenz": -16, "punkte": 43, "hervorheben": false},
+      {"platz": 10, "verein": "1. FSV Mainz 05", "spiele": 34, "tordifferenz": -8, "punkte": 40, "hervorheben": false},
+      {"platz": 11, "verein": "1. FC Union Berlin", "spiele": 34, "tordifferenz": -15, "punkte": 39, "hervorheben": false},
+      {"platz": 12, "verein": "Borussia Mönchengladbach", "spiele": 34, "tordifferenz": -11, "punkte": 38, "hervorheben": false}
+    ],
+    "tabellenausschnitt_hinweis": "Noch keine Tabelle 2026/27 - Saisonauftakt ist erst am 29.08.2026. Gezeigt ist zur Einordnung der letzte bekannte Stand: die Abschlusstabelle der Saison 2025/26 (Freiburg wurde 7.)."
   },
   "letzte_ergebnisse": [
-    {"datum": "2026-05-16", "wettbewerb": "Bundesliga (34. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "RB Leipzig"},
-    {"datum": "2026-05-10", "wettbewerb": "Bundesliga (33. Spieltag)", "heimteam": "Hamburger SV", "ergebnis": "3:2", "auswaertsteam": "SC Freiburg"},
-    {"datum": "2026-05-03", "wettbewerb": "Bundesliga (32. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "1:1", "auswaertsteam": "VfL Wolfsburg"},
-    {"datum": "2026-04-26", "wettbewerb": "Bundesliga (31. Spieltag)", "heimteam": "Borussia Dortmund", "ergebnis": "4:0", "auswaertsteam": "SC Freiburg"},
-    {"datum": "2026-04-19", "wettbewerb": "Bundesliga (30. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "2:1", "auswaertsteam": "1. FC Heidenheim"}
+    {"datum": "2026-05-16", "wettbewerb": "Bundesliga 2025/26 (34. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "RB Leipzig"},
+    {"datum": "2026-05-10", "wettbewerb": "Bundesliga 2025/26 (33. Spieltag)", "heimteam": "Hamburger SV", "ergebnis": "3:2", "auswaertsteam": "SC Freiburg"},
+    {"datum": "2026-05-03", "wettbewerb": "Bundesliga 2025/26 (32. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "1:1", "auswaertsteam": "VfL Wolfsburg"},
+    {"datum": "2026-04-26", "wettbewerb": "Bundesliga 2025/26 (31. Spieltag)", "heimteam": "Borussia Dortmund", "ergebnis": "4:0", "auswaertsteam": "SC Freiburg"},
+    {"datum": "2026-04-19", "wettbewerb": "Bundesliga 2025/26 (30. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "2:1", "auswaertsteam": "1. FC Heidenheim"}
   ],
+  "dfb_pokal": {
+    "status": "vor_erster_runde",
+    "status_label": "Vor der 1. Runde",
+    "naechste_runde": {"runde": "1. Runde", "datum": "23.08.2026", "gegner": "Fortuna Düsseldorf", "ort": "Auswärts"},
+    "ergebnisse": [],
+    "hinweis": "Noch keine Pokal-Partie in dieser Saison gespielt - die 1. Runde findet erst am 23.08.2026 statt."
+  },
+  "conference_league": {
+    "status": "vor_playoffs",
+    "status_label": "Vor den Play-offs",
+    "qualifikationsweg": "Play-off-Teilnahme ueber Platz 7 in der Bundesliga 2025/26 in Verbindung mit dem Einzug ins Europa-League-Finale der Vorsaison (0:3 gegen Aston Villa) - erste Teilnahme des SC Freiburg an diesem Wettbewerb.",
+    "termine": [
+      {"phase": "Play-offs", "datum": "20. & 27.08.2026"},
+      {"phase": "Ligaphase", "datum": "15.10.-17.12.2026"},
+      {"phase": "K.o.-Play-offs", "datum": "18. & 25.02.2027"},
+      {"phase": "Achtelfinale", "datum": "11. & 18.03.2027"},
+      {"phase": "Viertelfinale", "datum": "08. & 15.04.2027"},
+      {"phase": "Halbfinale", "datum": "29.04. & 06.05.2027"},
+      {"phase": "Finale", "datum": "02.06.2027, Beşiktaş Park, Istanbul"}
+    ],
+    "tabellenausschnitt": [],
+    "tabellenausschnitt_hinweis": "Erste Conference-League-Teilnahme des SC Freiburg ueberhaupt - es gibt keine Referenztabelle. Eine echte Tabelle entsteht erst nach den Play-offs (ab Oktober in der Ligaphase).",
+    "ergebnisse": []
+  },
   "news": [
     {
       "titel": "Christian Günter bleibt Kapitän, Grifo und Eggestein weiter Vizekapitäne",
-      "zusammenfassung": "Im Trainingslager in Schruns hat die Mannschaft den 33-jaehrigen Christian Guenter von den Mitspielern erneut zum Kapitaen gewaehlt - er geht damit in seine siebte Saison mit der Binde. Vincenzo Grifo und Maximilian Eggestein bleiben seine Stellvertreter.",
+      "zusammenfassung": "Im Trainingslager in Schruns hat die Mannschaft den 33-jaehrigen Christian Guenter erneut zum Kapitaen gewaehlt - er geht damit in seine siebte Saison mit der Binde. Vincenzo Grifo und Maximilian Eggestein bleiben seine Stellvertreter.",
       "quelle_url": "https://www.kicker.de/im-trainingslager-wiedergewaehlt-guenter-bleibt-freiburgs-kapitaen-1239296/artikel"
     },
     {
       "titel": "Atubolu: Unbekannter Premier-League-Topklub 'volle Kanone' interessiert",
-      "zusammenfassung": "Laut Sky ist ein bislang nicht genannter englischer Topklub ernsthaft an Torwart Noah Atubolu dran; Hull City und Coventry City wurden bereits abgesagt, konkret bemuehen sich wohl Aston Villa und AFC Bournemouth. Freiburg hofft auf rund 20 Mio. Euro Abloese - fuer den bis 2027 gebundenen Atubolu die letzte Gelegenheit auf eine nennenswerte Ablösesumme.",
+      "zusammenfassung": "Laut Sky ist ein bislang nicht genannter englischer Topklub ernsthaft an Torwart Noah Atubolu dran; Hull City und Coventry City wurden bereits abgesagt, konkret bemuehen sich wohl Aston Villa und AFC Bournemouth. Freiburg hofft auf rund 20 Mio. Euro Abloese, nachdem mit Mio Backhaus bereits ein Nachfolger verpflichtet wurde.",
       "quelle_url": "https://www.tipico.de/wett-tipps/sportwetten-news/sc-freiburg-ueberraschende-transfer-wende-bei-atubolu-topklub-macht-ernst"
     },
     {
       "titel": "Berkay Yilmaz nach zwei Leihjahren in Nürnberg zurück in Freiburg",
-      "zusammenfassung": "Der 21-jaehrige Berkay Yilmaz, seit 2020 unter Vertrag beim SC, ist nach zwei Leihjahren beim 1. FC Nuernberg zurueck am Dreisam-Ufer. Er freut sich ueber die Naehe zur Heimat und die Arbeit unter Trainer Miroslav Klose im Nachwuchs- bzw. Perspektivbereich.",
+      "zusammenfassung": "Der 21-jaehrige Berkay Yilmaz ist nach zwei Leihjahren beim 1. FC Nuernberg zurueck am Dreisam-Ufer und trainiert unter Miroslav Klose im Perspektivbereich.",
       "quelle_url": "https://www.scfreiburg.com/en/latest/news/all-news"
     },
     {
@@ -40,7 +82,7 @@
     },
     {
       "titel": "Vorbereitung: 3:1 gegen Derby County, 0:3 gegen Greuther Fürth - Doppeltest gegen Racing Straßburg steht bevor",
-      "zusammenfassung": "Im Trainingslager in Schruns gewann Freiburg zunaechst 3:1 gegen den englischen Zweitligisten Derby County (Tore: Irié, Grifo, Catak), verlor danach aber 0:3 gegen Zweitligist Greuther Fuerth. Am 8. August (dem Tag nach dieser Recherche) empfaengt der SC Racing Strassburg zu zwei Testspielen ohne Zuschauer als letzten Test vor dem Bundesliga-Auftakt am 28. August.",
+      "zusammenfassung": "Im Trainingslager in Schruns gewann Freiburg zunaechst 3:1 gegen den englischen Zweitligisten Derby County (Tore: Irié, Grifo, Catak), verlor danach aber 0:3 gegen Zweitligist Greuther Fuerth. Am 8. August empfaengt der SC Racing Strassburg zu zwei Testspielen ohne Zuschauer als letzten Test vor dem Bundesliga-Auftakt.",
       "quelle_url": "https://www.badische-zeitung.de/freiburg-kassiert-testspiel-niederlage-gegen-fuerth"
     }
   ],

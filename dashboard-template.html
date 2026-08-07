@@ -189,6 +189,75 @@
   }
   .quote-card p { margin: 0; font-size: 0.92rem; }
 
+  /* ---- Competitions ---- */
+  .comp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .comp-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem 1.2rem 1.3rem;
+    border-top: 4px solid var(--stripe, var(--accent));
+    box-shadow: var(--shadow);
+  }
+  .comp-card h3 {
+    font-family: "Bahnschrift", "Arial Narrow", sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0 0 0.55rem;
+    letter-spacing: 0.01em;
+  }
+  .status-badge {
+    display: inline-block;
+    font-family: "Segoe UI", ui-sans-serif, sans-serif;
+    font-size: 0.66rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    background: var(--surface-sunk);
+    color: var(--text-muted);
+    margin-bottom: 0.7rem;
+  }
+  .comp-card .field { margin-top: 0.6rem; font-size: 0.88rem; }
+  .comp-card .field .flabel {
+    display: block;
+    font-family: "Segoe UI", ui-sans-serif, sans-serif;
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin-bottom: 0.15rem;
+  }
+  .comp-card ul.termine { list-style: none; margin: 0.6rem 0 0; padding: 0; font-size: 0.84rem; }
+  .comp-card ul.termine li { display: flex; justify-content: space-between; gap: 0.6rem; padding: 0.2rem 0; border-bottom: 1px dashed var(--border); }
+  .comp-card ul.termine li:last-child { border-bottom: none; }
+  .comp-card ul.termine .phase { color: var(--text-muted); }
+
+  /* ---- Mini table ---- */
+  .table-scroll { overflow-x: auto; }
+  .mini-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 420px; }
+  .mini-table th {
+    text-align: left;
+    font-family: "Segoe UI", ui-sans-serif, sans-serif;
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    padding: 0.35rem 0.6rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .mini-table td {
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px dashed var(--border);
+  }
+  .mini-table tr:last-child td { border-bottom: none; }
+  .mini-table td.num, .mini-table th.num { text-align: right; }
+  .mini-table tr.highlight td {
+    background: color-mix(in srgb, var(--accent) 13%, transparent);
+    font-weight: 700;
+  }
+
   footer {
     margin-top: 3rem;
     padding-top: 1.5rem;
@@ -206,6 +275,7 @@
 
   @media (max-width: 640px) {
     .quote-grid { grid-template-columns: 1fr; }
+    .comp-grid { grid-template-columns: 1fr; }
     .results-list li { grid-template-columns: 70px 1fr; }
     .results-list .score { grid-column: 2; }
   }
@@ -215,7 +285,7 @@
   <div class="hero">
     <div class="hero-inner">
       <div class="eyebrow display">SC Freiburg · Dashboard</div>
-      <h1 class="display">Aktueller Stand</h1>
+      <h1 class="display" id="hero-title">Saison 2026/27</h1>
       <p class="updated" id="updated-line">Lade Daten …</p>
       <div class="hero-stats utility" id="hero-stats"></div>
     </div>
@@ -228,20 +298,77 @@
     </div>
 
     <div class="content">
+      <section id="wettbewerbe">
+        <h2>Wettbewerbe 2026/27</h2>
+        <p class="section-intro">Bundesliga, DFB-Pokal und (nach dem Europa-League-Finale der Vorsaison) erstmals die UEFA Conference League.</p>
+        <div class="comp-grid">
+          <div class="comp-card" style="--stripe:var(--accent)">
+            <h3>Bundesliga</h3>
+            <span class="status-badge" id="bl-status-badge">–</span>
+            <div class="field" id="bl-next"></div>
+          </div>
+          <div class="comp-card" style="--stripe:var(--gold)">
+            <h3>DFB-Pokal</h3>
+            <span class="status-badge" id="pokal-status-badge">–</span>
+            <div class="field" id="pokal-next"></div>
+          </div>
+          <div class="comp-card" style="--stripe:var(--teal)">
+            <h3>Conference League</h3>
+            <span class="status-badge" id="cl-status-badge">–</span>
+            <div class="field" id="cl-quali"></div>
+            <ul class="termine utility" id="cl-termine"></ul>
+          </div>
+        </div>
+      </section>
+
       <section id="tabelle">
         <h2>Bundesliga-Tabelle</h2>
-        <p class="section-intro">Aktueller Stand von SC Freiburg in der laufenden bzw. zuletzt beendeten Saison.</p>
+        <p class="section-intro" id="bl-table-intro">Fünf Vereine vor und nach SC Freiburg.</p>
         <div class="card">
           <div class="bundesliga-line utility" id="table-stats"></div>
+          <div class="table-scroll" style="margin-top:1.1rem;">
+            <table class="mini-table utility" id="bl-mini-table" style="display:none;">
+              <thead>
+                <tr><th>Platz</th><th>Verein</th><th class="num">Sp</th><th class="num">Tordiff.</th><th class="num">Pkt</th></tr>
+              </thead>
+              <tbody id="bl-mini-table-body"></tbody>
+            </table>
+          </div>
+          <div id="bl-table-caveat" class="caveat" style="display:none;"></div>
         </div>
       </section>
 
       <section id="ergebnisse">
         <h2>Letzte Ergebnisse</h2>
-        <p class="section-intro">Die fünf jüngsten Spiele.</p>
+        <p class="section-intro">Die fünf jüngsten Bundesliga-Spiele.</p>
         <div class="card">
           <ul class="results-list utility" id="results-list"></ul>
           <div id="results-caveat" class="caveat" style="display:none;"></div>
+        </div>
+      </section>
+
+      <section id="conference-league-detail">
+        <h2>Conference League</h2>
+        <p class="section-intro" id="cl-table-intro">Erste Teilnahme des SC Freiburg an diesem Wettbewerb.</p>
+        <div class="card">
+          <div class="table-scroll">
+            <table class="mini-table utility" id="cl-mini-table" style="display:none;">
+              <thead>
+                <tr><th>Platz</th><th>Verein</th><th class="num">Sp</th><th class="num">Tordiff.</th><th class="num">Pkt</th></tr>
+              </thead>
+              <tbody id="cl-mini-table-body"></tbody>
+            </table>
+          </div>
+          <ul class="results-list utility" id="cl-results-list"></ul>
+          <div id="cl-caveat" class="caveat" style="display:none;"></div>
+        </div>
+      </section>
+
+      <section id="pokal-detail">
+        <h2>DFB-Pokal</h2>
+        <div class="card">
+          <ul class="results-list utility" id="pokal-results-list"></ul>
+          <div id="pokal-caveat" class="caveat" style="display:none;"></div>
         </div>
       </section>
 
@@ -296,16 +423,44 @@ __DATEN_JSON__
     return e;
   }
 
+  function fmtDiff(n) {
+    if (n == null) return '–';
+    return (n > 0 ? '+' : '') + n;
+  }
+
+  function renderMiniTable(bodyId, tableId, rows) {
+    var table = document.getElementById(tableId);
+    var body = document.getElementById(bodyId);
+    if (!rows || !rows.length) { table.style.display = 'none'; return; }
+    table.style.display = '';
+    rows.forEach(function (r) {
+      var tr = el('tr', r.hervorheben ? { class: 'highlight' } : {}, [
+        el('td', { text: r.platz != null ? r.platz + '.' : '–' }),
+        el('td', { text: r.verein || '' }),
+        el('td', { class: 'num', text: r.spiele != null ? String(r.spiele) : '–' }),
+        el('td', { class: 'num', text: fmtDiff(r.tordifferenz) }),
+        el('td', { class: 'num', text: r.punkte != null ? String(r.punkte) : '–' })
+      ]);
+      body.appendChild(tr);
+    });
+  }
+
+  function renderCompCard(prefix, comp) {
+    if (!comp) return;
+    var badge = document.getElementById(prefix + '-status-badge');
+    if (badge) badge.textContent = comp.status_label || '–';
+  }
+
   function render(data) {
-    document.getElementById('updated-line').textContent = 'Stand: ' + fmtDate(data.aktualisiert_am);
+    document.getElementById('updated-line').textContent = 'Stand: ' + fmtDate(data.aktualisiert_am) + (data.saison ? ' · Saison ' + data.saison : '');
 
     var bl = data.bundesliga || {};
     var heroStats = document.getElementById('hero-stats');
     [
-      [bl.tabellenplatz != null ? bl.tabellenplatz + '.' : '–', 'Tabellenplatz'],
-      [bl.punkte != null ? bl.punkte : '–', 'Punkte'],
-      [(bl.siege != null ? bl.siege + 'S / ' + bl.unentschieden + 'U / ' + bl.niederlagen + 'N' : '–'), 'Bilanz'],
-      [(bl.tordifferenz != null ? (bl.tordifferenz > 0 ? '+' : '') + bl.tordifferenz : '–'), 'Tordifferenz']
+      [bl.tabellenplatz != null ? bl.tabellenplatz + '.' : (bl.status_label || '–'), 'Bundesliga'],
+      [(data.dfb_pokal && data.dfb_pokal.status_label) || '–', 'DFB-Pokal'],
+      [(data.conference_league && data.conference_league.status_label) || '–', 'Conference League'],
+      [bl.punkte != null ? bl.punkte : '–', 'Punkte']
     ].forEach(function (pair) {
       heroStats.appendChild(el('div', { class: 'hero-stat' }, [
         el('div', { class: 'num', text: String(pair[0]) }),
@@ -313,20 +468,92 @@ __DATEN_JSON__
       ]));
     });
 
+    // Bundesliga stat line + mini table
     var tableStats = document.getElementById('table-stats');
     [
       [bl.tabellenplatz != null ? bl.tabellenplatz + '.' : '–', 'Platz'],
       [bl.punkte != null ? bl.punkte : '–', 'Punkte'],
       [bl.spiele != null ? bl.spiele : '–', 'Spiele'],
       [bl.siege != null ? bl.siege + 'S / ' + bl.unentschieden + 'U / ' + bl.niederlagen + 'N' : '–', 'Bilanz'],
-      [(bl.tordifferenz != null ? (bl.tordifferenz > 0 ? '+' : '') + bl.tordifferenz : '–'), 'Tordifferenz']
+      [fmtDiff(bl.tordifferenz), 'Tordifferenz']
     ].forEach(function (pair) {
       tableStats.appendChild(el('div', { class: 'stat-pair' }, [
         el('div', { class: 'num', text: String(pair[0]) }),
         el('div', { class: 'label', text: pair[1] })
       ]));
     });
+    if (bl.naechstes_spiel) {
+      document.getElementById('bl-next').appendChild(el('div', {}, [
+        el('span', { class: 'flabel', text: 'Nächstes Spiel' }),
+        document.createTextNode(bl.naechstes_spiel)
+      ]));
+    }
+    renderMiniTable('bl-mini-table-body', 'bl-mini-table', bl.tabellenausschnitt);
+    if (bl.tabellenausschnitt_hinweis) {
+      var blc = document.getElementById('bl-table-caveat');
+      blc.style.display = 'block';
+      blc.appendChild(el('span', { class: 'eyebrow', text: 'Hinweis' }));
+      blc.appendChild(document.createTextNode(bl.tabellenausschnitt_hinweis));
+    }
 
+    // DFB-Pokal
+    var pokal = data.dfb_pokal || {};
+    renderCompCard('pokal', pokal);
+    if (pokal.naechste_runde) {
+      var nr = pokal.naechste_runde;
+      document.getElementById('pokal-next').appendChild(el('div', {}, [
+        el('span', { class: 'flabel', text: nr.runde || 'Nächste Runde' }),
+        document.createTextNode([nr.datum, nr.ort, nr.gegner].filter(Boolean).join(' · '))
+      ]));
+    }
+    var pokalResults = document.getElementById('pokal-results-list');
+    (pokal.ergebnisse || []).forEach(function (r) {
+      pokalResults.appendChild(el('li', {}, [
+        el('span', { class: 'comp', text: r.runde || '' }),
+        el('span', { text: (r.heimteam || '') + ' – ' + (r.auswaertsteam || '') }),
+        el('span', { class: 'score', text: r.ergebnis || '' })
+      ]));
+    });
+    if (!pokal.ergebnisse || !pokal.ergebnisse.length) {
+      var pc = document.getElementById('pokal-caveat');
+      pc.style.display = 'block';
+      pc.appendChild(el('span', { class: 'eyebrow', text: 'Stand' }));
+      pc.appendChild(document.createTextNode(pokal.hinweis || 'Noch keine Pokal-Partie in dieser Saison gespielt.'));
+    }
+
+    // Conference League
+    var cl = data.conference_league || {};
+    renderCompCard('cl', cl);
+    if (cl.qualifikationsweg) {
+      document.getElementById('cl-quali').appendChild(el('div', {}, [
+        el('span', { class: 'flabel', text: 'Qualifikationsweg' }),
+        document.createTextNode(cl.qualifikationsweg)
+      ]));
+    }
+    var clTermine = document.getElementById('cl-termine');
+    (cl.termine || []).forEach(function (t) {
+      clTermine.appendChild(el('li', {}, [
+        el('span', { class: 'phase', text: t.phase || '' }),
+        el('span', { text: t.datum || '' })
+      ]));
+    });
+    renderMiniTable('cl-mini-table-body', 'cl-mini-table', cl.tabellenausschnitt);
+    var clResults = document.getElementById('cl-results-list');
+    (cl.ergebnisse || []).forEach(function (r) {
+      clResults.appendChild(el('li', {}, [
+        el('span', { class: 'comp', text: r.runde || '' }),
+        el('span', { text: (r.heimteam || '') + ' – ' + (r.auswaertsteam || '') }),
+        el('span', { class: 'score', text: r.ergebnis || '' })
+      ]));
+    });
+    if (!cl.tabellenausschnitt || !cl.tabellenausschnitt.length) {
+      var clc = document.getElementById('cl-caveat');
+      clc.style.display = 'block';
+      clc.appendChild(el('span', { class: 'eyebrow', text: 'Stand' }));
+      clc.appendChild(document.createTextNode(cl.tabellenausschnitt_hinweis || 'Noch keine Tabelle vorhanden.'));
+    }
+
+    // Letzte Bundesliga-Ergebnisse (Vorsaison-Referenz oder laufende Saison)
     var results = data.letzte_ergebnisse || [];
     var resultsList = document.getElementById('results-list');
     if (results.length) {
