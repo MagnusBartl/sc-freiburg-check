@@ -298,6 +298,15 @@
     </div>
 
     <div class="content">
+      <section id="naechste-spiele">
+        <h2>Die nächsten 5 Spiele</h2>
+        <p class="section-intro">Alle anstehenden Partien in allen Wettbewerben, Testspiele inklusive.</p>
+        <div class="card">
+          <ul class="results-list utility" id="next-matches-list"></ul>
+          <div id="next-matches-caveat" class="caveat" style="display:none;"></div>
+        </div>
+      </section>
+
       <section id="wettbewerbe">
         <h2>Wettbewerbe 2026/27</h2>
         <p class="section-intro">Bundesliga, DFB-Pokal und (nach dem Europa-League-Finale der Vorsaison) erstmals die UEFA Conference League.</p>
@@ -411,6 +420,13 @@ __DATEN_JSON__
     } catch (e) { return iso; }
   }
 
+  function fmtDateShort(iso) {
+    try {
+      var d = new Date(iso + 'T00:00:00');
+      return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit' });
+    } catch (e) { return iso; }
+  }
+
   function el(tag, attrs, children) {
     var e = document.createElement(tag);
     attrs = attrs || {};
@@ -453,6 +469,24 @@ __DATEN_JSON__
 
   function render(data) {
     document.getElementById('updated-line').textContent = 'Stand: ' + fmtDate(data.aktualisiert_am) + (data.saison ? ' · Saison ' + data.saison : '');
+
+    var nextMatches = (data.naechste_spiele || []).slice(0, 5);
+    var nextList = document.getElementById('next-matches-list');
+    if (nextMatches.length) {
+      nextMatches.forEach(function (m) {
+        nextList.appendChild(el('li', {}, [
+          el('span', { class: 'comp', text: m.wettbewerb || '' }),
+          el('span', { text: (m.heimteam || '') + ' – ' + (m.auswaertsteam || '') + (m.hinweis ? ' (' + m.hinweis + ')' : '') }),
+          el('span', { class: 'score', text: m.datum ? fmtDateShort(m.datum) : '' })
+        ]));
+      });
+    } else {
+      nextList.style.display = 'none';
+      var nmc = document.getElementById('next-matches-caveat');
+      nmc.style.display = 'block';
+      nmc.appendChild(el('span', { class: 'eyebrow', text: 'Hinweis' }));
+      nmc.appendChild(document.createTextNode(data.naechste_spiele_hinweis || 'Keine anstehenden Spiele ermittelbar.'));
+    }
 
     var bl = data.bundesliga || {};
     var heroStats = document.getElementById('hero-stats');

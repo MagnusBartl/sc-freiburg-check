@@ -2,6 +2,13 @@
   "aktualisiert_am": "2026-08-07",
   "saison": "2026/27",
   "hinweis_datenquelle": "Die Saison 2026/27 hat noch nicht begonnen (Bundesliga-Auftakt 29.-31.08.2026, DFB-Pokal 1. Runde 23.08.2026, Conference-League-Play-offs 20./27.08.2026). Fuer Bundesliga und Conference League existiert daher noch keine echte Tabelle 2026/27. Die gezeigte Bundesliga-Tabelle ist der zuletzt bekannte Stand (Saisonabschluss 2025/26, verifiziert ueber die OpenLigaDB-API); in der Conference League ist es die erste Teilnahme des SC Freiburg ueberhaupt, es gibt keine Referenztabelle. Alle Termine und News stammen aus WebSearch-Recherchen, da api.openligadb.de und mehrere Nachrichtenseiten per WebFetch in dieser Ausfuehrungsumgebung gesperrt sind (EGRESS_BLOCKED).",
+  "naechste_spiele": [
+    {"datum": "2026-08-08", "wettbewerb": "Testspiel", "heimteam": "SC Freiburg", "auswaertsteam": "Racing Straßburg", "hinweis": "ohne Zuschauer, letzter Test vor Pflichtspielen"},
+    {"datum": "2026-08-20", "wettbewerb": "Conference League (Play-off, Hinspiel)", "heimteam": "Sieger Motherwell/HJK Helsinki", "auswaertsteam": "SC Freiburg", "hinweis": "Gegner wird erst am 13.08. per Quali-Rückspiel fixiert"},
+    {"datum": "2026-08-23", "wettbewerb": "DFB-Pokal (1. Runde)", "heimteam": "Fortuna Düsseldorf", "auswaertsteam": "SC Freiburg"},
+    {"datum": "2026-08-27", "wettbewerb": "Conference League (Play-off, Rückspiel)", "heimteam": "SC Freiburg", "auswaertsteam": "Sieger Motherwell/HJK Helsinki"},
+    {"datum": "2026-08-29", "wettbewerb": "Bundesliga (1. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "SV Werder Bremen", "hinweis": "genauer Anstoßtermin im Fenster 29.-31.08. noch offen"}
+  ],
   "bundesliga": {
     "status": "vor_saisonstart",
     "status_label": "Vor Saisonstart",
