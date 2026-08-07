@@ -1,0 +1,64 @@
+{
+  "aktualisiert_am": "2026-08-07",
+  "hinweis_datenquelle": "Die eigentlich vorgesehene Datenquelle openligadb.de (api.openligadb.de) ist in dieser Ausfuehrungsumgebung durch die Netzwerk-Egress-Policy vollstaendig gesperrt (403 Forbidden) - sowohl bei direkten Aufrufen als auch ueber das WebFetch-Tool. Zusaetzlich ist WebFetch fuer praktisch alle getesteten externen Domains in dieser Session blockiert (u.a. wikipedia.org, fussballdaten.de, sportschau.de). Die folgenden Werte stammen daher aus mehrfach uebereinstimmenden WebSearch-Recherchen (u.a. DFB-Datencenter, kicker.de, bundesliga.com, ESPN, Sportschau) und beziehen sich auf die zuletzt abgeschlossene Saison 2025/26, da die Saison 2026/27 erst am 28.08.2026 beginnt und somit noch keine Tabelle existiert. Die Zahlen konnten mangels direktem Seitenzugriff nicht an einer Primaerquelle verifiziert werden.",
+  "bundesliga": {
+    "tabellenplatz": 7,
+    "punkte": 47,
+    "spiele": 34,
+    "siege": 13,
+    "unentschieden": 8,
+    "niederlagen": 13,
+    "tordifferenz": -6
+  },
+  "letzte_ergebnisse": [],
+  "letzte_ergebnisse_hinweis": "Fuer die letzten 5 Bundesliga-Spiele von SC Freiburg (Saison 2025/26) lieferte die WebSearch-Recherche keine verlaesslichen, in sich konsistenten Spieltag-Daten (Datum/Ergebnis/Gegner) - mehrere Abfragen widersprachen sich gegenseitig (z.B. nicht plausible Punktestaende). Um keine falschen Ergebnisse zu erfinden, bleibt dieses Feld leer. Einzig mehrfach uebereinstimmend belegt: SC Freiburg verlor am 28. Spieltag (04.04.2026) zuhause 2:3 gegen den FC Bayern Muenchen (Tore Freiburg: Manzambi, Hoeler). Fuer die exakten letzten 5 Spiele bitte kicker.de oder bundesliga.com direkt pruefen.",
+  "news": [
+    {
+      "titel": "Vorbereitung endet mit 0:3-Testspielniederlage gegen Greuther Fuerth",
+      "zusammenfassung": "Das Trainingslager im oesterreichischen Schruns endete fuer den SC Freiburg mit einer ueberraschend deutlichen 0:3-Testspielniederlage gegen Zweitligist SpVgg Greuther Fuerth (Foulelfmeter Klaus 5., Sillah 37./90.+1) - neuer Torwart Mio Backhaus kassierte dabei sein erstes Gegentor im SC-Trikot. Zuvor hatte der Europa-League-Finalist noch 3:1 gegen den englischen Zweitligisten Derby County gewonnen.",
+      "quelle_url": "https://www.badische-zeitung.de/freiburg-kassiert-testspiel-niederlage-gegen-fuerth"
+    },
+    {
+      "titel": "Zukunft von Torwart Noah Atubolu weiter offen",
+      "zusammenfassung": "Stammkeeper Noah Atubolu trainiert weiterhin individuell abseits der Mannschaft, da er den Verein trotz laufendem Vertrag bis 2027 verlassen moechte. Gehandelt werden u.a. der SSC Napoli, Juventus Turin und Olympique Marseille; der SC Freiburg soll rund 15 Mio. Euro Abloese fordern.",
+      "quelle_url": "https://www.spox.com/fussball/news/auch-das-ist-ungewoehnlich-sc-freiburg-und-noah-atubolu-treffen-sehr-konsequente-entscheidung/blt8b0ef8dc732907db"
+    },
+    {
+      "titel": "Mio Backhaus als neue Nummer eins verpflichtet",
+      "zusammenfassung": "Fuer rund 12 Mio. Euro wechselte Torhueter Mio Backhaus von Werder Bremen nach Freiburg und soll Atubolu als Stammkeeper beerben. Weitere Sommer-Neuzugaenge: Keisuke Goto (RSC Anderlecht), Yannik Engelhardt (Como 1907, 7,5 Mio. Euro) und Rihito Yamamoto.",
+      "quelle_url": "https://www.sportschau.de/regional/swr/swr-sc-freiburg-verpflichtet-torwart-mio-backhaus-was-passiert-nun-mit-noah-atubolu-100.html"
+    },
+    {
+      "titel": "Rekordtransfer: Manzambi wechselt fuer rund 70 Mio. Euro zu Aston Villa",
+      "zusammenfassung": "Nachwuchsspieler Johan Manzambi verlaesst den SC Freiburg im Zuge eines Vereinsrekord-Transfers (Gesamtpaket ca. 70 Mio. Euro) ausgerechnet zu Aston Villa - dem Gegner aus dem verlorenen Europa-League-Finale (0:3, 20.05.2026 in Istanbul). Zudem wechselte Junior Adamu zu Schalke 04.",
+      "quelle_url": "https://www.baden24.de/sport/sc-freiburg/transfer-ticker-sport-club-scf-sommer-neuzugang-abgang-wechsel-infos-news-94318691.html"
+    },
+    {
+      "titel": "Letzter Test vor Saisonstart: Racing Strassburg zu Gast",
+      "zusammenfassung": "Am 8. August empfaengt der SC Freiburg den franzoesischen Erstligisten Racing Strassburg zum letzten Testspiel vor dem Bundesliga-Auftakt am 28. August. Trainer Julian Schuster zog nach dem Trainingslager eine positive Bilanz mit hoher Intensitaet und fast komplettem Kader.",
+      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/julian-schuster-zieht-trainingslager-bilanz"
+    }
+  ],
+  "experteneinschaetzungen": [
+    {
+      "quelle": "Lothar Matthaeus (Sky/kicker-Experte)",
+      "einschaetzung": "Matthaeus haelt es fuer ausgeschlossen, dass Freiburg Backhaus nur als Nummer zwei verpflichtet haette, und geht davon aus, dass Atubolu einen Wechsel in die Premier League anstrebt - ein Nebeneinander beider Torhueter sei unrealistisch.",
+      "quelle_url": "https://www.spox.com/fussball/news/auch-das-ist-ungewoehnlich-sc-freiburg-und-noah-atubolu-treffen-sehr-konsequente-entscheidung/blt8b0ef8dc732907db"
+    },
+    {
+      "quelle": "kicker.de",
+      "einschaetzung": "Der Umbruch im Tor wird als bewusste, strategische Entscheidung des Vereins gewertet: Mit der Rekordabloese fuer Backhaus stellt sich Freiburg frueh und offensiv fuer die Zeit nach Atubolu auf, statt einen abloesefreien Abgang 2027 zu riskieren.",
+      "quelle_url": "https://www.kicker.de/rekordabloese-fuer-backhaus-freiburg-sucht-den-atubolu-nachfolger-1221028/artikel"
+    },
+    {
+      "quelle": "Sportschau/SWR",
+      "einschaetzung": "Trainer Julian Schuster setzt bewusst auf Kontinuitaet statt Umbruch: Mit der erfahrenen Abwehrachse um Ginter, Lienhart und Yilmaz sowie gezielten Verstaerkungen soll nach dem historischen Europa-League-Finaleinzug an die Vorsaison angeknuepft werden.",
+      "quelle_url": "https://www.sportschau.de/fussball/bundesliga/sommerfahrplan-des-sc-freiburg,sommerfahrplan-sc-freiburg-106.html"
+    },
+    {
+      "quelle": "LigaInsider (Top-Elf-Prognose)",
+      "einschaetzung": "Neuzugang Rihito Yamamoto wird als potenzieller 'Koenigstransfer' fuers Mittelfeld gehandelt, dessen Spielstil ideal zur Freiburger Philosophie passe und der sich schnell einen Stammplatz erspielen koennte.",
+      "quelle_url": "https://www.ligainsider.de/sc-freiburg/18/top-elf-prognose-sc-freiburg-im-check-414060/"
+    }
+  ]
+}
