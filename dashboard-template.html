@@ -1,0 +1,390 @@
+<title>SC Freiburg – Dashboard</title>
+<style>
+  :root {
+    --bg: #f1f4ea;
+    --surface: #ffffff;
+    --surface-sunk: #e6ebdb;
+    --text: #1a2416;
+    --text-muted: #55624c;
+    --border: #d4dcc4;
+    --accent: #cf1225;
+    --accent-ink: #fffaf7;
+    --gold: #a8792a;
+    --teal: #2f7d75;
+    --shadow: 0 1px 2px rgba(20, 30, 15, 0.06), 0 8px 24px -12px rgba(20, 30, 15, 0.18);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #10150d;
+      --surface: #1a2117;
+      --surface-sunk: #151b12;
+      --text: #eef1e5;
+      --text-muted: #a3ad96;
+      --border: #2b3425;
+      --accent: #ff4a52;
+      --accent-ink: #1a0506;
+      --gold: #d7ac5c;
+      --teal: #5cb0a6;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 28px -12px rgba(0, 0, 0, 0.55);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #10150d;
+    --surface: #1a2117;
+    --surface-sunk: #151b12;
+    --text: #eef1e5;
+    --text-muted: #a3ad96;
+    --border: #2b3425;
+    --accent: #ff4a52;
+    --accent-ink: #1a0506;
+    --gold: #d7ac5c;
+    --teal: #5cb0a6;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 28px -12px rgba(0, 0, 0, 0.55);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Noto Serif", serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .display {
+    font-family: "Bahnschrift", "Arial Narrow", "Haettenschweiler", "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
+  .utility {
+    font-family: "Segoe UI", ui-sans-serif, system-ui, Arial, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .eyebrow {
+    font-family: "Segoe UI", ui-sans-serif, system-ui, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  a { color: inherit; }
+
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+  }
+
+  /* ---- Hero ---- */
+  .hero {
+    background: linear-gradient(180deg, var(--accent) 0%, var(--accent) 55%, color-mix(in srgb, var(--accent) 78%, black) 100%);
+    color: var(--accent-ink);
+    padding: 3.2rem 1.5rem 2.4rem;
+  }
+  .hero-inner { max-width: 880px; margin: 0 auto; }
+  .hero .eyebrow { color: color-mix(in srgb, var(--accent-ink) 75%, transparent); }
+  .hero h1 {
+    font-size: clamp(2.2rem, 5.6vw, 3.2rem);
+    line-height: 0.98;
+    margin: 0.4rem 0 0.3rem;
+    text-transform: uppercase;
+    text-wrap: balance;
+  }
+  .hero .updated {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    color: color-mix(in srgb, var(--accent-ink) 90%, transparent);
+    margin: 0 0 1.6rem;
+  }
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 1px;
+    background: color-mix(in srgb, var(--accent-ink) 22%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent-ink) 22%, transparent);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .hero-stat { background: color-mix(in srgb, var(--accent) 88%, black 4%); padding: 0.85rem 1rem; }
+  .hero-stat .num { font-size: 1.3rem; font-weight: 700; }
+  .hero-stat .label {
+    font-family: "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.1em;
+    color: color-mix(in srgb, var(--accent-ink) 78%, transparent); margin-top: 0.15rem;
+  }
+
+  section { margin-top: 3rem; }
+  h2 { font-size: 1.5rem; text-transform: uppercase; letter-spacing: 0.02em; margin: 0 0 0.2rem; }
+  .section-intro { color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1.4rem; max-width: 62ch; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    padding: 1.6rem 1.7rem;
+  }
+
+  .bundesliga-line { display: flex; gap: 1.8rem; flex-wrap: wrap; }
+  .stat-pair .num { font-size: 1.35rem; font-weight: 700; }
+  .stat-pair .label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+
+  .caveat {
+    margin-top: 1rem;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.86rem;
+    color: var(--text-muted);
+    background: var(--surface-sunk);
+  }
+  .caveat .eyebrow { display: block; margin-bottom: 0.35rem; color: var(--gold); }
+
+  .results-list { list-style: none; margin: 0; padding: 0; }
+  .results-list li {
+    display: grid;
+    grid-template-columns: 90px 1fr auto;
+    gap: 0.8rem;
+    align-items: baseline;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed var(--border);
+    font-size: 0.94rem;
+  }
+  .results-list li:last-child { border-bottom: none; }
+  .results-list .comp { font-family: "Segoe UI", ui-sans-serif, sans-serif; font-size: 0.68rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em; }
+  .results-list .score { font-weight: 700; }
+
+  .news-list { display: flex; flex-direction: column; gap: 1.1rem; }
+  .news-item { padding-bottom: 1.1rem; border-bottom: 1px solid var(--border); }
+  .news-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .news-item h3 { margin: 0 0 0.25rem; font-size: 1rem; font-family: Georgia, serif; font-weight: 700; }
+  .news-item p { margin: 0 0 0.3rem; color: var(--text-muted); font-size: 0.92rem; }
+  .news-item a.src {
+    font-family: "Segoe UI", ui-sans-serif, sans-serif;
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--teal); text-decoration: none;
+  }
+
+  .quote-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .quote-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--gold);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    box-shadow: var(--shadow);
+  }
+  .quote-card .src {
+    font-family: "Segoe UI", ui-sans-serif, sans-serif;
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--gold); margin-bottom: 0.4rem; display: block;
+  }
+  .quote-card p { margin: 0; font-size: 0.92rem; }
+
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    font-family: "Segoe UI", ui-sans-serif, sans-serif;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+  footer .sources { margin-top: 0.6rem; display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; }
+  footer a { text-decoration: underline; text-decoration-color: var(--border); }
+
+  #app.loading .content, #app.error .content { display: none; }
+  #load-error { display: none; }
+  #app.error #load-error { display: block; }
+
+  @media (max-width: 640px) {
+    .quote-grid { grid-template-columns: 1fr; }
+    .results-list li { grid-template-columns: 70px 1fr; }
+    .results-list .score { grid-column: 2; }
+  }
+</style>
+
+<div id="app" class="loading">
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow display">SC Freiburg · Dashboard</div>
+      <h1 class="display">Aktueller Stand</h1>
+      <p class="updated" id="updated-line">Lade Daten …</p>
+      <div class="hero-stats utility" id="hero-stats"></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div id="load-error" class="caveat" style="margin-top:2rem;">
+      <span class="eyebrow">Fehler</span>
+      Die eingebetteten Daten konnten nicht gelesen werden. Dieses Dashboard wird wöchentlich vom automatischen SC-Freiburg-Update neu veröffentlicht — versuch es beim nächsten Lauf erneut.
+    </div>
+
+    <div class="content">
+      <section id="tabelle">
+        <h2>Bundesliga-Tabelle</h2>
+        <p class="section-intro">Aktueller Stand von SC Freiburg in der laufenden bzw. zuletzt beendeten Saison.</p>
+        <div class="card">
+          <div class="bundesliga-line utility" id="table-stats"></div>
+        </div>
+      </section>
+
+      <section id="ergebnisse">
+        <h2>Letzte Ergebnisse</h2>
+        <p class="section-intro">Die fünf jüngsten Spiele.</p>
+        <div class="card">
+          <ul class="results-list utility" id="results-list"></ul>
+          <div id="results-caveat" class="caveat" style="display:none;"></div>
+        </div>
+      </section>
+
+      <section id="news">
+        <h2>Aktuelle News</h2>
+        <div class="news-list" id="news-list"></div>
+      </section>
+
+      <section id="experten">
+        <h2>Experteneinschätzungen</h2>
+        <div class="quote-grid" id="quote-grid"></div>
+      </section>
+
+      <div id="data-caveat" class="caveat" style="display:none; margin-top: 2.5rem;"></div>
+
+      <footer>
+        <div>Automatisch generiertes Fan-Dashboard, keine offizielle Klub-Publikation. Wird wöchentlich (freitags) vom SC-Freiburg-Update-Job aktualisiert.</div>
+        <div class="sources">
+          <a href="https://github.com/MagnusBartl/sc-freiburg-check">Repo: MagnusBartl/sc-freiburg-check</a>
+          <a href="https://github.com/MagnusBartl/sc-freiburg-check/blob/main/daten.json">daten.json</a>
+          <a href="https://github.com/MagnusBartl/sc-freiburg-check/blob/main/ergebnisse.md">ergebnisse.md (Verlauf)</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<script id="scf-data" type="application/json">
+__DATEN_JSON__
+</script>
+
+<script>
+(function () {
+  var appEl = document.getElementById('app');
+
+  function fmtDate(iso) {
+    try {
+      var d = new Date(iso + 'T00:00:00');
+      return d.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' });
+    } catch (e) { return iso; }
+  }
+
+  function el(tag, attrs, children) {
+    var e = document.createElement(tag);
+    attrs = attrs || {};
+    Object.keys(attrs).forEach(function (k) {
+      if (k === 'text') e.textContent = attrs[k];
+      else if (k === 'html') e.innerHTML = attrs[k];
+      else e.setAttribute(k, attrs[k]);
+    });
+    (children || []).forEach(function (c) { e.appendChild(c); });
+    return e;
+  }
+
+  function render(data) {
+    document.getElementById('updated-line').textContent = 'Stand: ' + fmtDate(data.aktualisiert_am);
+
+    var bl = data.bundesliga || {};
+    var heroStats = document.getElementById('hero-stats');
+    [
+      [bl.tabellenplatz != null ? bl.tabellenplatz + '.' : '–', 'Tabellenplatz'],
+      [bl.punkte != null ? bl.punkte : '–', 'Punkte'],
+      [(bl.siege != null ? bl.siege + 'S / ' + bl.unentschieden + 'U / ' + bl.niederlagen + 'N' : '–'), 'Bilanz'],
+      [(bl.tordifferenz != null ? (bl.tordifferenz > 0 ? '+' : '') + bl.tordifferenz : '–'), 'Tordifferenz']
+    ].forEach(function (pair) {
+      heroStats.appendChild(el('div', { class: 'hero-stat' }, [
+        el('div', { class: 'num', text: String(pair[0]) }),
+        el('div', { class: 'label', text: pair[1] })
+      ]));
+    });
+
+    var tableStats = document.getElementById('table-stats');
+    [
+      [bl.tabellenplatz != null ? bl.tabellenplatz + '.' : '–', 'Platz'],
+      [bl.punkte != null ? bl.punkte : '–', 'Punkte'],
+      [bl.spiele != null ? bl.spiele : '–', 'Spiele'],
+      [bl.siege != null ? bl.siege + 'S / ' + bl.unentschieden + 'U / ' + bl.niederlagen + 'N' : '–', 'Bilanz'],
+      [(bl.tordifferenz != null ? (bl.tordifferenz > 0 ? '+' : '') + bl.tordifferenz : '–'), 'Tordifferenz']
+    ].forEach(function (pair) {
+      tableStats.appendChild(el('div', { class: 'stat-pair' }, [
+        el('div', { class: 'num', text: String(pair[0]) }),
+        el('div', { class: 'label', text: pair[1] })
+      ]));
+    });
+
+    var results = data.letzte_ergebnisse || [];
+    var resultsList = document.getElementById('results-list');
+    if (results.length) {
+      results.forEach(function (r) {
+        resultsList.appendChild(el('li', {}, [
+          el('span', { class: 'comp', text: r.wettbewerb || '' }),
+          el('span', { text: (r.heimteam || '') + ' – ' + (r.auswaertsteam || '') }),
+          el('span', { class: 'score', text: r.ergebnis || '' })
+        ]));
+      });
+    } else {
+      resultsList.style.display = 'none';
+      if (data.letzte_ergebnisse_hinweis) {
+        var rc = document.getElementById('results-caveat');
+        rc.style.display = 'block';
+        rc.appendChild(el('span', { class: 'eyebrow', text: 'Hinweis' }));
+        rc.appendChild(document.createTextNode(data.letzte_ergebnisse_hinweis));
+      }
+    }
+
+    var newsList = document.getElementById('news-list');
+    (data.news || []).forEach(function (n) {
+      var item = el('div', { class: 'news-item' }, [
+        el('h3', { text: n.titel || '' }),
+        el('p', { text: n.zusammenfassung || '' })
+      ]);
+      if (n.quelle_url) {
+        var a = el('a', { class: 'src', href: n.quelle_url, text: 'Quelle ↗' });
+        item.appendChild(a);
+      }
+      newsList.appendChild(item);
+    });
+
+    var quoteGrid = document.getElementById('quote-grid');
+    (data.experteneinschaetzungen || []).forEach(function (q) {
+      var card = el('div', { class: 'quote-card' }, [
+        el('span', { class: 'src', text: q.quelle || '' }),
+        el('p', { text: q.einschaetzung || '' })
+      ]);
+      quoteGrid.appendChild(card);
+    });
+
+    if (data.hinweis_datenquelle) {
+      var dc = document.getElementById('data-caveat');
+      dc.style.display = 'block';
+      dc.appendChild(el('span', { class: 'eyebrow', text: 'Zur Datenqualität' }));
+      dc.appendChild(document.createTextNode(data.hinweis_datenquelle));
+    }
+  }
+
+  try {
+    var raw = document.getElementById('scf-data').textContent;
+    var data = JSON.parse(raw);
+    render(data);
+    appEl.className = '';
+  } catch (e) {
+    appEl.className = 'error';
+    console.error('SC Freiburg Dashboard: Daten konnten nicht geladen werden', e);
+  }
+})();
+</script>
