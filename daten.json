@@ -1,18 +1,18 @@
 {
-  "aktualisiert_am": "2026-08-07",
+  "aktualisiert_am": "2026-08-14",
   "saison": "2026/27",
-  "hinweis_datenquelle": "Die Saison 2026/27 hat noch nicht begonnen (Bundesliga-Auftakt 29.-31.08.2026, DFB-Pokal 1. Runde 23.08.2026, Conference-League-Play-offs 20./27.08.2026). Fuer Bundesliga und Conference League existiert daher noch keine echte Tabelle 2026/27. Die gezeigte Bundesliga-Tabelle ist der zuletzt bekannte Stand (Saisonabschluss 2025/26, verifiziert ueber die OpenLigaDB-API); in der Conference League ist es die erste Teilnahme des SC Freiburg ueberhaupt, es gibt keine Referenztabelle. Alle Termine und News stammen aus WebSearch-Recherchen, da api.openligadb.de und mehrere Nachrichtenseiten per WebFetch in dieser Ausfuehrungsumgebung gesperrt sind (EGRESS_BLOCKED).",
+  "hinweis_datenquelle": "Die Saison 2026/27 hat noch nicht begonnen (Testspiel/Saisoneroeffnung gegen Crystal Palace am 15.08.2026, Conference-League-Play-offs 20./27.08.2026, DFB-Pokal 1. Runde 23.08.2026, Bundesliga-Auftakt 30.08.2026). Fuer Bundesliga und Conference League existiert daher noch keine echte Tabelle 2026/27. Die gezeigte Bundesliga-Tabelle ist weiterhin der zuletzt bekannte Stand (Saisonabschluss 2025/26). api.openligadb.de sowie scfreiburg.com sind in dieser Ausfuehrungsumgebung per WebFetch weiterhin vollstaendig gesperrt (EGRESS_BLOCKED); alle Termine, Ergebnisse und News dieser Aktualisierung stammen daher aus mehrfach abgeglichenen WebSearch-Recherchen (u.a. kicker, baden24, badische Zeitung, bundesliga.com, sport1, Sky).",
   "naechste_spiele": [
-    {"datum": "2026-08-08", "wettbewerb": "Testspiel", "heimteam": "SC Freiburg", "auswaertsteam": "Racing Straßburg", "hinweis": "ohne Zuschauer, letzter Test vor Pflichtspielen"},
-    {"datum": "2026-08-20", "wettbewerb": "Conference League (Play-off, Hinspiel)", "heimteam": "Sieger Motherwell/HJK Helsinki", "auswaertsteam": "SC Freiburg", "hinweis": "Gegner wird erst am 13.08. per Quali-Rückspiel fixiert"},
-    {"datum": "2026-08-23", "wettbewerb": "DFB-Pokal (1. Runde)", "heimteam": "Fortuna Düsseldorf", "auswaertsteam": "SC Freiburg"},
-    {"datum": "2026-08-27", "wettbewerb": "Conference League (Play-off, Rückspiel)", "heimteam": "SC Freiburg", "auswaertsteam": "Sieger Motherwell/HJK Helsinki"},
-    {"datum": "2026-08-29", "wettbewerb": "Bundesliga (1. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "SV Werder Bremen", "hinweis": "genauer Anstoßtermin im Fenster 29.-31.08. noch offen"}
+    {"datum": "2026-08-15", "wettbewerb": "Testspiel (Saisoneröffnung)", "heimteam": "SC Freiburg", "auswaertsteam": "Crystal Palace", "hinweis": "14:00 Uhr, Europa-Park Stadion; Rahmenprogramm mit Familienfest und Vorstellung der Frauen-Mannschaft; kein deutscher TV-Sender, nur Palace TV+"},
+    {"datum": "2026-08-20", "wettbewerb": "Conference League (Play-off, Hinspiel)", "heimteam": "Motherwell FC", "auswaertsteam": "SC Freiburg", "hinweis": "Gegner steht seit 13.08. fest - Motherwell gewann die Quali gegen HJK Helsinki 3:1 nach Hin- und Rückspiel"},
+    {"datum": "2026-08-23", "wettbewerb": "DFB-Pokal (1. Runde)", "heimteam": "Fortuna Düsseldorf", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 18:00 Uhr, Merkur Spiel-Arena Düsseldorf"},
+    {"datum": "2026-08-27", "wettbewerb": "Conference League (Play-off, Rückspiel)", "heimteam": "SC Freiburg", "auswaertsteam": "Motherwell FC"},
+    {"datum": "2026-08-30", "wettbewerb": "Bundesliga (1. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "SV Werder Bremen", "hinweis": "Anstoß 15:30 Uhr, Europa-Park Stadion"}
   ],
   "bundesliga": {
     "status": "vor_saisonstart",
     "status_label": "Vor Saisonstart",
-    "naechstes_spiel": "29.-31.08.2026, Heim vs. Werder Bremen (1. Spieltag)",
+    "naechstes_spiel": "30.08.2026, 15:30 Uhr, Heim vs. SV Werder Bremen (1. Spieltag)",
     "tabellenplatz": null,
     "punkte": null,
     "spiele": null,
@@ -33,7 +33,7 @@
       {"platz": 11, "verein": "1. FC Union Berlin", "spiele": 34, "tordifferenz": -15, "punkte": 39, "hervorheben": false},
       {"platz": 12, "verein": "Borussia Mönchengladbach", "spiele": 34, "tordifferenz": -11, "punkte": 38, "hervorheben": false}
     ],
-    "tabellenausschnitt_hinweis": "Noch keine Tabelle 2026/27 - Saisonauftakt ist erst am 29.08.2026. Gezeigt ist zur Einordnung der letzte bekannte Stand: die Abschlusstabelle der Saison 2025/26 (Freiburg wurde 7.)."
+    "tabellenausschnitt_hinweis": "Noch keine Tabelle 2026/27 - Saisonauftakt ist erst am 30.08.2026. Gezeigt ist zur Einordnung der letzte bekannte Stand: die Abschlusstabelle der Saison 2025/26 (Freiburg wurde 7.)."
   },
   "letzte_ergebnisse": [
     {"datum": "2026-05-16", "wettbewerb": "Bundesliga 2025/26 (34. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "RB Leipzig"},
@@ -45,14 +45,14 @@
   "dfb_pokal": {
     "status": "vor_erster_runde",
     "status_label": "Vor der 1. Runde",
-    "naechste_runde": {"runde": "1. Runde", "datum": "23.08.2026", "gegner": "Fortuna Düsseldorf", "ort": "Auswärts"},
+    "naechste_runde": {"runde": "1. Runde", "datum": "23.08.2026, 18:00 Uhr", "gegner": "Fortuna Düsseldorf", "ort": "Auswärts (Merkur Spiel-Arena, Düsseldorf)"},
     "ergebnisse": [],
     "hinweis": "Noch keine Pokal-Partie in dieser Saison gespielt - die 1. Runde findet erst am 23.08.2026 statt."
   },
   "conference_league": {
     "status": "vor_playoffs",
     "status_label": "Vor den Play-offs",
-    "qualifikationsweg": "Play-off-Teilnahme ueber Platz 7 in der Bundesliga 2025/26 in Verbindung mit dem Einzug ins Europa-League-Finale der Vorsaison (0:3 gegen Aston Villa) - erste Teilnahme des SC Freiburg an diesem Wettbewerb.",
+    "qualifikationsweg": "Play-off-Teilnahme ueber Platz 7 in der Bundesliga 2025/26 in Verbindung mit dem Einzug ins Europa-League-Finale der Vorsaison (0:3 gegen Aston Villa) - erste Teilnahme des SC Freiburg an diesem Wettbewerb. Der Play-off-Gegner steht seit 13.08.2026 fest: Motherwell FC (Schottland) setzte sich in der Quali gegen HJK Helsinki mit 3:1 nach Hin- und Rueckspiel durch.",
     "termine": [
       {"phase": "Play-offs", "datum": "20. & 27.08.2026"},
       {"phase": "Ligaphase", "datum": "15.10.-17.12.2026"},
@@ -68,50 +68,50 @@
   },
   "news": [
     {
-      "titel": "Christian Günter bleibt Kapitän, Grifo und Eggestein weiter Vizekapitäne",
-      "zusammenfassung": "Im Trainingslager in Schruns hat die Mannschaft den 33-jaehrigen Christian Guenter erneut zum Kapitaen gewaehlt - er geht damit in seine siebte Saison mit der Binde. Vincenzo Grifo und Maximilian Eggestein bleiben seine Stellvertreter.",
-      "quelle_url": "https://www.kicker.de/im-trainingslager-wiedergewaehlt-guenter-bleibt-freiburgs-kapitaen-1239296/artikel"
+      "titel": "Kyereh verlässt Freiburg ablösefrei, wechselt zu Zweitligist Osnabrück",
+      "zusammenfassung": "Nach vier Jahren beim SC, gepraegt von langer Verletzungsmisere seit dem Kreuzbandriss 2023, wechselt der 30-jaehrige Daniel-Kofi Kyereh ablösefrei zum VfL Osnabrück (2. Bundesliga). Zuletzt sammelte er wieder Spielpraxis in der Regionalliga-Reserve des SC.",
+      "quelle_url": "https://www.badische-zeitung.de/newsblog-sc-freiburg-inzwischen-offiziell-kyereh-wechselt-zum-vfl-osnabrueck"
     },
     {
-      "titel": "Atubolu: Unbekannter Premier-League-Topklub 'volle Kanone' interessiert",
-      "zusammenfassung": "Laut Sky ist ein bislang nicht genannter englischer Topklub ernsthaft an Torwart Noah Atubolu dran; Hull City und Coventry City wurden bereits abgesagt, konkret bemuehen sich wohl Aston Villa und AFC Bournemouth. Freiburg hofft auf rund 20 Mio. Euro Abloese, nachdem mit Mio Backhaus bereits ein Nachfolger verpflichtet wurde.",
-      "quelle_url": "https://www.tipico.de/wett-tipps/sportwetten-news/sc-freiburg-ueberraschende-transfer-wende-bei-atubolu-topklub-macht-ernst"
+      "titel": "Atubolu-Poker: Jetzt auch Juventus und Marseille im Rennen",
+      "zusammenfassung": "Im weiterhin ungeklaerten Wechsel von Torhueter Noah Atubolu sollen Premier-League-Klubs inzwischen aus dem Rennen sein, dafuer mischen laut Medienberichten Juventus Turin und Olympique Marseille konkret mit. Freiburg hat die Abloeseforderung Berichten zufolge von rund 20 auf ca. 15 Mio. Euro gesenkt.",
+      "quelle_url": "https://www.baden24.de/sport/sc-freiburg/neue-entwicklung-um-freiburg-star-atubolu-neue-klubs-im-rennen-94429394.html"
     },
     {
-      "titel": "Berkay Yilmaz nach zwei Leihjahren in Nürnberg zurück in Freiburg",
-      "zusammenfassung": "Der 21-jaehrige Berkay Yilmaz ist nach zwei Leihjahren beim 1. FC Nuernberg zurueck am Dreisam-Ufer und trainiert unter Miroslav Klose im Perspektivbereich.",
-      "quelle_url": "https://www.scfreiburg.com/en/latest/news/all-news"
+      "titel": "Freiburg gewinnt Doppeltest gegen Racing Straßburg jeweils 2:0",
+      "zusammenfassung": "Im letzten Test vor den Pflichtspielen setzte sich der SC in zwei Partien (je 2x35 bzw. regulaer) gegen den franzoesischen Erstligisten Racing Strassburg jeweils 2:0 durch - Tore von Tarnutzer und Grifo (Elfmeter) im ersten, Doppelpack von Lucas Hoeler (nach Vorlagen von Scherhant) im zweiten Spiel.",
+      "quelle_url": "https://www.kicker.de/freiburg-gegen-strassburg-2026-vereine-freundschaftsspiele-5254287/spielbericht"
     },
     {
-      "titel": "Mio Backhaus als neue Nummer eins verpflichtet, Manzambi-Rekordtransfer zu Aston Villa",
-      "zusammenfassung": "Torhueter Mio Backhaus wechselte von Werder Bremen nach Freiburg und soll Atubolu als Stammkeeper beerben. Nachwuchsspieler Johan Manzambi verliess den Verein im Zuge eines Vereinsrekord-Transfers (ca. 70 Mio. Euro) ausgerechnet zu Aston Villa, dem Gegner aus dem verlorenen Europa-League-Finale. Junior Adamu wechselte zu Schalke 04, weitere Neuzugaenge sind Keisuke Goto, Yannik Engelhardt und Rihito Yamamoto.",
-      "quelle_url": "https://www.sportschau.de/regional/swr/swr-sc-freiburg-verpflichtet-torwart-mio-backhaus-was-passiert-nun-mit-noah-atubolu-100.html"
+      "titel": "Conference-League-Gegner fix: Freiburg trifft auf Motherwell FC",
+      "zusammenfassung": "Der schottische Erstligist Motherwell setzte sich am 13.08. mit einem 2:0-Rueckspielsieg (3:1 im Aggregat) gegen HJK Helsinki durch und ist damit offizieller Play-off-Gegner des SC Freiburg um den Einzug in die Ligaphase der Conference League.",
+      "quelle_url": "https://www.bundesliga.com/en/bundesliga/news/freiburg-motherwell-conference-league-play-off-opponents-38463"
     },
     {
-      "titel": "Vorbereitung: 3:1 gegen Derby County, 0:3 gegen Greuther Fürth - Doppeltest gegen Racing Straßburg steht bevor",
-      "zusammenfassung": "Im Trainingslager in Schruns gewann Freiburg zunaechst 3:1 gegen den englischen Zweitligisten Derby County (Tore: Irié, Grifo, Catak), verlor danach aber 0:3 gegen Zweitligist Greuther Fuerth. Am 8. August empfaengt der SC Racing Strassburg zu zwei Testspielen ohne Zuschauer als letzten Test vor dem Bundesliga-Auftakt.",
-      "quelle_url": "https://www.badische-zeitung.de/freiburg-kassiert-testspiel-niederlage-gegen-fuerth"
+      "titel": "Saisoneröffnung am 15.08. mit Testspiel gegen Crystal Palace",
+      "zusammenfassung": "Rund um das Europa-Park Stadion feiert der SC seine Saisoneroeffnung mit Familienfest, Vorstellung der Frauen-Mannschaft und einem Testspiel der Profis gegen den Premier-League-Klub Crystal Palace als letzten Vorbereitungstest.",
+      "quelle_url": "https://www.baden24.de/sport/sc-freiburg/saisoneroeffnung-sc-freiburg-gegner-tickets-live-uebertragung-94440063.html"
     }
   ],
   "experteneinschaetzungen": [
     {
-      "quelle": "Lothar Matthäus (Sky/kicker-Experte)",
-      "einschaetzung": "Matthaeus haelt es fuer ausgeschlossen, dass Freiburg Backhaus nur als Nummer zwei verpflichtet haette, und geht davon aus, dass Atubolu einen Wechsel in die Premier League anstrebt - ein Nebeneinander beider Torhueter sei unrealistisch.",
-      "quelle_url": "https://www.spox.com/fussball/news/auch-das-ist-ungewoehnlich-sc-freiburg-und-noah-atubolu-treffen-sehr-konsequente-entscheidung/blt8b0ef8dc732907db"
+      "quelle": "Julian Schuster (Transfermarkt-Interview)",
+      "einschaetzung": "Cheftrainer Schuster betont im Interview den Wert des Konkurrenzkampfs im Kader und erklaert, dass bei der Kaderplanung bewusst vorausgedacht werde - auch mit Blick auf die Dreifachbelastung durch Bundesliga, DFB-Pokal und erstmals Conference League.",
+      "quelle_url": "https://www.transfermarkt.at/freiburgs-schuster-uber-konkurrenzkampf-und-transfers-in-der-kaderplanung-vorausdenken-quot-/view/news/458440"
     },
     {
-      "quelle": "kicker.de",
-      "einschaetzung": "Der Umbruch im Tor wird als bewusste, strategische Entscheidung des Vereins gewertet: Mit der Rekordabloese fuer Backhaus stellt sich Freiburg frueh und offensiv fuer die Zeit nach Atubolu auf, statt einen abloesefreien Abgang 2027 zu riskieren.",
-      "quelle_url": "https://www.kicker.de/rekordabloese-fuer-backhaus-freiburg-sucht-den-atubolu-nachfolger-1221028/artikel"
+      "quelle": "baden24.de",
+      "einschaetzung": "Die Teilnahme an der Conference League bedeutet fuer Freiburg erneut eine Dreifachbelastung; der Verein habe in der Vorsaison (Europa-League-Finaleinzug) gezeigt, dass er ein solches Unterfangen meistern kann - eine sorgfaeltige Planung der Vorbereitung sei dafuer entscheidend gewesen.",
+      "quelle_url": "https://www.baden24.de/sport/sc-freiburg/termine-conference-league-gegner-voraussetzungen-ueberlick-infos-94357663.html"
     },
     {
-      "quelle": "Sportschau/SWR",
-      "einschaetzung": "Trainer Julian Schuster setzt bewusst auf Kontinuitaet statt Umbruch: Mit der erfahrenen Abwehrachse um Ginter, Lienhart und Yilmaz sowie gezielten Verstaerkungen soll nach dem historischen Europa-League-Finaleinzug an die Vorsaison angeknuepft werden.",
-      "quelle_url": "https://www.sportschau.de/fussball/bundesliga/sommerfahrplan-des-sc-freiburg,sommerfahrplan-sc-freiburg-106.html"
+      "quelle": "fussballdaten.de",
+      "einschaetzung": "Nach zaehem Wechselpoker zeichnet sich fuer Atubolu offenbar doch noch ein Ausweg ab: Mit Marseille und Juventus mischen zwei namhafte europaeische Top-Klubs konkret um seine Dienste mit.",
+      "quelle_url": "https://www.fussballdaten.de/news/ausweg-sicht-atubolu-visier-zwei-namhaften-klubs/"
     },
     {
       "quelle": "LigaInsider (Top-Elf-Prognose)",
-      "einschaetzung": "Neuzugang Rihito Yamamoto wird als potenzieller 'Koenigstransfer' fuers Mittelfeld gehandelt, dessen Spielstil ideal zur Freiburger Philosophie passe und der sich schnell einen Stammplatz erspielen koennte.",
+      "einschaetzung": "Neuzugang Rihito Yamamoto wird weiterhin als potenzieller 'Koenigstransfer' fuers Mittelfeld gehandelt, dessen Spielstil ideal zur Freiburger Philosophie passe und der sich schnell einen Stammplatz erspielen koennte.",
       "quelle_url": "https://www.ligainsider.de/sc-freiburg/18/top-elf-prognose-sc-freiburg-im-check-414060/"
     }
   ]
