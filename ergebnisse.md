@@ -67,3 +67,40 @@ Experteneinschaetzungen:
 - fussballdaten.de: Atubolu-Ausweg zeichnet sich ab, Marseille und Juventus mischen konkret mit
 - LigaInsider: Rihito Yamamoto weiterhin als moeglicher "Koenigstransfer" fuers Mittelfeld gehandelt
 ```
+
+## 2026-08-17
+
+```
+Naechste 5 Spiele:
+2026-08-20 - Conference League (Play-off, Hinspiel) - Motherwell FC vs. SC Freiburg
+2026-08-23 - DFB-Pokal (1. Runde) - Fortuna Düsseldorf vs. SC Freiburg
+2026-08-27 - Conference League (Play-off, Rückspiel) - SC Freiburg vs. Motherwell FC
+2026-08-30 - Bundesliga (1. Spieltag) - SC Freiburg vs. SV Werder Bremen
+2026-09-05 - Bundesliga (2. Spieltag) - SC Paderborn 07 vs. SC Freiburg
+
+Bundesliga: Vor Saisonstart, naechstes Spiel 30.08.2026, 15:30 Uhr, Heim vs. SV Werder Bremen (1. Spieltag)
+
+Letzte Ergebnisse:
+- 16.05.2026 (34. Spieltag): SC Freiburg 4:1 RB Leipzig
+- 10.05.2026 (33. Spieltag): Hamburger SV 3:2 SC Freiburg
+- 03.05.2026 (32. Spieltag): SC Freiburg 1:1 VfL Wolfsburg
+- 26.04.2026 (31. Spieltag): Borussia Dortmund 4:0 SC Freiburg
+- 19.04.2026 (30. Spieltag): SC Freiburg 2:1 1. FC Heidenheim
+
+DFB-Pokal: Vor der 1. Runde - 1. Runde am 23.08.2026, 18:00 Uhr, auswärts bei Fortuna Düsseldorf (Merkur Spiel-Arena, Übertragung Sky)
+
+Conference League: Vor den Play-offs - Gegner Motherwell FC (SCO), Hinspiel 20.08. auswärts (Fir Park, 20:30 Uhr), Rückspiel 27.08. daheim (18:45 Uhr); Sieger erreicht die Ligaphase
+
+News der Woche:
+- Generalprobe geglückt: Freiburg schlägt Crystal Palace 3:0 (Engelhardt, Höler) vor 29.000 Zuschauern
+- Atubolu-Poker: nun auch Napoli neben Marseille und Bournemouth im Rennen; Torhüter trainiert weiter individuell, tendiert offenbar Richtung Serie A
+- Yamamoto-Transfer offiziell: SC zahlt rund 7 Mio. Euro an St. Truiden für den japanischen Mittelfeldallrounder
+- Kompletter Bundesliga-Spielplan 2026/27 veröffentlicht: Auftakt daheim vs. Bremen (30.08.), dann auswärts in Paderborn (05.09.)
+- Breiter Kader trotz Abgängen (Atubolu, Manzambi); Rosenfelder und Osterhage rechtzeitig fit zurück
+
+Experteneinschaetzungen:
+- Klemens Hartenbach (via kicker): Yamamoto ein "echter Mittelfeldallrounder", schließt die Lücke nach Höflers Karriereende
+- Badische Zeitung: breiter, konkurrenzstarker Kader für die Dreifachbelastung trotz prominenter Abgänge
+- LigaInsider: kein großer Umbruch erwartet, gezielte Verstärkungen (Backhaus, Yamamoto, Engelhardt)
+- goal.com: Atubolu liebäugelt nun stärker mit Italien (Napoli), Angebote auch aus Marseille und Bournemouth
+```
