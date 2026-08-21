@@ -104,3 +104,40 @@ Experteneinschaetzungen:
 - LigaInsider: kein großer Umbruch erwartet, gezielte Verstärkungen (Backhaus, Yamamoto, Engelhardt)
 - goal.com: Atubolu liebäugelt nun stärker mit Italien (Napoli), Angebote auch aus Marseille und Bournemouth
 ```
+
+## 2026-08-21
+
+```
+Naechste 5 Spiele:
+2026-08-23 - DFB-Pokal (1. Runde) - Fortuna Düsseldorf vs. SC Freiburg
+2026-08-27 - Conference League (Play-off, Rückspiel) - SC Freiburg vs. Motherwell FC
+2026-08-30 - Bundesliga (1. Spieltag) - SC Freiburg vs. SV Werder Bremen
+2026-09-05 - Bundesliga (2. Spieltag) - SC Paderborn 07 vs. SC Freiburg
+2026-09-12 - Bundesliga (3. Spieltag) - SC Freiburg vs. Borussia Mönchengladbach
+
+Bundesliga: Vor Saisonstart, naechstes Spiel 30.08.2026, 15:30 Uhr, Heim vs. SV Werder Bremen (1. Spieltag)
+
+Letzte Ergebnisse:
+- 16.05.2026 (34. Spieltag): SC Freiburg 4:1 RB Leipzig
+- 10.05.2026 (33. Spieltag): Hamburger SV 3:2 SC Freiburg
+- 03.05.2026 (32. Spieltag): SC Freiburg 1:1 VfL Wolfsburg
+- 26.04.2026 (31. Spieltag): Borussia Dortmund 4:0 SC Freiburg
+- 19.04.2026 (30. Spieltag): SC Freiburg 2:1 1. FC Heidenheim
+
+DFB-Pokal: Vor der 1. Runde - 1. Runde am 23.08.2026, 18:00 Uhr, auswärts bei Fortuna Düsseldorf (Merkur Spiel-Arena)
+
+Conference League: Play-offs: Hinspiel gewonnen - 3:1 bei Motherwell FC (Doppelpack Ginter, Tor Goto) nach frühem Rückstand; Rückspiel 27.08. daheim (18:45 Uhr) entscheidet über Einzug in die Ligaphase
+
+News der Woche:
+- Ginter-Doppelpack: Freiburg gewinnt Conference-League-Play-off-Hinspiel bei Motherwell 3:1 nach frühem Rückstand
+- Eren Dinkçi kehrt leihweise zu seinem Heimatverein Werder Bremen zurück (keine Kaufoption/-pflicht)
+- Atubolu trennt sich von Berateragentur Epic Sports; Eintracht Frankfurt gilt nun als wahrscheinlichstes Wechselziel zu reduzierter Ablöse (~15 statt 25 Mio. Euro), Marseille weiter im Rennen
+- Generalprobe geglückt: 3:0 gegen Crystal Palace vor rund 29.000 Zuschauern (Engelhardt, Höler, Scherhant)
+- Yamamoto-Transfer offiziell: rund 7 Mio. Euro an St. Truiden für den Mittelfeldallrounder
+
+Experteneinschaetzungen:
+- Sportschau/SWR: Nach dem 3:1-Hinspielsieg gilt der Einzug in die CL-Ligaphase als Formsache
+- Sky Sport: Atubolu nimmt Wechselfrage nun selbst in die Hand, Frankfurt wahrscheinlichstes Ziel
+- Faktor 8 (Prognosemodell): erneut Platz 7 erwartet - starke Heimbilanz vs. schwache Auswärtsbilanz als strukturelles Problem
+- Badische Zeitung: trotz Abgängen/Leihe (Atubolu-Poker, Manzambi, Dinkçi) breiter, konkurrenzstarker Kader für die Dreifachbelastung
+```
