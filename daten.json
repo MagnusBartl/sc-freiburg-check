@@ -1,14 +1,14 @@
 {
-  "aktualisiert_am": "2026-08-21",
+  "aktualisiert_am": "2026-08-28",
   "saison": "2026/27",
-  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausfuehrungsumgebung per WebFetch weiterhin vollstaendig gesperrt (EGRESS_BLOCKED). Alle Termine, Ergebnisse und News dieser Aktualisierung stammen daher aus mehrfach abgeglichenen WebSearch-Recherchen (u.a. kicker, Badische Zeitung, sportschau.de, t-online, Sky Sport, werder.de, bundesliga.com). Die Bundesliga-Saison 2026/27 hat noch nicht begonnen (Auftakt erst 30.08.2026 gegen Werder Bremen), daher existiert noch keine echte Tabelle 2026/27 - gezeigt wird zur Einordnung die Abschlusstabelle 2025/26.",
+  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausfuehrungsumgebung per WebFetch weiterhin vollstaendig gesperrt (EGRESS_BLOCKED), ebenso direkte WebFetch-Abrufe von kicker.de, fussballdaten.de und scfreiburg.com. Alle Termine, Ergebnisse und News dieser Aktualisierung stammen daher aus mehrfach abgeglichenen WebSearch-Recherchen (u.a. kicker, Sportschau, Sky Sport, sport1, badische-zeitung.de). Die Bundesliga-Saison 2026/27 hat noch nicht begonnen (Auftakt erst 30.08.2026 gegen Werder Bremen), daher existiert noch keine echte Tabelle 2026/27 - gezeigt wird zur Einordnung die Abschlusstabelle 2025/26. Die Ligaphasen-Auslosung der Conference League fand heute (28.08.2026, 13 Uhr, Monaco) statt; Freiburgs sechs Gegner und die genauen Spieltermine waren zum Zeitpunkt dieser Aktualisierung laut UEFA-Ankuendigung erst bis spaetestens 30.08.2026 vorgesehen und per WebSearch noch nicht auffindbar.",
   "naechste_spiele": [
-    {"datum": "2026-08-23", "wettbewerb": "DFB-Pokal (1. Runde)", "heimteam": "Fortuna Düsseldorf", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 18:00 Uhr, Merkur Spiel-Arena Düsseldorf, Übertragung: Sky"},
-    {"datum": "2026-08-27", "wettbewerb": "Conference League (Play-off, Rückspiel)", "heimteam": "SC Freiburg", "auswaertsteam": "Motherwell FC", "hinweis": "Anstoß 18:45 Uhr, Europa-Park Stadion. Freiburg gewann das Hinspiel 3:1 und ist klarer Favorit auf den Einzug in die Ligaphase"},
     {"datum": "2026-08-30", "wettbewerb": "Bundesliga (1. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "SV Werder Bremen", "hinweis": "Anstoß 15:30 Uhr, Europa-Park Stadion"},
     {"datum": "2026-09-05", "wettbewerb": "Bundesliga (2. Spieltag)", "heimteam": "SC Paderborn 07", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, auswärts beim Aufsteiger"},
-    {"datum": "2026-09-12", "wettbewerb": "Bundesliga (3. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "Borussia Mönchengladbach", "hinweis": "Anstoß 15:30 Uhr, Europa-Park Stadion"}
+    {"datum": "2026-09-12", "wettbewerb": "Bundesliga (3. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "Borussia Mönchengladbach", "hinweis": "Anstoß 15:30 Uhr, Europa-Park Stadion"},
+    {"datum": "2026-09-19", "wettbewerb": "Bundesliga (4. Spieltag)", "heimteam": "Eintracht Frankfurt", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, auswärts"}
   ],
+  "naechste_spiele_hinweis": "Ein 5. Spiel liess sich nicht verlaesslich ermitteln: Die Ligaphase der Conference League wurde zwar am 28.08.2026 in Monaco ausgelost, Freiburgs sechs Gegner und die genauen Spieltermine (ab Oktober) werden laut UEFA aber erst bis spaetestens 30.08.2026 veroeffentlicht und waren zum Zeitpunkt dieser Aktualisierung per WebSearch noch nicht auffindbar. Auch der Termin des Bundesliga-5.-Spieltags (voraussichtlich rund 26.09.2026) und die DFB-Pokal-2.-Runde (Auslosung erst am 06.09.2026, Austragung im Oktober) stehen noch nicht fest.",
   "bundesliga": {
     "status": "vor_saisonstart",
     "status_label": "Vor Saisonstart",
@@ -43,16 +43,18 @@
     {"datum": "2026-04-19", "wettbewerb": "Bundesliga 2025/26 (30. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "2:1", "auswaertsteam": "1. FC Heidenheim"}
   ],
   "dfb_pokal": {
-    "status": "vor_erster_runde",
-    "status_label": "Vor der 1. Runde",
-    "naechste_runde": {"runde": "1. Runde", "datum": "23.08.2026, 18:00 Uhr", "gegner": "Fortuna Düsseldorf", "ort": "Auswärts (Merkur Spiel-Arena, Düsseldorf)"},
-    "ergebnisse": [],
-    "hinweis": "Noch keine Pokal-Partie in dieser Saison gespielt - die 1. Runde findet erst am 23.08.2026 statt. Freiburg gewann das Duell in der Vorsaison (2. Runde) mit 3:1 in Düsseldorf."
+    "status": "1_runde_gewonnen",
+    "status_label": "1. Runde gewonnen – 2. Runde erreicht",
+    "naechste_runde": {"runde": "2. Runde", "datum": "Auslosung am 06.09.2026, Austragungstermin noch offen", "gegner": "steht erst nach der Auslosung am 06.09.2026 fest", "ort": "noch offen"},
+    "ergebnisse": [
+      {"runde": "1. Runde", "heimteam": "Fortuna Düsseldorf", "ergebnis": "1:5", "auswaertsteam": "SC Freiburg"}
+    ],
+    "hinweis": "Souveräner 5:1-Erfolg am 23.08.2026 in Düsseldorf (Höler, Doppelpack Matanović, Kübler, Makengo; Anschluss durch Schleusener). Freiburg zieht damit in die 2. Runde ein, die am 06.09.2026 ausgelost wird."
   },
   "conference_league": {
-    "status": "playoff_hinspiel_gewonnen",
-    "status_label": "Play-offs: Hinspiel gewonnen",
-    "qualifikationsweg": "Play-off-Teilnahme ueber Platz 7 in der Bundesliga 2025/26 in Verbindung mit dem Einzug ins Europa-League-Finale der Vorsaison (0:3 gegen Aston Villa) - erste Teilnahme des SC Freiburg an diesem Wettbewerb. Play-off-Gegner ist Motherwell FC (Schottland), das sich in der Quali mit 3:1 nach Hin- und Rueckspiel gegen HJK Helsinki durchsetzte. Das Hinspiel am 20.08. in Motherwell gewann Freiburg nach fruehem Rueckstand durch einen Doppelpack von Matthias Ginter (davon einer per Elfmeter) und ein spaetes Tor von Keisuke Goto mit 3:1. Das Rueckspiel am 27.08. daheim im Europa-Park Stadion entscheidet ueber den Einzug in die 36er-Ligaphase.",
+    "status": "ligaphase_erreicht",
+    "status_label": "Play-offs gewonnen – Ligaphase erreicht (Auslosung ausstehend)",
+    "qualifikationsweg": "Play-off-Teilnahme ueber Platz 7 in der Bundesliga 2025/26 in Verbindung mit dem Einzug ins Europa-League-Finale der Vorsaison (0:3 gegen Aston Villa) - erste Teilnahme des SC Freiburg an diesem Wettbewerb. Play-off-Gegner war Motherwell FC (Schottland). Freiburg gewann das Hinspiel am 20.08. in Motherwell 3:1 (Doppelpack Ginter, Tor Goto) und setzte im Rückspiel am 27.08. daheim im Europa-Park Stadion mit einem klaren 4:1 (Scherhant, Matanović, Irié, Goto) nach - Gesamtscore 7:2. Damit ist die Teilnahme an der 36er-Ligaphase sicher; die Auslosung der Gegner fand am 28.08.2026 in Monaco statt.",
     "termine": [
       {"phase": "Play-offs", "datum": "20. & 27.08.2026"},
       {"phase": "Ligaphase", "datum": "15.10.-17.12.2026"},
@@ -63,58 +65,59 @@
       {"phase": "Finale", "datum": "02.06.2027, Beşiktaş Park, Istanbul"}
     ],
     "tabellenausschnitt": [],
-    "tabellenausschnitt_hinweis": "Erste Conference-League-Teilnahme des SC Freiburg ueberhaupt - es gibt keine Referenztabelle. Eine echte Tabelle entsteht erst nach den Play-offs (ab Oktober in der Ligaphase).",
+    "tabellenausschnitt_hinweis": "Die Ligaphase wurde am 28.08.2026 in Monaco ausgelost; Freiburgs sechs Gegner und die genauen Spieltermine (ab 15.10.2026) waren zum Zeitpunkt dieser Aktualisierung per WebSearch noch nicht auffindbar (UEFA veröffentlicht den kompletten Spielplan laut Ankündigung erst bis spätestens 30.08.2026). Eine echte Tabelle entsteht ohnehin erst nach den ersten Ligaphasen-Spieltagen im Oktober.",
     "ergebnisse": [
-      {"runde": "Play-off Hinspiel", "heimteam": "Motherwell FC", "ergebnis": "1:3", "auswaertsteam": "SC Freiburg"}
+      {"runde": "Play-off Hinspiel", "heimteam": "Motherwell FC", "ergebnis": "1:3", "auswaertsteam": "SC Freiburg"},
+      {"runde": "Play-off Rückspiel", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "Motherwell FC"}
     ]
   },
   "news": [
     {
-      "titel": "Ginter-Doppelpack: Freiburg gewinnt Play-off-Hinspiel bei Motherwell 3:1",
-      "zusammenfassung": "Nach fruehem Rueckstand durch Regan Charles-Cook (2. Minute) drehte Matthias Ginter mit einem Kopfballtor (28.) und einem Foulelfmeter (65., nach Platzverweis fuer Motherwells Moorman) die Partie. Keisuke Goto erzielte in der Nachspielzeit das 3:1-Endstand. Freiburg geht als klarer Favorit ins Rueckspiel am 27.08. daheim.",
-      "quelle_url": "https://www.sportschau.de/regional/swr/swr-nach-fruehem-schock-doppelter-ginter-schiesst-freiburg-zum-sieg-in-motherwell-100.html"
+      "titel": "Deutlicher 5:1-Erfolg im DFB-Pokal bei Fortuna Düsseldorf",
+      "zusammenfassung": "Nach frühem Rückstandsschreck durch Höler in Führung, legte Freiburg vor allem durch einen Doppelpack von Einwechselspieler Igor Matanović sowie Tore von Lukas Kübler und Jordy Makengo nach. Schleusener traf für Düsseldorf nur zum zwischenzeitlichen Anschluss. Der SC zieht souverän in die 2. Runde ein.",
+      "quelle_url": "https://www.kicker.de/duesseldorf-gegen-freiburg-2026-dfb-pokal-5204699/spielbericht"
     },
     {
-      "titel": "Eren Dinkçi kehrt per Leihe zu Werder Bremen zurueck",
-      "zusammenfassung": "Der Stuermer, der sich in Freiburg nicht durchsetzen konnte und zuletzt an den 1. FC Heidenheim verliehen war, wechselt fuer die Saison 2026/27 ohne Kaufoption/-pflicht leihweise zu seinem Heimatverein Werder Bremen. Die Leihgebuehr liegt im niedrigen sechsstelligen Bereich.",
-      "quelle_url": "https://www.werder.de/news/maenner/2026-2027/pm-dinkci-17082026"
+      "titel": "Ligaphase erreicht: Freiburg schlägt Motherwell im Rückspiel 4:1 (Gesamtscore 7:2)",
+      "zusammenfassung": "Nach dem 3:1-Hinspielsieg machte der SC im Europa-Park Stadion mit Toren von Scherhant, Matanović, Irié und Goto den klaren Einzug in die Conference-League-Ligaphase perfekt. Laut kicker leistete sich Neuzugang Mio Backhaus im Tor trotz des klaren Erfolgs einen Aussetzer.",
+      "quelle_url": "https://sport.sky.de/fussball/freiburg-vs-motherwell/spielbericht/577288"
     },
     {
-      "titel": "Atubolu trennt sich von Berateragentur Epic Sports",
-      "zusammenfassung": "Nachdem ein Wechsel in die Premier League nicht zustande kam, geht Torhueter Noah Atubolu die Vertrags- und Transferfragen nun ohne seine bisherige Agentur an, unterstuetzt von einem Sportanwalt. Laut Sky und kicker beobachten Eintracht Frankfurt und Olympique Marseille die Situation weiter; Frankfurt gilt inzwischen als realistischste Option zu einer deutlich reduzierten Ablöse (rund 15 statt urspruenglich 25 Mio. Euro).",
-      "quelle_url": "https://sport.sky.de/fussball/artikel/noah-atubolu-trennt-sich-von-berater-agentur-marseille-und-frankfurt-beobachten-situation/13575105/34942"
+      "titel": "Atubolu-Wechsel zu Eintracht Frankfurt besiegelt",
+      "zusammenfassung": "Nach monatelangem Poker ist der Wechsel von Torhüter Noah Atubolu zu Eintracht Frankfurt offiziell bestätigt. Um den Deal zu ermöglichen, verlängerte Atubolu zunächst seinen eigentlich bis 2027 laufenden Vertrag in Freiburg um ein weiteres Jahr; im Gespräch sind eine Leihe mit Kaufoption bzw. -pflicht sowie eine Ablöse um die 15 Mio. Euro plus Boni. Mio Backhaus (von Werder verpflichtet) rückt damit endgültig zur neuen Nummer eins auf.",
+      "quelle_url": "https://www.sport.de/news/ne17097930/vom-sc-freiburg-zu-eintracht-frankfurt-transfer-saga-um-noah-atubolu-offiziell-beendet/"
     },
     {
-      "titel": "Generalprobe geglückt: Freiburg schlägt Crystal Palace 3:0",
-      "zusammenfassung": "Im letzten Test vor dem Pflichtspielauftakt setzte sich der SC vor rund 29.000 Zuschauern im Europa-Park Stadion gegen den englischen Conference-League-Sieger Crystal Palace klar durch. Engelhardt, Höler und Scherhant trafen fuer den SC.",
-      "quelle_url": "https://www.badische-zeitung.de/sc-freiburg-gelingt-generalprobe-gegen-crystal-palace"
+      "titel": "Conference-League-Ligaphase heute in Monaco ausgelost",
+      "zusammenfassung": "Am 28.08.2026 um 13 Uhr fand im Grimaldi Forum in Monaco die Auslosung der 36er-Ligaphase statt - Freiburg ist als einziges deutsches Team vertreten und in Lostopf 1 gesetzt. Jedes Team erhält je einen Gegner aus sechs Lostöpfen (3 Heim-, 3 Auswärtsspiele). Die konkreten Gegner Freiburgs sowie Termine und Anstoßzeiten will die UEFA bis spätestens 30.08.2026 veröffentlichen.",
+      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/alles-wichtige-zur-conference-league-auslosung/"
     },
     {
-      "titel": "Yamamoto-Transfer offiziell: SC zahlt rund 7 Mio. Euro an St. Truiden",
-      "zusammenfassung": "Der SC hat die Verpflichtung des japanischen Mittelfeldallrounders Rihito Yamamoto vom belgischen Erstligisten St. Truiden fuer rund sieben Millionen Euro offiziell bestaetigt. Sportdirektor Klemens Hartenbach nennt ihn einen 'echten Mittelfeldallrounder', der die Luecke nach Hoeflers Karriereende fuellen soll.",
-      "quelle_url": "https://www.kicker.de/mittelfeldallrounder-fuer-den-sport-club-yamamoto-unterschreibt-in-freiburg-1223172/artikel"
+      "titel": "DFB-Pokal: Auslosung der 2. Runde am 6. September",
+      "zusammenfassung": "Nachdem alle Erstrunden-Partien absolviert sind, steht Freiburg als Sieger gegen Fortuna Düsseldorf fest im Lostopf für die 2. Runde. Die Auslosung findet am Sonntag, 06.09.2026, statt; Austragungstermin und Gegner sind bis dahin offen.",
+      "quelle_url": "https://www.sportschau.de/fussball/dfbpokal/dfb-pokal-2-runde-wird-samstags-ausgelost,auslosung-zweite-runde-108.html"
     }
   ],
   "experteneinschaetzungen": [
     {
-      "quelle": "Sportschau/SWR (Spielbericht Motherwell - Freiburg)",
-      "einschaetzung": "Trotz frühem Rückstand dominierte Freiburg nach der Ginter-Führung die Partie und liess mit dem 3:1-Auswärtssieg beste Voraussetzungen fuers Rueckspiel - der Einzug in die Ligaphase gilt nach dem Hinspiel als Formsache.",
-      "quelle_url": "https://www.sportschau.de/regional/swr/swr-nach-fruehem-schock-doppelter-ginter-schiesst-freiburg-zum-sieg-in-motherwell-100.html"
+      "quelle": "Julian Schuster (SC Freiburg, nach dem 5:1 in Düsseldorf)",
+      "einschaetzung": "\"Wir hatten zwei Pflichtspiele und haben beide gewonnen. Das ist gut. Ich kritisiere nur, dass wir beim 1:0 zu viele Chancen zugelassen haben.\" Schuster zeigte sich insgesamt zufrieden mit dem Start in die Dreifachbelastung.",
+      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/spielberichte/2026/27-1/dfb-pokal-souveraener-sieg-in-duesseldorf"
     },
     {
-      "quelle": "Sky Sport (Transfer Centre)",
-      "einschaetzung": "Mit der Trennung von seiner Berateragentur signalisiert Atubolu, die festgefahrene Wechselfrage nun selbst in die Hand zu nehmen; Eintracht Frankfurt gilt als wahrscheinlichstes Ziel zu einer deutlich reduzierten Ablösesumme.",
-      "quelle_url": "https://sport.sky.de/fussball/artikel/noah-atubolu-trennt-sich-von-berater-agentur-marseille-und-frankfurt-beobachten-situation/13575105/34942"
+      "quelle": "kicker (Spielbericht Freiburg – Motherwell, Rückspiel)",
+      "einschaetzung": "\"Scherhant glänzt, Backhaus patzt\": Trotz des klaren 4:1-Rückspielsiegs und des sicheren Einzugs in die Ligaphase leistete sich Neuzugang Mio Backhaus im Tor einen Aussetzer - ein Warnsignal vor dem Bundesliga-Start.",
+      "quelle_url": "https://www.kicker.de/freiburg-gegen-motherwell-2026-uefa-conference-league-qualifikation-5254337/spielbericht"
+    },
+    {
+      "quelle": "Sky Sport (Transfer Centre, zu Atubolu)",
+      "einschaetzung": "Mit der besiegelten Einigung samt Vertragsverlängerung als Vehikel für die Leihe macht Frankfurt den seit Wochen erwarteten Wechsel perfekt; Freiburg hat mit Backhaus bereits vorgesorgt und verliert seine Nummer eins ohne sportliches Risiko im Tor.",
+      "quelle_url": "https://sports.yahoo.com/articles/frankfurt-could-sign-sc-freiburgs-153000737.html"
     },
     {
       "quelle": "Faktor 8 (Saisonprognose-Modell)",
-      "einschaetzung": "Sieht SC Freiburg erneut auf Tabellenplatz 7. Die grosse Heimstärke (Rang 6 der Liga) steht einer schwachen Auswärtsbilanz (Rang 13) gegenüber, die einen Sprung in die Top 6 strukturell verhindere.",
+      "einschaetzung": "Sieht SC Freiburg weiterhin auf Tabellenplatz 7 (Score 5,71). Die große Heimstärke (Rang 6 der Liga) steht einer schwachen Auswärtsbilanz (Rang 13) gegenüber, die einen Sprung in die Top 6 strukturell verhindere - ein voller Terminkalender mit Bundesliga, DFB-Pokal und erstmals Conference League macht die Kaderbreite zum Schlüsselfaktor.",
       "quelle_url": "https://mitderpike.de/artikel/freiburg.html"
-    },
-    {
-      "quelle": "Badische Zeitung",
-      "einschaetzung": "Trotz der prominenten Abgaenge Atubolu (im Poker) und Manzambi sowie der Leihe von Dinkci geht der SC mit einem breiten, konkurrenzstarken Kader in die neue Dreifachbelastung aus Bundesliga, DFB-Pokal und erstmals Conference League.",
-      "quelle_url": "https://www.badische-zeitung.de/der-sc-freiburg-geht-mit-einem-breiten-kader-in-die-neue-saison"
     }
   ]
 }

@@ -141,3 +141,40 @@ Experteneinschaetzungen:
 - Faktor 8 (Prognosemodell): erneut Platz 7 erwartet - starke Heimbilanz vs. schwache Auswärtsbilanz als strukturelles Problem
 - Badische Zeitung: trotz Abgängen/Leihe (Atubolu-Poker, Manzambi, Dinkçi) breiter, konkurrenzstarker Kader für die Dreifachbelastung
 ```
+
+## 2026-08-28
+
+```
+Naechste 5 Spiele:
+2026-08-30 - Bundesliga (1. Spieltag) - SC Freiburg vs. SV Werder Bremen
+2026-09-05 - Bundesliga (2. Spieltag) - SC Paderborn 07 vs. SC Freiburg
+2026-09-12 - Bundesliga (3. Spieltag) - SC Freiburg vs. Borussia Mönchengladbach
+2026-09-19 - Bundesliga (4. Spieltag) - Eintracht Frankfurt vs. SC Freiburg
+(5. Spiel nicht verlaesslich ermittelbar: CL-Ligaphase heute in Monaco ausgelost, Gegner/Termine erst bis 30.08. veroeffentlicht; auch BL-Spieltag 5 und DFB-Pokal-2.-Runde (Auslosung 06.09.) stehen noch nicht fest)
+
+Bundesliga: Vor Saisonstart, naechstes Spiel 30.08.2026, 15:30 Uhr, Heim vs. SV Werder Bremen (1. Spieltag)
+
+Letzte Ergebnisse:
+- 16.05.2026 (34. Spieltag): SC Freiburg 4:1 RB Leipzig
+- 10.05.2026 (33. Spieltag): Hamburger SV 3:2 SC Freiburg
+- 03.05.2026 (32. Spieltag): SC Freiburg 1:1 VfL Wolfsburg
+- 26.04.2026 (31. Spieltag): Borussia Dortmund 4:0 SC Freiburg
+- 19.04.2026 (30. Spieltag): SC Freiburg 2:1 1. FC Heidenheim
+
+DFB-Pokal: 1. Runde gewonnen – 2. Runde erreicht - 5:1-Sieg am 23.08. bei Fortuna Düsseldorf (Doppelpack Matanović, Höler, Kübler, Makengo); Auslosung 2. Runde am 06.09.2026
+
+Conference League: Play-offs gewonnen – Ligaphase erreicht (Auslosung ausstehend) - 4:1-Rückspielsieg am 27.08. daheim gegen Motherwell FC (Scherhant, Matanović, Irié, Goto), Gesamtscore 7:2; Ligaphasen-Auslosung fand heute (28.08., 13 Uhr, Monaco) statt, Gegner/Termine noch nicht veroeffentlicht
+
+News der Woche:
+- Deutlicher 5:1-Erfolg im DFB-Pokal bei Fortuna Düsseldorf, Einzug in die 2. Runde
+- Ligaphase erreicht: 4:1-Rückspielsieg gegen Motherwell (Gesamtscore 7:2), Backhaus laut kicker mit Aussetzer trotz Sieg
+- Atubolu-Wechsel zu Eintracht Frankfurt besiegelt (Vertragsverlängerung als Leih-Vehikel, ~15 Mio. Euro plus Boni im Gespräch)
+- Conference-League-Ligaphase heute in Monaco ausgelost, Freiburg als einziges deutsches Team in Topf 1; Ergebnisse bis 30.08. erwartet
+- DFB-Pokal-Auslosung der 2. Runde am 06.09.2026
+
+Experteneinschaetzungen:
+- Julian Schuster nach dem 5:1 in Düsseldorf: zufrieden mit zwei Pflichtsiegen, kritisiert zugelassene Chancen beim 1:0
+- kicker: "Scherhant glänzt, Backhaus patzt" trotz klarem Ligaphasen-Einzug
+- Sky Sport: Atubolu-Wechsel zu Frankfurt macht seit Wochen erwarteten Deal perfekt, Freiburg mit Backhaus im Tor bereits vorgesorgt
+- Faktor 8 (Prognosemodell): weiterhin Platz 7 erwartet, Heimstärke vs. schwache Auswärtsbilanz als strukturelles Problem
+```
