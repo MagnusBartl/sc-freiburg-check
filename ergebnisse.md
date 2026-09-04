@@ -178,3 +178,35 @@ Experteneinschaetzungen:
 - Sky Sport: Atubolu-Wechsel zu Frankfurt macht seit Wochen erwarteten Deal perfekt, Freiburg mit Backhaus im Tor bereits vorgesorgt
 - Faktor 8 (Prognosemodell): weiterhin Platz 7 erwartet, Heimstärke vs. schwache Auswärtsbilanz als strukturelles Problem
 ```
+
+## 2026-09-04
+
+```
+Naechste 5 Spiele:
+2026-09-05 - Bundesliga (2. Spieltag) - SC Paderborn 07 vs. SC Freiburg
+2026-09-12 - Bundesliga (3. Spieltag) - SC Freiburg vs. Borussia Mönchengladbach
+2026-09-19 - Bundesliga (4. Spieltag) - Eintracht Frankfurt vs. SC Freiburg
+2026-10-10 - Bundesliga (5. Spieltag) - SC Freiburg vs. FC Schalke 04
+2026-10-15 - Conference League (Ligaphase, 1. Spieltag) - SC Freiburg vs. FK Jablonec
+
+Bundesliga: Läuft, Platz 2, 3 Punkte, 1 Spiel (1S/0U/0N), Tordifferenz +3, nächstes Spiel 05.09.2026 auswärts bei SC Paderborn 07 (2. Spieltag)
+
+Letzte Ergebnisse:
+- 30.08.2026 (1. Spieltag): SC Freiburg 4:1 SV Werder Bremen
+
+DFB-Pokal: 1. Runde gewonnen – Auslosung 2. Runde steht bevor - 5:1 in Düsseldorf, Auslosung der 2. Runde am 05.09.2026 (Austragung 27./28.10.2026), Gegner noch offen
+
+Conference League: Play-offs gewonnen – Ligaphase ausgelost, Start am 15.10.2026 - Play-offs gegen Motherwell FC gewonnen (Gesamtscore 7:2), Ligaphasen-Gegner: Jablonec, Monaco, Trabzonspor, Twente, Panathinaikos, Zalgiris Kaunas
+
+News der Woche:
+- Auftakt nach Maß: 4:1 gegen Werder Bremen, Dreierpack Yuito Suzuki
+- Traumstart: vier Pflichtspiele, vier Siege, Tordifferenz 16:4
+- Conference-League-Spielplan steht: Heimspiele gegen Jablonec, Twente, Panathinaikos - auswärts bei Monaco, Trabzonspor (mit Mohamed Salah), Zalgiris Kaunas
+- Verletzungssorgen vor Paderborn: Muslija (Kreuzbandriss) und Osterhage (muskulär) fehlen weiterhin
+- DFB-Pokal-Auslosung der 2. Runde wegen Landtagswahl in Sachsen-Anhalt von Sonntag auf Samstag (05.09., 17:45 Uhr) vorgezogen
+
+Experteneinschaetzungen:
+- Julian Schuster (PK vor Paderborn): Konkurrenzkampf im Kader als Schlüssel zum Start, warnt vor Unterschätzung des Aufsteigers
+- Sportschau Bundesliga-Update: sieht Freiburg nach starkem Start auf Titelkurs, ein Experte tippt auf Conference-League-Titel
+- Prognosemodelle (u.a. Sportskeeda) vor Paderborn: klarer Freiburg-Sieg erwartet (Tipp 1:3), Matanović in Topform
+```
