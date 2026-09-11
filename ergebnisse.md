@@ -210,3 +210,36 @@ Experteneinschaetzungen:
 - Sportschau Bundesliga-Update: sieht Freiburg nach starkem Start auf Titelkurs, ein Experte tippt auf Conference-League-Titel
 - Prognosemodelle (u.a. Sportskeeda) vor Paderborn: klarer Freiburg-Sieg erwartet (Tipp 1:3), Matanović in Topform
 ```
+
+## 2026-09-11
+
+```
+Naechste 5 Spiele:
+2026-09-12 - Bundesliga (3. Spieltag) - SC Freiburg vs. Borussia Mönchengladbach
+2026-09-19 - Bundesliga (4. Spieltag) - Eintracht Frankfurt vs. SC Freiburg
+2026-10-11 - Bundesliga (5. Spieltag) - SC Freiburg vs. FC Schalke 04
+2026-10-15 - Conference League (Ligaphase, 1. Spieltag) - SC Freiburg vs. FK Jablonec
+2026-10-18 - Bundesliga (6. Spieltag) - Bayer Leverkusen vs. SC Freiburg
+
+Bundesliga: Läuft, Platz 2, 6 Punkte, 2 Spiele (2S/0U/0N), Tordifferenz +4, nächstes Spiel 12.09.2026 daheim vs. Borussia Mönchengladbach (3. Spieltag)
+
+Letzte Ergebnisse:
+- 05.09.2026 (2. Spieltag): SC Paderborn 07 0:1 SC Freiburg
+- 30.08.2026 (1. Spieltag): SC Freiburg 4:1 SV Werder Bremen
+
+DFB-Pokal: 1. Runde gewonnen – Heimspiel gegen Wolfsburg in der 2. Runde steht bevor - 5:1 in Düsseldorf, Auslosung ergab Heimspiel gegen VfL Wolfsburg am 28.10.2026, 18:00 Uhr, Europa-Park Stadion
+
+Conference League: Play-offs gewonnen – Ligaphase startet am 15.10.2026 - Play-offs gegen Motherwell FC gewonnen (Gesamtscore 7:2), Auftakt der Ligaphase daheim gegen FK Jablonec
+
+News der Woche:
+- Eggesteins Solotor reicht: Freiburg gewinnt 1:0 in Paderborn (26. Minute)
+- Zwei Siege aus zwei Spielen: Freiburg zwischenzeitlich Tabellenführer, nun Platz 2 hinter Augsburg (6 Punkte, Tordifferenz +4)
+- DFB-Pokal: Heimspiel gegen Wolfsburg in der 2. Runde zeitgenau auf 28.10., 18:00 Uhr angesetzt
+- Rekordjagd vor Gladbach: Schuster egalisiert Streichs Start-Bestmarke, bei Sieg wären neun Punkte aus drei Spielen Vereinsrekord
+- kicker-Saisonvorschau: Trotz Manzambi-Verkauf stabiles Fundament, Yamamoto und Goto als gezielte Verstärkungen fürs europäische Geschäft
+
+Experteneinschaetzungen:
+- Julian Schuster (PK vor Gladbach): mögliche Tabellenführung spielt für ihn "null Komma null" eine Rolle, will keine Euphorie aufkommen lassen
+- bundesliga.com: Schuster egalisiert mit vier Siegen aus sechs Pflichtspielen Streichs Startrekord, Vereinsrekord bei Sieg gegen Gladbach möglich
+- kicker/comunio-Saisonvorschau: stabiles Fundament trotz Manzambi-Abgang, Platz im oberen Tabellendrittel bzw. europäisches Geschäft erwartet
+```

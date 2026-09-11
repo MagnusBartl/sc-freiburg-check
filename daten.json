@@ -1,56 +1,56 @@
 {
-  "aktualisiert_am": "2026-09-04",
+  "aktualisiert_am": "2026-09-11",
   "saison": "2026/27",
-  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausfuehrungsumgebung per WebFetch weiterhin vollstaendig gesperrt (EGRESS_BLOCKED), ebenso direkte WebFetch-Abrufe von weltfussball.de und dfb.de. Alle Tabellen-, Ergebnis- und News-Angaben dieser Aktualisierung stammen daher aus mehrfach abgeglichenen WebSearch-Recherchen (u.a. kicker, sportschau, sport1, spox, badische-zeitung.de, wochenblatt-reporter.de). Die Bundesliga-Saison 2026/27 laeuft erst seit dem 1. Spieltag (28.-31.08.2026); SC Freiburg hat bislang nur ein Bundesliga-Spiel bestritten, daher enthaelt 'letzte_ergebnisse' nur diesen einen Eintrag. Die Auslosung der DFB-Pokal-2.-Runde findet erst morgen (05.09.2026) statt, ein Gegner steht also noch nicht fest. Die Ligaphase der Conference League beginnt erst am 15.10.2026, daher existiert noch keine echte Tabelle - der Spielplan mit den sechs Gegnern steht aber bereits fest.",
+  "hinweis_datenquelle": "In dieser Ausfuehrungsumgebung waren per WebFetch in diesem Lauf ausnahmslos ALLE externen Domains gesperrt (EGRESS_BLOCKED) - neben api.openligadb.de auch kicker.de, fussballdaten.de, khelnow.com, worldfootball.net, bulinews.com, fussballnationalmannschaft.net und sogar wikipedia.org. Saemtliche Zahlen, Ergebnisse und News dieser Aktualisierung stammen daher ausschliesslich aus WebSearch-Recherchen. Die Bundesliga-Tabelle (Plaetze 1-11) wurde durch Kreuzabgleich der Einzelspielberichte aller bisherigen 18 Spiele (1. und 2. Spieltag, u.a. sportschau.de, kicker.de-Snippets, ESPN, Sky Sport) rekonstruiert und die Platzierungsreihenfolge fuer Freiburgs Tabellenumfeld (Rang 1-11) mehrfach bestaetigt; fuer Plaetze ausserhalb dieses Fensters wurde keine vollstaendige Tabelle recherchiert. Der 5. Bundesliga-Spieltag wurde inzwischen auf Sonntag, 11.10.2026 (vorher fälschlich 10.10. vermerkt) zeitgenau angesetzt. Das DFB-Pokal-Achtelfinale/2.-Runden-Los steht seit der Auslosung vom 05.09.2026 fest: Heimspiel gegen VfL Wolfsburg am 28.10.2026.",
   "naechste_spiele": [
-    {"datum": "2026-09-05", "wettbewerb": "Bundesliga (2. Spieltag)", "heimteam": "SC Paderborn 07", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, Home Deluxe Arena, auswärts beim Aufsteiger"},
-    {"datum": "2026-09-12", "wettbewerb": "Bundesliga (3. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "Borussia Mönchengladbach", "hinweis": "Anstoß 15:30 Uhr, Europa-Park Stadion"},
-    {"datum": "2026-09-19", "wettbewerb": "Bundesliga (4. Spieltag)", "heimteam": "Eintracht Frankfurt", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, auswärts"},
-    {"datum": "2026-10-10", "wettbewerb": "Bundesliga (5. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Schalke 04", "hinweis": "Anstoß 15:30 Uhr, Europa-Park Stadion"},
-    {"datum": "2026-10-15", "wettbewerb": "Conference League (Ligaphase, 1. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FK Jablonec", "hinweis": "Anstoß 21:00 Uhr, Europa-Park Stadion - erstes Ligaphasenspiel der Vereinsgeschichte"}
+    {"datum": "2026-09-12", "wettbewerb": "Bundesliga (3. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "Borussia Mönchengladbach", "hinweis": "Anstoß 15:30 Uhr, Europa-Park Stadion. Bei einem Sieg waeren neun Punkte aus den ersten drei Ligaspielen Vereinsrekord."},
+    {"datum": "2026-09-19", "wettbewerb": "Bundesliga (4. Spieltag)", "heimteam": "Eintracht Frankfurt", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 18:30 Uhr, auswärts"},
+    {"datum": "2026-10-11", "wettbewerb": "Bundesliga (5. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Schalke 04", "hinweis": "Sonntag, Anstoß 17:30 Uhr, Europa-Park Stadion - Termin nach Laenderspielpause zeitgenau angesetzt"},
+    {"datum": "2026-10-15", "wettbewerb": "Conference League (Ligaphase, 1. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FK Jablonec", "hinweis": "Anstoß 21:00 Uhr, Europa-Park Stadion - erstes Ligaphasenspiel der Vereinsgeschichte"},
+    {"datum": "2026-10-18", "wettbewerb": "Bundesliga (6. Spieltag)", "heimteam": "Bayer Leverkusen", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, auswärts"}
   ],
-  "naechste_spiele_hinweis": "Die DFB-Pokal-2.-Runde (Austragung laut Rahmenterminkalender am 27./28.10.2026) faellt chronologisch erst NACH diesen 5 Terminen und wurde daher nicht mit aufgenommen; ihr Gegner steht ohnehin erst nach der Auslosung am 05.09.2026 fest.",
   "bundesliga": {
     "status": "laeuft",
     "status_label": "Läuft",
-    "naechstes_spiel": "05.09.2026, 15:30 Uhr, Auswärts bei SC Paderborn 07 (2. Spieltag)",
+    "naechstes_spiel": "12.09.2026, 15:30 Uhr, Heim vs. Borussia Mönchengladbach (3. Spieltag)",
     "tabellenplatz": 2,
-    "punkte": 3,
-    "spiele": 1,
-    "siege": 1,
+    "punkte": 6,
+    "spiele": 2,
+    "siege": 2,
     "unentschieden": 0,
     "niederlagen": 0,
-    "tordifferenz": 3,
+    "tordifferenz": 4,
     "tabellenausschnitt": [
-      {"platz": 1, "verein": "FC Bayern München", "spiele": 1, "tordifferenz": 4, "punkte": 3, "hervorheben": false},
-      {"platz": 2, "verein": "SC Freiburg", "spiele": 1, "tordifferenz": 3, "punkte": 3, "hervorheben": true},
-      {"platz": 3, "verein": "FC Augsburg", "spiele": 1, "tordifferenz": 3, "punkte": 3, "hervorheben": false},
-      {"platz": 4, "verein": "RB Leipzig", "spiele": 1, "tordifferenz": 3, "punkte": 3, "hervorheben": false},
-      {"platz": 5, "verein": "Borussia Dortmund", "spiele": 1, "tordifferenz": 2, "punkte": 3, "hervorheben": false},
-      {"platz": 6, "verein": "1. FC Köln", "spiele": 1, "tordifferenz": 1, "punkte": 3, "hervorheben": false},
-      {"platz": 7, "verein": "SV 07 Elversberg", "spiele": 1, "tordifferenz": 1, "punkte": 3, "hervorheben": false},
-      {"platz": 8, "verein": "1. FC Union Berlin", "spiele": 1, "tordifferenz": 0, "punkte": 1, "hervorheben": false},
-      {"platz": 9, "verein": "Eintracht Frankfurt", "spiele": 1, "tordifferenz": 0, "punkte": 1, "hervorheben": false},
-      {"platz": 10, "verein": "1. FSV Mainz 05", "spiele": 1, "tordifferenz": 0, "punkte": 1, "hervorheben": false},
-      {"platz": 11, "verein": "SC Paderborn 07", "spiele": 1, "tordifferenz": 0, "punkte": 1, "hervorheben": false}
+      {"platz": 1, "verein": "FC Augsburg", "spiele": 2, "tordifferenz": 6, "punkte": 6, "hervorheben": false},
+      {"platz": 2, "verein": "SC Freiburg", "spiele": 2, "tordifferenz": 4, "punkte": 6, "hervorheben": true},
+      {"platz": 3, "verein": "Borussia Dortmund", "spiele": 2, "tordifferenz": 3, "punkte": 6, "hervorheben": false},
+      {"platz": 4, "verein": "SV 07 Elversberg", "spiele": 2, "tordifferenz": 2, "punkte": 6, "hervorheben": false},
+      {"platz": 5, "verein": "1. FSV Mainz 05", "spiele": 2, "tordifferenz": 5, "punkte": 4, "hervorheben": false},
+      {"platz": 6, "verein": "FC Bayern München", "spiele": 2, "tordifferenz": 4, "punkte": 4, "hervorheben": false},
+      {"platz": 7, "verein": "Bayer Leverkusen", "spiele": 2, "tordifferenz": 3, "punkte": 3, "hervorheben": false},
+      {"platz": 8, "verein": "RB Leipzig", "spiele": 2, "tordifferenz": 1, "punkte": 3, "hervorheben": false},
+      {"platz": 9, "verein": "SV Werder Bremen", "spiele": 2, "tordifferenz": -1, "punkte": 3, "hervorheben": false},
+      {"platz": 10, "verein": "VfB Stuttgart", "spiele": 2, "tordifferenz": -1, "punkte": 3, "hervorheben": false},
+      {"platz": 11, "verein": "1. FC Köln", "spiele": 2, "tordifferenz": -2, "punkte": 3, "hervorheben": false}
     ],
-    "tabellenausschnitt_hinweis": "Stand nach dem 1. Spieltag (28.-31.08.2026); Rangfolge bei Punktgleichheit aus WebSearch-Quellen uebernommen und nicht gegen eine offizielle Tabellen-API verifizierbar (openligadb blockiert)."
+    "tabellenausschnitt_hinweis": "Stand nach dem 2. Spieltag (04.-06.09.2026); durch Kreuzabgleich mehrerer Spielberichte je Partie rekonstruiert (keine offizielle Tabellen-API verfuegbar, openligadb weiterhin blockiert). Reihenfolge bei Punktgleichheit ueber die Tordifferenz gebildet, echte Torverhaeltnisse (nicht nur -differenz) waren nicht durchgaengig verifizierbar."
   },
   "letzte_ergebnisse": [
+    {"datum": "2026-09-05", "wettbewerb": "Bundesliga 2026/27 (2. Spieltag)", "heimteam": "SC Paderborn 07", "ergebnis": "0:1", "auswaertsteam": "SC Freiburg"},
     {"datum": "2026-08-30", "wettbewerb": "Bundesliga 2026/27 (1. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "SV Werder Bremen"}
   ],
   "dfb_pokal": {
     "status": "vor_naechster_runde",
-    "status_label": "1. Runde gewonnen – Auslosung 2. Runde steht bevor",
-    "naechste_runde": {"runde": "2. Runde", "datum": "Auslosung am 05.09.2026, 17:45 Uhr (Deutsches Fußballmuseum Dortmund); Austragung laut Rahmenterminkalender am 27./28.10.2026", "gegner": "steht erst nach der Auslosung am 05.09.2026 fest", "ort": "noch offen"},
+    "status_label": "1. Runde gewonnen – Heimspiel gegen Wolfsburg in der 2. Runde steht bevor",
+    "naechste_runde": {"runde": "2. Runde", "datum": "28.10.2026, 18:00 Uhr", "gegner": "VfL Wolfsburg", "ort": "Europa-Park Stadion (Heimspiel)"},
     "ergebnisse": [
       {"runde": "1. Runde", "heimteam": "Fortuna Düsseldorf", "ergebnis": "1:5", "auswaertsteam": "SC Freiburg"}
     ],
-    "hinweis": "Souveräner 5:1-Erfolg am 23.08.2026 in Düsseldorf. Die Auslosung der 2. Runde wurde wegen der Landtagswahl in Sachsen-Anhalt von Sonntag (06.09.) auf Samstag (05.09., 17:45 Uhr) vorgezogen; Losfee ist Bastian Schweinsteiger."
+    "hinweis": "Souveräner 5:1-Erfolg am 23.08.2026 in Düsseldorf. Die Auslosung der 2. Runde fand am 05.09.2026 statt (Losfee Bastian Schweinsteiger); Freiburg erhielt ein Heimspiel gegen den Zweitliga-Absteiger VfL Wolfsburg, der sich zuvor im Elfmeterschießen (6:5) gegen Regionalligist VSG Altglienicke durchsetzte. Übertragung laut Ansetzung bei Sky."
   },
   "conference_league": {
     "status": "vor_ligaphase",
-    "status_label": "Play-offs gewonnen – Ligaphase ausgelost, Start am 15.10.2026",
+    "status_label": "Play-offs gewonnen – Ligaphase startet am 15.10.2026",
     "qualifikationsweg": "Play-off-Teilnahme ueber Platz 7 in der Bundesliga 2025/26 in Verbindung mit dem Einzug ins Europa-League-Finale der Vorsaison (0:3 gegen Aston Villa) - erste Teilnahme des SC Freiburg an diesem Wettbewerb. Play-off-Gegner war Motherwell FC (Schottland): 3:1-Sieg im Hinspiel (20.08., auswärts), 4:1-Sieg im Rückspiel (27.08., daheim), Gesamtscore 7:2. Die Auslosung der 36er-Ligaphase fand am 28.08.2026 in Monaco statt.",
     "termine": [
       {"phase": "Play-offs", "datum": "20. & 27.08.2026"},
@@ -75,46 +75,46 @@
   },
   "news": [
     {
-      "titel": "Auftakt nach Maß: 4:1 gegen Werder Bremen zum Bundesliga-Start",
-      "zusammenfassung": "Am 1. Spieltag setzte sich Freiburg im Europa-Park Stadion klar gegen Werder Bremen durch. Yuito Suzuki avancierte mit einem Dreierpack (29., 48., 55.) zum Matchwinner, außerdem trafen Igor Matanović und Dariusz Stalmach. Zur Pause stand es bereits 2:0.",
-      "quelle_url": "https://www.sportschau.de/fussball/bundesliga/freiburgs-suzuki-und-matanovic-wirbeln-werder-durch,spielbericht-sc-freiburg-werder-bremen-106.html"
+      "titel": "Eggesteins Solotor reicht: Freiburg gewinnt 1:0 in Paderborn",
+      "zusammenfassung": "Nach einem Ballverlust von Philippe leitete Scherhant den Angriff über links ein, ehe Maximilian Eggestein in der 26. Minute aus rund zehn Metern platziert ins lange Eck traf. Freiburg dominierte die erste Halbzeit, geriet nach der Pause aber unter Druck und rettete den knappen Auswärtssieg ins Ziel.",
+      "quelle_url": "https://www.sportschau.de/fussball/bundesliga/paderborn-experte-eggestein-fuehrt-freiburg-zum-sieg,spielbericht-sc-paderborn-sc-freiburg-100.html"
     },
     {
-      "titel": "Traumstart: Vier Pflichtspiele, vier Siege, 16:4 Tore",
-      "zusammenfassung": "Mit den Erfolgen im DFB-Pokal (5:1 in Düsseldorf), im Conference-League-Play-off gegen Motherwell (Hin- und Rückspiel) sowie zum Bundesliga-Auftakt gegen Bremen ist der SC in allen vier bisherigen Pflichtspielen der Saison siegreich geblieben - bei einer Tordifferenz von 16:4.",
-      "quelle_url": "https://www.schwarzwald-aktuell.eu/news/good-news-der-woche-kw-35-sc-freiburg-traumstart-in-neue-saison/"
+      "titel": "Zwei Siege aus zwei Spielen: Freiburg vorübergehend Tabellenführer",
+      "zusammenfassung": "Durch den 1:0-Erfolg in Paderborn und das zeitgleiche torlose Remis von Bayern München bei Schalke 04 übernahm der SC Freiburg zwischenzeitlich die Tabellenführung, ehe FC Augsburg mit einem klaren Sieg vorbeizog. Freiburg steht dennoch mit 6 Punkten und einer Tordifferenz von +4 weiter ganz oben.",
+      "quelle_url": "https://www.ad-hoc-news.de/sport/ueberblick/der-sc-freiburg-gewinnt-in-paderborn-mit-1-0-uebernimmt-voruebergehend/70058137"
     },
     {
-      "titel": "Conference-League-Spielplan steht: Jablonec, Monaco, Trabzonspor, Twente, Panathinaikos und Zalgiris Kaunas",
-      "zusammenfassung": "Der Spielplan für Freiburgs erste Ligaphase in der Conference League ist bekannt: Heimspiele gegen FK Jablonec, FC Twente Enschede und Panathinaikos Athen, Auswärtsspiele bei AS Monaco, Trabzonspor (mit Mohamed Salah) und FK Kauno Žalgiris. Auftakt ist am 15.10.2026 daheim gegen Jablonec.",
-      "quelle_url": "https://www.wochenblatt-reporter.de/c-sport/sc-freiburg-kennt-spielplan-der-conference-league-ligaphase_a866530"
+      "titel": "DFB-Pokal: Heimspiel gegen Wolfsburg in der 2. Runde",
+      "zusammenfassung": "Bei der Auslosung am 05.09.2026 wurde der SC Freiburg mit VfL Wolfsburg verlost und erhält damit Heimrecht im Europa-Park Stadion. Der zeitgenaue Ansetzungstermin steht mittlerweile fest: Mittwoch, 28.10.2026, 18:00 Uhr, Übertragung bei Sky.",
+      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/heimspiel-gegen-wolfsburg-im-dfb-pokal"
     },
     {
-      "titel": "Verletzungssorgen vor Paderborn: Muslija und Osterhage fehlen",
-      "zusammenfassung": "Vor dem Auswärtsspiel bei Aufsteiger Paderborn muss Trainer Julian Schuster weiter auf den lange verletzten Florent Muslija (Kreuzbandriss) sowie den an muskulären Problemen laborierenden Patrick Osterhage verzichten. Im zentralen Mittelfeld werden Maximilian Eggestein und Yannick Engelhardt erwartet.",
-      "quelle_url": "https://www.wochenblatt-reporter.de/c-sport/startelf-kampf-beim-sc-freiburg-schuster-waegt-vor-paderborn-ab_a870826"
+      "titel": "Rekordjagd vor Gladbach: Neun Punkte aus drei Spielen möglich",
+      "zusammenfassung": "Mit vier Siegen aus den ersten sechs Pflichtspielen hat Julian Schuster bereits die Start-Bestmarke seines Vorgängers Christian Streich eingestellt. Gewinnt der SC auch am Samstag gegen Borussia Mönchengladbach, wären neun Punkte aus den ersten drei Bundesliga-Spielen ein Vereinsrekord - zudem ist Freiburg seit zehn Pflichtspielen gegen die Gladbacher und seit 18 Heimspielen in Serie ungeschlagen.",
+      "quelle_url": "https://www.wochenblatt-reporter.de/c-sport/rekordjagd-beim-sc-freiburg-neun-punkte-auf-der-habenseite-gegen-gladbach-moeglich_a877655"
     },
     {
-      "titel": "DFB-Pokal: Auslosung der 2. Runde bereits morgen, 05.09.2026",
-      "zusammenfassung": "Wegen der Landtagswahl in Sachsen-Anhalt am 06.09. wurde die ursprünglich für Sonntag geplante Auslosung der 2. Hauptrunde auf Samstag, 05.09.2026, 17:45 Uhr, vorgezogen (Deutsches Fußballmuseum Dortmund, Losfee Bastian Schweinsteiger). Freiburg wartet nach dem 5:1 in Düsseldorf auf seinen nächsten Pokalgegner; die Partien werden laut Rahmenterminkalender am 27./28.10.2026 ausgetragen.",
-      "quelle_url": "https://www.sport1.de/news/fussball/dfb-pokal/2026/09/dann-wird-die-zweite-dfb-pokal-runde-ausgelost"
+      "titel": "Saisonvorschau: Unaufgeregt Richtung Europa",
+      "zusammenfassung": "Trotz des Rekordverkaufs von Johan Manzambi zu Aston Villa gilt das Fundament beim SC Freiburg als stabil. Mit dem japanischen Mittelfeldallrounder Rihito Yamamoto und Angreifer Keisuke Goto wurde gezielt nachgerüstet, um die Dreifachbelastung durch die erstmalige Conference-League-Teilnahme zu stemmen und erneut im oberen Tabellendrittel mitzuspielen.",
+      "quelle_url": "https://magazin.comunio.de/saisonvorschau-scfreiburg-testspiele-startelf-spielertipps-prognose-transfers/"
     }
   ],
   "experteneinschaetzungen": [
     {
-      "quelle": "Julian Schuster (PK vor dem Spiel bei Paderborn)",
-      "einschaetzung": "Schuster führt den starken Saisonstart mit vier Siegen aus vier Pflichtspielen auch auf den großen Konkurrenzkampf im Kader zurück und betont, dass \"kleine Details\" über die Startelf entscheiden. Vor Paderborn warnt er davor, den Aufsteiger nach dessen 0:0 gegen Mainz als klaren Abstiegskandidaten abzustempeln - die Neuzugänge hätten sich schnell integriert.",
-      "quelle_url": "https://www.wochenblatt-reporter.de/c-sport/startelf-kampf-beim-sc-freiburg-schuster-waegt-vor-paderborn-ab_a870826"
+      "quelle": "Julian Schuster (PK vor Mönchengladbach, via SWR/Sportschau)",
+      "einschaetzung": "Auf die mögliche zwischenzeitliche Tabellenführung vor dem 3. Spieltag angesprochen, winkte Schuster ab: Das spiele für ihn \"null Komma null\" eine Rolle, wichtig sei allein der nächste Gegner. Er wolle keine \"Euphorie\" aufkommen lassen und der Tabelle zu diesem frühen Zeitpunkt keine große Bedeutung beimessen.",
+      "quelle_url": "https://www.sportschau.de/regional/swr/swr-moegliche-tabellenfuehrung-des-sc-freiburg-laesst-julian-schuster-kalt-100.html"
     },
     {
-      "quelle": "Sportschau Bundesliga-Update (Rückblick 1. Spieltag)",
-      "einschaetzung": "Das Experten-Team sieht Freiburg nach dem couragierten Start in Conference-League-Quali, DFB-Pokal und Bundesliga auf einem guten Weg zu einem Titel in dieser Saison - ein Experte tippt sogar konkret auf den Gewinn der Conference League und lobt die ruhige, gesunde Art, wie beim SC alles gehandhabt werde.",
-      "quelle_url": "https://www.sportschau.de/fussball/bundesliga/freiburg-gewinnt-die-conference-league,bundesliga-update-rueckblick-spieltag-eins-100.html"
+      "quelle": "bundesliga.com – Startrekord-Analyse",
+      "einschaetzung": "Mit vier Siegen aus den ersten sechs Pflichtspielen hat Schuster die Bestmarke seines Vorgängers Christian Streich zum Saisonstart bereits eingestellt. Ein Sieg gegen Gladbach würde mit neun Punkten aus drei Ligaspielen einen neuen Vereinsrekord bedeuten - ein Beleg für den bislang außergewöhnlich starken Saisonstart.",
+      "quelle_url": "https://www.bundesliga.com/de/bundesliga/news/sc-freiburg-schuster-startrekord-bremen-29290"
     },
     {
-      "quelle": "Prognosemodelle vor Paderborn – Freiburg (u.a. Sportskeeda)",
-      "einschaetzung": "Analysten erwarten vor dem Auswärtsspiel bei Paderborn einen klaren Freiburg-Sieg (Tipp 1:3, Quote auf einen SC-Erfolg bei rund 2,27) und verweisen auf deutlich bessere Passquote und Chancenqualität des SC sowie die starke Form von Igor Matanović (vier Tore, drei Vorlagen in den letzten vier Pflichtspielen).",
-      "quelle_url": "https://www.sportskeeda.com/football/paderborn-vs-freiburg-prediction-betting-tips-september-5th-2026"
+      "quelle": "kicker-Saisonvorschau (via comunio-Magazin)",
+      "einschaetzung": "Der Kader sei im Kern zusammengeblieben und punktuell sinnvoll verstärkt worden; trotz des schmerzhaften Manzambi-Abgangs spreche vieles dafür, dass der SC auch in dieser Saison um einen Platz im europäischen Geschäft mitspiele. Das Fundament für eine weitere erfolgreiche Saison im oberen Tabellendrittel wirke ausgesprochen stabil.",
+      "quelle_url": "https://magazin.comunio.de/saisonvorschau-scfreiburg-testspiele-startelf-spielertipps-prognose-transfers/"
     }
   ]
 }
