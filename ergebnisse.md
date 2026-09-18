@@ -243,3 +243,39 @@ Experteneinschaetzungen:
 - bundesliga.com: Schuster egalisiert mit vier Siegen aus sechs Pflichtspielen Streichs Startrekord, Vereinsrekord bei Sieg gegen Gladbach möglich
 - kicker/comunio-Saisonvorschau: stabiles Fundament trotz Manzambi-Abgang, Platz im oberen Tabellendrittel bzw. europäisches Geschäft erwartet
 ```
+
+## 2026-09-18
+
+```
+Naechste 5 Spiele:
+2026-09-19 - Bundesliga (4. Spieltag) - Eintracht Frankfurt vs. SC Freiburg
+2026-10-10 - Bundesliga (5. Spieltag) - SC Freiburg vs. FC Schalke 04
+2026-10-15 - Conference League (Ligaphase, 1. Spieltag) - SC Freiburg vs. FK Jablonec
+2026-10-18 - Bundesliga (6. Spieltag) - Bayer Leverkusen vs. SC Freiburg
+2026-10-22 - Conference League (Ligaphase, 2. Spieltag) - AS Monaco vs. SC Freiburg
+
+Bundesliga: Läuft, Platz 1, 9 Punkte, 3 Spiele (3S/0U/0N), Tordifferenz +9, nächstes Spiel 19.09.2026 auswärts bei Eintracht Frankfurt (4. Spieltag)
+
+Letzte Ergebnisse:
+- 12.09.2026 (3. Spieltag): SC Freiburg 5:0 Borussia Mönchengladbach
+- 05.09.2026 (2. Spieltag): SC Paderborn 07 0:1 SC Freiburg
+- 30.08.2026 (1. Spieltag): SC Freiburg 4:1 SV Werder Bremen
+
+DFB-Pokal: 1. Runde gewonnen – Heimspiel gegen Wolfsburg in der 2. Runde steht bevor - 5:1 in Düsseldorf, Heimspiel gegen VfL Wolfsburg am 28.10.2026, 18:00 Uhr, Europa-Park Stadion
+
+Conference League: Play-offs gewonnen – Ligaphase startet am 15.10.2026 - Auftakt daheim gegen FK Jablonec (15.10.), danach auswärts bei AS Monaco (22.10.)
+
+News der Woche:
+- Freiburg deklassiert Gladbach 5:0 (Doppelpacks Matanovic und Engelhardt) und übernimmt die Tabellenführung - zum vierten Mal in der Vereinsgeschichte
+- Vereinsrekord: 10 Tore in den ersten drei Bundesliga-Spielen; Schuster mahnt trotz Tabellenführung zu Bodenständigkeit
+- Noah Atubolu wechselt per Leihe mit Kaufpflicht zu Eintracht Frankfurt - trifft bereits am 19.09. auf seinen Ex-Klub
+- DFB-Pokal: Heimspiel gegen Wolfsburg in der 2. Runde am 28.10., 18:00 Uhr bestätigt
+- Kader: Eggestein verlängert, Ben Farhat verpflichtet; Ausfälle Osterhage (muskulär) und Muslija (bis 18.12. nicht spielberechtigt)
+
+Experteneinschaetzungen:
+- Julian Schuster (PK vor Frankfurt): Fan-Spruch "Mit neun Punkten wärst du abgestiegen" amüsiert ihn, fordert dennoch Bodenständigkeit und Demut statt Euphorie
+- Igor Matanovic (Doppeltorschütze): "Wir stehen zu Recht da" - Tabellenführung sei verdient
+- Sportschau/SWR: Freiburg zum vierten Mal Tabellenführer der Vereinsgeschichte, konnte aber in den drei vorherigen Fällen das direkt folgende Spiel nie gewinnen - Mahnung vor Frankfurt
+
+Hinweis: openligadb.de und praktisch alle gaengigen Tabellenportale (kicker, weltfussball, fussballdaten, sportschau, bundesliga.com, espn, wikipedia) waren per WebFetch erneut vollstaendig gesperrt (EGRESS_BLOCKED). Bundesliga-Tabellenausschnitt daher nur fuer Platz 1, 2 und 4 mit verifizierter Tordifferenz; Platz 3 (Augsburg) und 5 (Leipzig) mit Punkten aber ohne verifizierte Tordifferenz (null statt Schätzung). Termin Freiburg-Schalke wurde von 11.10. auf 10.10. korrigiert (mehrfach neu bestätigt).
+```
