@@ -279,3 +279,40 @@ Experteneinschaetzungen:
 
 Hinweis: openligadb.de und praktisch alle gaengigen Tabellenportale (kicker, weltfussball, fussballdaten, sportschau, bundesliga.com, espn, wikipedia) waren per WebFetch erneut vollstaendig gesperrt (EGRESS_BLOCKED). Bundesliga-Tabellenausschnitt daher nur fuer Platz 1, 2 und 4 mit verifizierter Tordifferenz; Platz 3 (Augsburg) und 5 (Leipzig) mit Punkten aber ohne verifizierte Tordifferenz (null statt Schätzung). Termin Freiburg-Schalke wurde von 11.10. auf 10.10. korrigiert (mehrfach neu bestätigt).
 ```
+
+## 2026-09-25
+
+```
+Naechste 5 Spiele:
+2026-10-10 - Bundesliga (5. Spieltag) - SC Freiburg vs. FC Schalke 04
+2026-10-15 - Conference League (Ligaphase, 1. Spieltag) - SC Freiburg vs. FK Jablonec
+2026-10-18 - Bundesliga (6. Spieltag) - Bayer Leverkusen vs. SC Freiburg
+2026-10-22 - Conference League (Ligaphase, 2. Spieltag) - AS Monaco vs. SC Freiburg
+2026-10-25 - Bundesliga (7. Spieltag) - SC Freiburg vs. FC Bayern München
+
+Bundesliga: Läuft, Platz 3, 10 Punkte, 4 Spiele (3S/1U/0N), Tordifferenz +9, nächstes Spiel 10.10.2026 daheim gegen FC Schalke 04 (5. Spieltag, nach der Länderspielpause)
+
+Letzte Ergebnisse:
+- 19.09.2026 (4. Spieltag): Eintracht Frankfurt 2:2 SC Freiburg
+- 12.09.2026 (3. Spieltag): SC Freiburg 5:0 Borussia Mönchengladbach
+- 05.09.2026 (2. Spieltag): SC Paderborn 07 0:1 SC Freiburg
+- 30.08.2026 (1. Spieltag): SC Freiburg 4:1 SV Werder Bremen
+
+DFB-Pokal: 1. Runde gewonnen – Heimspiel gegen Wolfsburg in der 2. Runde steht bevor - 5:1 in Düsseldorf, Heimspiel gegen VfL Wolfsburg am 28.10.2026, 18:00 Uhr, Europa-Park Stadion
+
+Conference League: Play-offs gewonnen – Ligaphase startet am 15.10.2026 - Auftakt daheim gegen FK Jablonec (15.10.), danach auswärts bei AS Monaco (22.10.)
+
+News der Woche:
+- Erste Saisonniederlage vermieden, aber erste Punkte abgegeben: 2:2 bei Eintracht Frankfurt am 19.09. nach sechs Pflichtspielsiegen in Serie
+- Historischer Moment: Treu, Rosenfelder, Engelhardt und Scherhant erstmals von Jürgen Klopp für die DFB-Nationalmannschaft nominiert
+- Rückblick: Sechs Siege aus sieben Pflichtspielen zum Saisonstart - bester Vereinsstart der Geschichte
+- DFB-Pokal: Heimspiel gegen Wolfsburg in der 2. Runde am 28.10., 18:00 Uhr bestätigt
+- Noah Atubolu wechselte per Leihe mit Kaufpflicht zu Eintracht Frankfurt - traf im Frankfurt-Spiel bereits auf seinen Ex-Klub
+
+Experteneinschaetzungen:
+- Faktor-8-Modell (Goal.com): sieht Freiburg trotz starkem Start langfristig nur auf Platz 7 - schwache Auswärtsform als strukturelles Problem
+- Schwarzwälder Bote: Saisonstart mit sechs Siegen aus sieben Pflichtspielen und vier neuen Nationalspielern gibt Rückenwind, auch wenn die makellose Serie in Frankfurt endete
+- Badische Zeitung: DFB-Nominierung von vier SC-Profis als Beleg für starke Nachwuchsarbeit und Kaderqualität
+
+Hinweis: WebFetch war in diesem Lauf fuer jede getestete Domain (openligadb.de, kicker.de, scfreiburg.com, sportschau.de, hessenschau.de, bundesliga.com, wikipedia.org, sogar example.com) vollstaendig gesperrt (EGRESS_BLOCKED) - anders als in frueheren Laeufen war kein einziger direkter Seitenabruf moeglich. Alle Zahlen stammen daher ausschliesslich aus mehrfach querverifizierten WebSearch-Recherchen. Bundesliga-Tabellenausschnitt nur fuer Platz 1-5 verlaesslich verifizierbar (Freiburg auf Platz 3, daher nur 2 statt 5 Vereine "davor"); Plaetze 6-18 liessen sich nicht zuverlaessig ermitteln und wurden bewusst weggelassen statt geraten.
+```
