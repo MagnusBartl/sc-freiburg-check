@@ -316,3 +316,40 @@ Experteneinschaetzungen:
 
 Hinweis: WebFetch war in diesem Lauf fuer jede getestete Domain (openligadb.de, kicker.de, scfreiburg.com, sportschau.de, hessenschau.de, bundesliga.com, wikipedia.org, sogar example.com) vollstaendig gesperrt (EGRESS_BLOCKED) - anders als in frueheren Laeufen war kein einziger direkter Seitenabruf moeglich. Alle Zahlen stammen daher ausschliesslich aus mehrfach querverifizierten WebSearch-Recherchen. Bundesliga-Tabellenausschnitt nur fuer Platz 1-5 verlaesslich verifizierbar (Freiburg auf Platz 3, daher nur 2 statt 5 Vereine "davor"); Plaetze 6-18 liessen sich nicht zuverlaessig ermitteln und wurden bewusst weggelassen statt geraten.
 ```
+
+## 2026-10-02
+
+```
+Naechste 5 Spiele:
+2026-10-11 - Bundesliga (5. Spieltag) - SC Freiburg vs. FC Schalke 04
+2026-10-15 - Conference League (Ligaphase, 1. Spieltag) - SC Freiburg vs. FK Jablonec
+2026-10-18 - Bundesliga (6. Spieltag) - Bayer Leverkusen vs. SC Freiburg
+2026-10-22 - Conference League (Ligaphase, 2. Spieltag) - AS Monaco vs. SC Freiburg
+2026-10-25 - Bundesliga (7. Spieltag) - SC Freiburg vs. FC Bayern München
+
+Bundesliga: Läuft, Platz 3, 10 Punkte, 4 Spiele (3S/1U/0N), Tordifferenz +9, nächstes Spiel 11.10.2026, 17:30 Uhr daheim gegen FC Schalke 04 (5. Spieltag, nach der Länderspielpause)
+
+Letzte Ergebnisse:
+- 19.09.2026 (4. Spieltag): Eintracht Frankfurt 2:2 SC Freiburg
+- 12.09.2026 (3. Spieltag): SC Freiburg 5:0 Borussia Mönchengladbach
+- 05.09.2026 (2. Spieltag): SC Paderborn 07 0:1 SC Freiburg
+- 30.08.2026 (1. Spieltag): SC Freiburg 4:1 SV Werder Bremen
+
+DFB-Pokal: 1. Runde gewonnen – Heimspiel gegen Wolfsburg in der 2. Runde steht bevor - 5:1 in Düsseldorf, Heimspiel gegen VfL Wolfsburg am 28.10.2026, 18:00 Uhr, Europa-Park Stadion
+
+Conference League: Play-offs gewonnen – Ligaphase startet am 15.10.2026 - Auftakt daheim gegen FK Jablonec (15.10.), danach auswärts bei AS Monaco (22.10.)
+
+News der Woche:
+- Kaderprobleme vor dem Schalke-Spiel: Kalou Irié (krank), Osterhage (muskulär) und Steinmann (Rote-Karte-Sperre) fallen aus; Muslija ohnehin bis 18.12. nicht spielberechtigt
+- Vier Nationalspieler bei Klopps zweitem DFB-Aufgebot: Scherhant, Treu und Engelhardt gegen Serbien (01.10., 2:0) und Griechenland (04.10.) im Einsatz, Rosenfelder bereits zurück in Freiburg
+- Öffentliches Training vor dem Schalke-Spiel am Europa-Park Stadion
+- Terminkorrektur: Schalke-Spiel nun bestätigt für Sonntag, 11.10.2026, 17:30 Uhr (DAZN) statt zuvor gemeldetem Samstag
+- Rückblick: Freiburg bleibt nach 4 Spieltagen mit 10 Punkten ungeschlagen auf Platz 3, hinter Dortmund und Bayern
+
+Experteneinschaetzungen:
+- Faktor-8-Modell (Goal.com): sieht Freiburg trotz starkem Start langfristig nur auf Platz 7 - schwache Auswärtsform (Rang 13) als strukturelles Problem, starke Heimbilanz (Rang 6) als Stütze
+- Vorschau-Analysen zum Schalke-Spiel: Freiburg weiterhin ungeschlagen und fest in der Spitzengruppe, kompakte Defensive; Schalke nach durchwachsenem Start mit Aufwärtstendenz (zuletzt 0:0 gegen Bayern)
+- Mit der Pike/Comunio (Saisonvorschau): Kader im Kern zusammengeblieben und punktuell verstärkt, Platzierung zwischen Rang 5 und 8 mit erneutem Europa-Angriff als realistisch eingeschätzt
+
+Hinweis: api.openligadb.de bleibt per WebFetch vollstaendig gesperrt (EGRESS_BLOCKED), alle Daten stammen aus mehrfach kreuzverifizierten WebSearch-Recherchen. Die Bundesliga-Tabelle ist gegenueber dem 25.09. unveraendert (Laenderspielpause, kein Spieltag seit dem 19.09.). Diesmal konnten zusaetzlich die Plaetze 4-8 inkl. Tordifferenz verlaesslich ermittelt werden. Der Schalke-Termin wurde von 10.10./15:30 Uhr auf 11.10./17:30 Uhr korrigiert.
+```

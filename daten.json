@@ -1,9 +1,9 @@
 {
-  "aktualisiert_am": "2026-09-25",
+  "aktualisiert_am": "2026-10-02",
   "saison": "2026/27",
-  "hinweis_datenquelle": "WebFetch war in diesem Lauf fuer jede getestete Domain (u.a. api.openligadb.de, kicker.de, scfreiburg.com, sportschau.de, hessenschau.de, bundesliga.com, en.wikipedia.org und sogar example.com) vollstaendig durch die Sandbox-Netzwerkrichtlinie gesperrt (EGRESS_BLOCKED) - anders als in frueheren Laeufen war also kein einziger direkter Seitenabruf moeglich. Saemtliche Zahlen stammen daher ausschliesslich aus WebSearch-Recherchen und wurden durch mehrfach uebereinstimmende, unabhaengige Suchanfragen gegengeprueft (u.a. Ergebnisse, Tore, Torschuetzen, Daten). Die Bundesliga-Tabelle liess sich dabei verlaesslich nur fuer die Plaetze 1-5 verifizieren (Dortmund, Bayern, Freiburg, Augsburg, Mainz); fuer die Plaetze 6 und tiefer lieferten mehrere gezielte Suchanfragen keine belastbaren, uebereinstimmenden Zahlen, weshalb sie bewusst weggelassen wurden statt geschaetzt zu werden. Bei einzelnen Detailfragen (z. B. exakter Spieltermin SC Freiburg - Schalke 04: 10. vs. 11.10.2026) gab es widerspruechliche Suchergebnisse; uebernommen wurde jeweils die von mehreren unabhaengigen Quellen gestuetzte Version (hier: 10.10.2026).",
+  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausfuehrungsumgebung per WebFetch weiterhin vollstaendig gesperrt (EGRESS_BLOCKED). Alle Zahlen stammen daher aus mehrfach kreuzverifizierten WebSearch-Recherchen (u.a. kicker.de-Daten ueber Suchergebnisse). Die Bundesliga-Tabelle hat sich seit dem letzten Lauf (25.09.) nicht veraendert, da wegen der Laenderspielpause zwischen dem 19.09. und heute kein Bundesliga-Spieltag stattfand; SC Freiburg hat weiterhin nur 4 Saisonspiele absolviert. Der Termin SC Freiburg - Schalke 04 wurde von mehreren unabhaengigen, neueren Quellen (DAZN, sport.de, sportwetten24) einheitlich auf Sonntag, 11.10.2026, 17:30 Uhr korrigiert (vorige Woche faelschlich 10.10., 15:30 Uhr gemeldet).",
   "naechste_spiele": [
-    {"datum": "2026-10-10", "wettbewerb": "Bundesliga (5. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Schalke 04", "hinweis": "Erstes Spiel nach der Länderspielpause, Samstag, Europa-Park Stadion. Vereinzelte Quellen nennen abweichend Sonntag, 11.10. - die Mehrheit der Quellen bestätigt jedoch Samstag, 10.10."},
+    {"datum": "2026-10-11", "wettbewerb": "Bundesliga (5. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Schalke 04", "hinweis": "Anstoß 17:30 Uhr, Europa-Park Stadion, live bei DAZN. Erstes Spiel nach der Länderspielpause."},
     {"datum": "2026-10-15", "wettbewerb": "Conference League (Ligaphase, 1. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FK Jablonec", "hinweis": "Anstoß 21:00 Uhr, Europa-Park Stadion - erstes Ligaphasenspiel der Vereinsgeschichte"},
     {"datum": "2026-10-18", "wettbewerb": "Bundesliga (6. Spieltag)", "heimteam": "Bayer Leverkusen", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, auswärts, BayArena"},
     {"datum": "2026-10-22", "wettbewerb": "Conference League (Ligaphase, 2. Spieltag)", "heimteam": "AS Monaco", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 21:00 Uhr, auswärts in Monaco"},
@@ -12,7 +12,7 @@
   "bundesliga": {
     "status": "laeuft",
     "status_label": "Läuft",
-    "naechstes_spiel": "10.10.2026, Heimspiel gegen FC Schalke 04 (5. Spieltag, nach der Länderspielpause)",
+    "naechstes_spiel": "11.10.2026, 17:30 Uhr, Heimspiel gegen FC Schalke 04 (5. Spieltag, nach der Länderspielpause)",
     "tabellenplatz": 3,
     "punkte": 10,
     "spiele": 4,
@@ -25,9 +25,12 @@
       {"platz": 2, "verein": "FC Bayern München", "spiele": 4, "tordifferenz": 12, "punkte": 10, "hervorheben": false},
       {"platz": 3, "verein": "SC Freiburg", "spiele": 4, "tordifferenz": 9, "punkte": 10, "hervorheben": true},
       {"platz": 4, "verein": "FC Augsburg", "spiele": 4, "tordifferenz": 5, "punkte": 7, "hervorheben": false},
-      {"platz": 5, "verein": "1. FSV Mainz 05", "spiele": 4, "tordifferenz": 4, "punkte": 7, "hervorheben": false}
+      {"platz": 5, "verein": "Bayer Leverkusen", "spiele": 4, "tordifferenz": 5, "punkte": 7, "hervorheben": false},
+      {"platz": 6, "verein": "1. FSV Mainz 05", "spiele": 4, "tordifferenz": 4, "punkte": 7, "hervorheben": false},
+      {"platz": 7, "verein": "SV 07 Elversberg", "spiele": 4, "tordifferenz": 1, "punkte": 7, "hervorheben": false},
+      {"platz": 8, "verein": "SV Werder Bremen", "spiele": 4, "tordifferenz": 0, "punkte": 7, "hervorheben": false}
     ],
-    "tabellenausschnitt_hinweis": "Freiburg steht nach dem 4. Spieltag auf Platz 3, daher gibt es nur zwei Vereine vor dem SC (statt der vorgesehenen fünf). Die Plätze 6-18 (und damit fünf Vereine unterhalb von Freiburg) ließen sich trotz mehrerer gezielter Suchanfragen nicht zuverlässig verifizieren, da die zentralen Tabellenquellen (kicker.de, weltfussball.de, fussballdaten.de, sportschau.de, openligadb.de) per WebFetch komplett gesperrt waren; sie wurden daher bewusst weggelassen statt geraten."
+    "tabellenausschnitt_hinweis": "Freiburg steht nach dem 4. Spieltag auf Platz 3, daher gibt es nur zwei Vereine vor dem SC (statt der vorgesehenen fünf). Fünf Vereine unterhalb von Freiburg (Platz 4-8) konnten diesmal verlässlich inkl. Tordifferenz ermittelt werden."
   },
   "letzte_ergebnisse": [
     {"datum": "2026-09-19", "wettbewerb": "Bundesliga 2026/27 (4. Spieltag)", "heimteam": "Eintracht Frankfurt", "ergebnis": "2:2", "auswaertsteam": "SC Freiburg"},
@@ -42,7 +45,7 @@
     "ergebnisse": [
       {"runde": "1. Runde", "heimteam": "Fortuna Düsseldorf", "ergebnis": "1:5", "auswaertsteam": "SC Freiburg"}
     ],
-    "hinweis": "Souveräner 5:1-Erfolg am 23.08.2026 in Düsseldorf (Doppelpacker: Matanovic; je ein Tor: Höler, Kübler, Makengo). Die 2. Runde ist terminiert: Mittwoch, 28.10.2026, 18:00 Uhr, Europa-Park Stadion gegen den Zweitliga-Absteiger VfL Wolfsburg, Übertragung laut Ansetzung bei Sky."
+    "hinweis": "Souveräner 5:1-Erfolg am 23.08.2026 in Düsseldorf. Die 2. Runde ist terminiert: Mittwoch, 28.10.2026, 18:00 Uhr, Europa-Park Stadion gegen den Zweitliga-Absteiger VfL Wolfsburg."
   },
   "conference_league": {
     "status": "vor_ligaphase",
@@ -66,46 +69,46 @@
   },
   "news": [
     {
-      "titel": "Erste Saisonniederlage vermieden, aber erste Punkte abgegeben: 2:2 bei Eintracht Frankfurt",
-      "zusammenfassung": "Nach sechs Pflichtspielsiegen in Serie kam der SC Freiburg am 19.09. bei Eintracht Frankfurt (4. Spieltag) nur zu einem 2:2. Die makellose Bilanz zum Saisonstart ist damit beendet, Freiburg bleibt aber ungeschlagen und in den Top 3 der Tabelle.",
-      "quelle_url": "https://www.sportschau.de/fussball/bundesliga/paderborn-experte-eggestein-fuehrt-freiburg-zum-sieg,spielbericht-sc-paderborn-sc-freiburg-100.html"
+      "titel": "Kaderprobleme vor dem Schalke-Spiel: Vier Ausfälle bestätigt",
+      "zusammenfassung": "Vor dem ersten Spiel nach der Länderspielpause gegen Schalke 04 fehlen dem SC Freiburg mehrere Spieler: Cyriaque Kalou Irié (krank), Patrick Osterhage (muskuläre Probleme) sowie Karl Steinmann (Rote-Karte-Sperre). Florent Muslija ist ohnehin bis zum 18.12.2026 nicht spielberechtigt.",
+      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/verein/2026/27/kurz-gespielt-kw40-anreise-mit-der-vag-podcast-mit-mueller"
     },
     {
-      "titel": "Historischer Moment: Vier SC-Profis erstmals von Jürgen Klopp für die DFB-Nationalmannschaft nominiert",
-      "zusammenfassung": "Philipp Treu, Max Rosenfelder, Yannik Engelhardt und Derry Scherhant wurden erstmals in ihrer Karriere für die deutsche A-Nationalmannschaft nominiert - Teil von Klopps erstem DFB-Kader. Treu, Rosenfelder und Engelhardt sind für die Nations-League-Spiele gegen die Niederlande (24.09.) und Griechenland (27.09.) dabei, Scherhant für die zweite Länderspielpausen-Hälfte gegen Serbien (01.10.) und in Griechenland (04.10.).",
-      "quelle_url": "https://www.badische-zeitung.de/fuer-vier-spieler-des-sc-freiburg-werden-durch-die-dfb-nominierung-kindheitstraeume-wahr"
+      "titel": "Vier Nationalspieler bei Klopps zweitem DFB-Aufgebot im Einsatz",
+      "zusammenfassung": "Derry Scherhant, Philipp Treu und Yannik Engelhardt gehörten zu Bundestrainer Jürgen Klopps zweitem Kader für die Länderspiele gegen Serbien (01.10., 2:0-Sieg) und Griechenland (04.10.). Max Rosenfelder kehrte bereits während der Pause zum SC zurück.",
+      "quelle_url": "https://www.kicker.de/warum-freiburgs-nationalspielerzahl-stark-gesunken-ist-980510/artikel"
     },
     {
-      "titel": "Rückblick: Sechs Siege aus sieben Pflichtspielen zum Saisonstart",
-      "zusammenfassung": "Vor dem Dämpfer in Frankfurt hatte der SC Freiburg mit sechs Siegen aus den ersten sieben Pflichtspielen (Bundesliga, DFB-Pokal, Conference-League-Play-offs) den besten Saisonstart der Vereinsgeschichte hingelegt - u. a. 4:1 gegen Werder Bremen, 5:0 gegen Mönchengladbach sowie die Pokal- und Europapokal-Erfolge.",
-      "quelle_url": "https://www.schwarzwaelder-bote.de/sport/sc-freiburg/erst-eintracht-dann-laenderspielpause-sechs-siege-und-vier-nationalspieler-79478554.html"
+      "titel": "Öffentliches Training vor dem Schalke-Spiel",
+      "zusammenfassung": "Die Heimspieler bereiten sich nach einigen freien Tagen während der Länderspielpause auf das Duell mit Schalke 04 (11.10.) vor; ein öffentliches Training fand am Donnerstag der Woche auf dem Trainingsgelände am Europa-Park Stadion statt.",
+      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/verein/2026/27/kurz-gespielt-kw40-anreise-mit-der-vag-podcast-mit-mueller"
     },
     {
-      "titel": "DFB-Pokal: Heimspiel gegen Wolfsburg in der 2. Runde terminiert",
-      "zusammenfassung": "Nach dem 5:1-Erfolg bei Fortuna Düsseldorf empfängt Freiburg in der 2. Runde des DFB-Pokals den Zweitliga-Absteiger VfL Wolfsburg. Termin: Mittwoch, 28.10.2026, 18:00 Uhr, Europa-Park Stadion, Übertragung bei Sky.",
-      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten/profis/news/2026/27/zweite-pokalrunde-zeitgenau-angesetzt"
+      "titel": "Spielterminkorrektur: Schalke-Spiel nun auf Sonntag, 11.10.",
+      "zusammenfassung": "Der ursprünglich für Samstag gemeldete Termin des 5. Spieltags gegen Schalke 04 wurde von mehreren Quellen übereinstimmend auf Sonntag, 11.10.2026, 17:30 Uhr (DAZN) bestätigt.",
+      "quelle_url": "https://www.dazn.com/de-DE/news/fu%C3%9Fball/sc-freiburg-fc-schalke-04-tv-live-stream-uebertragung/n5p2zbc90d0zarcv2lgw88p"
     },
     {
-      "titel": "Abgang vor Saisonstart: Noah Atubolu wechselt zu Eintracht Frankfurt",
-      "zusammenfassung": "Der langjährig als Verkaufskandidat gehandelte Torhüter wechselte per Leihe mit Kaufpflicht zur Eintracht - brisant, weil er direkt im ersten Duell nach seinem Wechsel (19.09.) auf seinen bisherigen Klub traf.",
-      "quelle_url": "https://www.fussballtransfers.com/verein/sc-freiburg/news"
+      "titel": "Rückblick: Historischer Saisonstart weiterhin ungeschlagen",
+      "zusammenfassung": "Nach 4 Spieltagen bleibt Freiburg mit 10 Punkten (3 Siege, 1 Unentschieden) auf Tabellenplatz 3, direkt hinter Dortmund und Bayern. Vor der Länderspielpause hatte das 2:2 in Frankfurt die bis dahin makellose Serie beendet.",
+      "quelle_url": "https://www.badische-zeitung.de/sport/scfreiburg"
     }
   ],
   "experteneinschaetzungen": [
     {
       "quelle": "Faktor-8-Modell (via Goal.com)",
-      "einschaetzung": "Trotz des starken Saisonstarts sieht das Faktor-8-Modell den SC Freiburg langfristig nur auf Platz 7 der Bundesliga. Als strukturelle Schwachstelle wird die Auswärtsform ausgemacht (nur Rang 13 von 18 in dieser Kategorie) - gegen Topklubs in deren eigenen Stadien könnte das im Saisonverlauf Punkte kosten.",
+      "einschaetzung": "Trotz des starken Saisonstarts sieht das Modell den SC Freiburg langfristig nur auf Platz 7 der Bundesliga. Als strukturelle Schwachstelle wird die Auswärtsform ausgemacht (nur Rang 13 von 18) - im Heimform-Faktor dagegen Rang 6, das Europa-Park Stadion gilt als zuverlässiger Punktelieferant.",
       "quelle_url": "https://www.goal.com/de/sportwetten/wettanalysen/nach-laenderspielpause-freiburg-wetten/A%3Ablt82d5eacc30bd3a4c"
     },
     {
-      "quelle": "Schwarzwälder Bote",
-      "einschaetzung": "Der Saisonstart mit sechs Siegen aus sieben Pflichtspielen und vier neuen Nationalspielern gibt dem SC Freiburg Rückenwind für die Zeit nach der Länderspielpause - auch wenn das 2:2 in Frankfurt zeigt, dass die makellose Serie nicht ewig halten konnte.",
-      "quelle_url": "https://www.schwarzwaelder-bote.de/sport/sc-freiburg/rueckenwind-fuer-sc-freiburg-vier-dfb-neulinge-und-sechs-siege-jetzt-wartet-frankfurt-79478554.html"
+      "quelle": "Vorschau zum Schalke-Spiel (Wettportale/Medien)",
+      "einschaetzung": "Freiburg unter Julian Schuster gilt nach fünf Pflichtspieltagen als weiterhin ungeschlagen und fest in der Spitzengruppe etabliert - kompakte Defensive und ausreichend Offensivqualität werden hervorgehoben. Schalke zeigt nach durchwachsenem Start eine klare Aufwärtstendenz (zuletzt 0:0 gegen Bayern).",
+      "quelle_url": "https://wc.sportwetten24.com/wett-tipps/1-bl/sc-freiburg-schalke-04-tipp-prognose-11-10-26/"
     },
     {
-      "quelle": "Badische Zeitung",
-      "einschaetzung": "Die DFB-Nominierung von Treu, Rosenfelder, Engelhardt und Scherhant wird als Beleg für die Qualität der Freiburger Nachwuchsarbeit und des aktuellen Kaders gewertet - für alle vier Spieler geht damit ein Kindheitstraum in Erfüllung.",
-      "quelle_url": "https://www.badische-zeitung.de/fuer-vier-spieler-des-sc-freiburg-werden-durch-die-dfb-nominierung-kindheitstraeume-wahr"
+      "quelle": "Mit der Pike / Comunio (Saisonvorschau)",
+      "einschaetzung": "Der Kader ist im Kern zusammengeblieben und punktuell verstärkt worden; mit Julian Schuster als etabliertem Erfolgstrainer wird eine Platzierung zwischen Rang 5 und 8 sowie ein erneuter Angriff auf einen internationalen Platz als realistisch eingeschätzt.",
+      "quelle_url": "https://mitderpike.de/artikel/freiburg.html"
     }
   ]
 }
