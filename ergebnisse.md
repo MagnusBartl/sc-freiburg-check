@@ -353,3 +353,39 @@ Experteneinschaetzungen:
 
 Hinweis: api.openligadb.de bleibt per WebFetch vollstaendig gesperrt (EGRESS_BLOCKED), alle Daten stammen aus mehrfach kreuzverifizierten WebSearch-Recherchen. Die Bundesliga-Tabelle ist gegenueber dem 25.09. unveraendert (Laenderspielpause, kein Spieltag seit dem 19.09.). Diesmal konnten zusaetzlich die Plaetze 4-8 inkl. Tordifferenz verlaesslich ermittelt werden. Der Schalke-Termin wurde von 10.10./15:30 Uhr auf 11.10./17:30 Uhr korrigiert.
 ```
+
+## 2026-10-09
+
+```
+Naechste 5 Spiele:
+2026-10-11 - Bundesliga (5. Spieltag) - SC Freiburg vs. FC Schalke 04
+2026-10-15 - Conference League (Ligaphase, 1. Spieltag) - SC Freiburg vs. FK Jablonec
+2026-10-17 - Bundesliga (6. Spieltag) - Bayer Leverkusen vs. SC Freiburg
+2026-10-22 - Conference League (Ligaphase, 2. Spieltag) - AS Monaco vs. SC Freiburg
+2026-10-24 - Bundesliga (7. Spieltag) - SC Freiburg vs. FC Bayern München
+
+Bundesliga: Läuft, naechstes Spiel 11.10.2026, 17:30 Uhr, Heimspiel gegen FC Schalke 04 (5. Spieltag, nach der Länderspielpause)
+Tabellenplatz: 3. | Punkte: 10 | Bilanz: 3S / 1U / 0N | Tordifferenz: +9
+
+Letzte Ergebnisse:
+- 19.09.2026 (4. Spieltag): Eintracht Frankfurt 2:2 SC Freiburg
+- 12.09.2026 (3. Spieltag): SC Freiburg 5:0 Borussia Mönchengladbach
+- 05.09.2026 (2. Spieltag): SC Paderborn 07 0:1 SC Freiburg
+- 30.08.2026 (1. Spieltag): SC Freiburg 4:1 SV Werder Bremen
+
+DFB-Pokal: 1. Runde gewonnen – Heimspiel gegen Wolfsburg in der 2. Runde steht bevor - 2. Runde: 28.10.2026, 18:00 Uhr, Europa-Park Stadion gegen VfL Wolfsburg
+
+Conference League: Play-offs gewonnen – Ligaphase startet am 15.10.2026 - nächster Termin: 1. Spieltag SC Freiburg vs. FK Jablonec (15.10., 21:00 Uhr)
+
+News der Woche:
+- Historischer Vergleich: 55 Bundesliga-Duelle Freiburg vs. Schalke (23 Siege Freiburg, 23 Siege Schalke, 9 Remis, Tordifferenz 81:77); Schalke ist zudem Freiburgs erfolgreichster Bundesliga-Gegner überhaupt (19 Siege)
+- Zwölf SC-Profis während der Länderspielpause (23.09.-08.10.) im Nationalmannschaftseinsatz, u.a. Scherhant, Rosenfelder, Treu, Engelhardt (GER), Matanović (CRO), Lienhart (AUT), Goto und Suzuki (JPN)
+- Schalke bereitet sich laut Bericht vom 05.10. intensiv auf die "schwere Aufgabe" in Freiburg vor; Freiburg bereits mit 12 Saisontoren nach 4 Spieltagen
+- Eingeschränkte Datenlage: aktuelle Vereinsmeldungen zu Kaderausfällen/Transfers dieser Woche über WebSearch nicht zuverlässig auffindbar (scfreiburg.com per WebFetch weiterhin blockiert)
+
+Experteneinschaetzungen:
+- Ruhrnachrichten/Schalke-Vorschau: Freiburg gilt aus Schalker Sicht seit Jahren als unangenehmer Gegner, Schalke bereitet sich entsprechend intensiv vor
+- Bundesliga.com-Vorschau: Freiburg offensivstark (12 Tore nach 4 Spieltagen), Schalke zuletzt 3 Spiele ungeschlagen - enge Partie trotz Freiburgs Heimstärke erwartet
+
+Hinweis: api.openligadb.de bleibt per WebFetch vollstaendig gesperrt (EGRESS_BLOCKED), ebenso scfreiburg.com. Alle Daten stammen aus WebSearch-Recherchen. Bundesliga-Tabelle und letzte Ergebnisse gegenueber dem 02.10. unveraendert (Laenderspielpause 23.09.-08.10., kein Spieltag seit dem 19.09.). Termine fuer den 6. und 7. Spieltag wurden leicht korrigiert (Leverkusen nun 17.10. statt 18.10.; Bayern-Termin 24.10. mit kleiner Restunsicherheit ggue. 25.10.). Frische vereinsspezifische News (Verletzungen/Transfers) waren diese Woche nur eingeschraenkt auffindbar.
+```
