@@ -389,3 +389,41 @@ Experteneinschaetzungen:
 
 Hinweis: api.openligadb.de bleibt per WebFetch vollstaendig gesperrt (EGRESS_BLOCKED), ebenso scfreiburg.com. Alle Daten stammen aus WebSearch-Recherchen. Bundesliga-Tabelle und letzte Ergebnisse gegenueber dem 02.10. unveraendert (Laenderspielpause 23.09.-08.10., kein Spieltag seit dem 19.09.). Termine fuer den 6. und 7. Spieltag wurden leicht korrigiert (Leverkusen nun 17.10. statt 18.10.; Bayern-Termin 24.10. mit kleiner Restunsicherheit ggue. 25.10.). Frische vereinsspezifische News (Verletzungen/Transfers) waren diese Woche nur eingeschraenkt auffindbar.
 ```
+
+## 2026-10-16
+
+```
+Naechste 5 Spiele:
+2026-10-18 - Bundesliga (6. Spieltag) - Bayer Leverkusen vs. SC Freiburg
+2026-10-22 - Conference League (Ligaphase, 2. Spieltag) - AS Monaco vs. SC Freiburg
+2026-10-24 - Bundesliga (7. Spieltag) - SC Freiburg vs. FC Bayern München
+2026-10-28 - DFB-Pokal (2. Runde) - SC Freiburg vs. VfL Wolfsburg
+2026-11-05 - Conference League (Ligaphase, 3. Spieltag) - Trabzonspor vs. SC Freiburg
+
+Bundesliga: Läuft, Tabellenplatz 1, 13 Punkte aus 5 Spielen (4 Siege, 1 Unentschieden, 0 Niederlagen), Tordifferenz +10. Naechstes Spiel: 18.10.2026 (umstritten, teils 17.10.) auswaerts bei Bayer Leverkusen.
+
+Letzte Ergebnisse:
+2026-10-11 - Bundesliga (5. Spieltag) - SC Freiburg 2:1 FC Schalke 04
+2026-09-19 - Bundesliga (4. Spieltag) - Eintracht Frankfurt 2:2 SC Freiburg
+2026-09-12 - Bundesliga (3. Spieltag) - SC Freiburg 5:0 Borussia Mönchengladbach
+2026-09-05 - Bundesliga (2. Spieltag) - SC Paderborn 07 0:1 SC Freiburg
+2026-08-30 - Bundesliga (1. Spieltag) - SC Freiburg 4:1 SV Werder Bremen
+
+DFB-Pokal: 1. Runde gewonnen – Heimspiel gegen Wolfsburg in der 2. Runde steht bevor - 28.10.2026, 18:00 Uhr, Europa-Park Stadion (live bei Sky)
+
+Conference League: Ligaphase läuft – Auftaktsieg gegen Jablonec - 3:2-Sieg am 15.10. gegen FK Jablonec, naechster Gegner AS Monaco am 22.10. (auswaerts)
+
+News der Woche:
+- SC Freiburg erobert dank 2:1 gegen Schalke (in Unterzahl nach Gelb-Rot gegen Suzuki) die Tabellenfuehrung, verdraengt Dortmund von der Spitze
+- Bester Bundesliga-Saisonstart der Vereinsgeschichte: 13 Punkte aus 5 Spielen, 14:4 Tore
+- Pflichtspielsieg Nr. 9 in Serie: 3:2 gegen Jablonec zum Conference-League-Ligaphasenauftakt
+- DFB-Pokal: Termin der 2. Runde gegen Wolfsburg fixiert (28.10., 18 Uhr, Sky)
+
+Experteneinschaetzungen:
+- SWR (Pirmin Styrnol): Hoehenflug ist keine Momentaufnahme, sondern konsequente Fortsetzung der sportlichen Entwicklung
+- Badische Zeitung: SC steht zu Recht an der Spitze, Team/Schuster geben sich aber demonstrativ zurueckhaltend
+- bundesliga.com: Traumstart, aber Spielplan bislang guenstig - mit Leverkusen und Bayern folgen die ersten echten Pruefsteine
+- ran.de/Joyn: Freiburg ist der grosse Gewinner der Laenderspielpause, bester Bundesliga-Start der Vereinsgeschichte
+
+Hinweis: api.openligadb.de bleibt vollstaendig per WebFetch gesperrt (DNS-Aufloesung schlaegt fuer alle externen Domains fehl), ebenso Wikipedia/fussballdaten.de. Alle Daten stammen aus WebSearch-Recherchen. Platz 5 der Bundesliga-Tabelle liess sich trotz mehrerer Anfragen nicht verlaesslich ermitteln und wurde ausgelassen. Der Leverkusen-Termin ist umstritten (17.10. vs. 18.10.). Die genaue Platzierung in der Conference-League-Ligaphasentabelle nach dem 1. Spieltag liess sich nicht verlaesslich rekonstruieren. Frische Verletzungs-/Kadernews waren diese Woche nicht auffindbar.
+```

@@ -1,38 +1,41 @@
 {
-  "aktualisiert_am": "2026-10-09",
+  "aktualisiert_am": "2026-10-16",
   "saison": "2026/27",
-  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausfuehrungsumgebung per WebFetch weiterhin vollstaendig gesperrt (EGRESS_BLOCKED), ebenso der direkte Abruf von scfreiburg.com. Alle Zahlen stammen daher aus WebSearch-Recherchen. Die Bundesliga-Tabelle und die letzten Ergebnisse haben sich seit dem letzten Lauf (02.10.) nicht veraendert, da wegen der neu zusammengelegten Laenderspielpause (23.09.-08.10.2026) zwischen dem 19.09. und heute kein Bundesliga-Spieltag stattfand; SC Freiburg hat weiterhin nur 4 Saisonspiele absolviert. Die Termine fuer den 6. und 7. Spieltag wurden gegenueber der letzten Ausgabe leicht korrigiert: Leverkusen-Auswaertsspiel nun auf Samstag, 17.10. (statt zuvor gemeldet 18.10.), gestuetzt auf zwei uebereinstimmende Quellen (hessenschau.de und Leverkusens Vereinsseite). Beim Bayern-Heimspiel weichen Quellen leicht voneinander ab (24.10. laut hessenschau.de vs. vage 'Sonntag' bei fifplay.com) - 24.10. wird als konkreter angegeben, eine offizielle DFL-Bestaetigung fehlt aber noch. Aktuelle vereinsspezifische News zu Kaderausfaellen/Verletzungen fuer diese Woche waren ueber WebSearch nicht zuverlaessig auffindbar; die unten gelisteten News basieren auf den wenigen verifizierbaren Treffern dieser Woche.",
+  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausführungsumgebung per WebFetch weiterhin vollständig gesperrt (DNS-Auflösung schlägt für alle externen Domains fehl, nicht nur für openligadb) - auch Wikipedia, fussballdaten.de u.a. waren per WebFetch nicht erreichbar. Alle Zahlen stammen daher ausschließlich aus WebSearch-Recherchen. Die Bundesliga-Tabelle nach dem 5. Spieltag (SC Freiburg nun Tabellenführer) konnte für Platz 5 trotz mehrerer Suchanfragen nicht verlässlich ermittelt werden und wurde deshalb ausgelassen statt geraten. Der genaue Anstoßtermin des 6. Spieltags bei Bayer Leverkusen ist uneinheitlich: die Mehrheit der Quellen (u.a. ESPN, planetsport.com, Wett-Tipps) nennt Sonntag, 18.10.2026, 15:30 Uhr, einzelne andere Quellen nennen Samstag, 17.10. - eine offizielle DFL-Bestätigung der Feinansetzung fehlt noch. Die aktuelle Tabelle der Conference-League-Ligaphase nach dem 1. Spieltag ließ sich trotz mehrerer Anfragen nicht zuverlässig mit exakten Platzierungen rekonstruieren (Suchergebnisse zeigten teils veraltete 0-Punkte-Tabellen); daher bleibt der Tabellenausschnitt dafür leer. Aktuelle, verlässliche Verletzungs- oder Kadermeldungen von scfreiburg.com für diese Woche waren über WebSearch nicht auffindbar.",
   "naechste_spiele": [
-    {"datum": "2026-10-11", "wettbewerb": "Bundesliga (5. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Schalke 04", "hinweis": "Anstoß 17:30 Uhr, Europa-Park Stadion - erstes Spiel nach der Länderspielpause, übereinstimmend bestätigt von ZDF und Schalke 04 selbst."},
-    {"datum": "2026-10-15", "wettbewerb": "Conference League (Ligaphase, 1. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FK Jablonec", "hinweis": "Anstoß 21:00 Uhr, Europa-Park Stadion - erstes Ligaphasenspiel der Vereinsgeschichte"},
-    {"datum": "2026-10-17", "wettbewerb": "Bundesliga (6. Spieltag)", "heimteam": "Bayer Leverkusen", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, auswärts, BayArena. Datum gegenüber letzter Woche korrigiert (vorher fälschlich 18.10. gemeldet)."},
+    {"datum": "2026-10-18", "wettbewerb": "Bundesliga (6. Spieltag)", "heimteam": "Bayer Leverkusen", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß laut Mehrheit der Quellen 15:30 Uhr, BayArena - einzelne Quellen nennen abweichend Samstag, 17.10.; offizielle DFL-Feinterminierung steht noch aus."},
     {"datum": "2026-10-22", "wettbewerb": "Conference League (Ligaphase, 2. Spieltag)", "heimteam": "AS Monaco", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 21:00 Uhr, auswärts in Monaco"},
-    {"datum": "2026-10-24", "wettbewerb": "Bundesliga (7. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Bayern München", "hinweis": "Anstoß 15:30 Uhr laut hessenschau.de, Europa-Park Stadion - Topspiel. Eine andere Quelle nennt stattdessen Sonntag (25.10.); offizielle DFL-Bestätigung steht noch aus."}
+    {"datum": "2026-10-24", "wettbewerb": "Bundesliga (7. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Bayern München", "hinweis": "Anstoß 15:30 Uhr (Planungsangabe), Europa-Park Stadion - Topspiel gegen den Tabellenzweiten"},
+    {"datum": "2026-10-28", "wettbewerb": "DFB-Pokal (2. Runde)", "heimteam": "SC Freiburg", "auswaertsteam": "VfL Wolfsburg", "hinweis": "Anstoß 18:00 Uhr, Europa-Park Stadion, live bei Sky - Einzug ins Achtelfinale steht auf dem Spiel"},
+    {"datum": "2026-11-05", "wettbewerb": "Conference League (Ligaphase, 3. Spieltag)", "heimteam": "Trabzonspor", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 18:45 Uhr, auswärts in der Türkei"}
   ],
   "bundesliga": {
     "status": "laeuft",
     "status_label": "Läuft",
-    "naechstes_spiel": "11.10.2026, 17:30 Uhr, Heimspiel gegen FC Schalke 04 (5. Spieltag, nach der Länderspielpause)",
-    "tabellenplatz": 3,
-    "punkte": 10,
-    "spiele": 4,
-    "siege": 3,
+    "naechstes_spiel": "18.10.2026 (umstritten, teils 17.10.), 15:30 Uhr, Auswärtsspiel bei Bayer Leverkusen (6. Spieltag)",
+    "tabellenplatz": 1,
+    "punkte": 13,
+    "spiele": 5,
+    "siege": 4,
     "unentschieden": 1,
     "niederlagen": 0,
-    "tordifferenz": 9,
+    "tordifferenz": 10,
     "tabellenausschnitt": [
-      {"platz": 1, "verein": "Borussia Dortmund", "spiele": 4, "tordifferenz": 7, "punkte": 12, "hervorheben": false},
-      {"platz": 2, "verein": "FC Bayern München", "spiele": 4, "tordifferenz": 12, "punkte": 10, "hervorheben": false},
-      {"platz": 3, "verein": "SC Freiburg", "spiele": 4, "tordifferenz": 9, "punkte": 10, "hervorheben": true},
-      {"platz": 4, "verein": "FC Augsburg", "spiele": 4, "tordifferenz": 5, "punkte": 7, "hervorheben": false},
-      {"platz": 5, "verein": "Bayer Leverkusen", "spiele": 4, "tordifferenz": 5, "punkte": 7, "hervorheben": false},
-      {"platz": 6, "verein": "1. FSV Mainz 05", "spiele": 4, "tordifferenz": 4, "punkte": 7, "hervorheben": false},
-      {"platz": 7, "verein": "SV 07 Elversberg", "spiele": 4, "tordifferenz": 1, "punkte": 7, "hervorheben": false},
-      {"platz": 8, "verein": "SV Werder Bremen", "spiele": 4, "tordifferenz": 0, "punkte": 7, "hervorheben": false}
+      {"platz": 1, "verein": "SC Freiburg", "spiele": 5, "tordifferenz": 10, "punkte": 13, "hervorheben": true},
+      {"platz": 2, "verein": "Borussia Dortmund", "spiele": 5, "tordifferenz": 7, "punkte": 13, "hervorheben": false},
+      {"platz": 3, "verein": "FC Bayern München", "spiele": 5, "tordifferenz": 12, "punkte": 11, "hervorheben": false},
+      {"platz": 4, "verein": "Bayer Leverkusen", "spiele": 5, "tordifferenz": 6, "punkte": 10, "hervorheben": false},
+      {"platz": 6, "verein": "FC Augsburg", "spiele": 5, "tordifferenz": 5, "punkte": 8, "hervorheben": false},
+      {"platz": 7, "verein": "SV Werder Bremen", "spiele": 5, "tordifferenz": 0, "punkte": 8, "hervorheben": false},
+      {"platz": 8, "verein": "1. FSV Mainz 05", "spiele": 5, "tordifferenz": 3, "punkte": 7, "hervorheben": false},
+      {"platz": 9, "verein": "SV 07 Elversberg", "spiele": 5, "tordifferenz": 0, "punkte": 7, "hervorheben": false},
+      {"platz": 10, "verein": "1. FC Köln", "spiele": 5, "tordifferenz": -2, "punkte": 7, "hervorheben": false},
+      {"platz": 11, "verein": "VfB Stuttgart", "spiele": 5, "tordifferenz": -1, "punkte": 6, "hervorheben": false}
     ],
-    "tabellenausschnitt_hinweis": "Freiburg steht nach dem 4. Spieltag auf Platz 3, daher gibt es nur zwei Vereine vor dem SC (statt der vorgesehenen fünf). Fünf Vereine unterhalb von Freiburg (Platz 4-8) konnten verlässlich inkl. Tordifferenz ermittelt werden. Unverändert gegenüber letzter Woche, da wegen der Länderspielpause kein Spieltag stattfand."
+    "tabellenausschnitt_hinweis": "SC Freiburg steht nach dem 5. Spieltag erstmals an der Tabellenspitze, daher gibt es keine Vereine vor dem SC. Platz 5 konnte trotz mehrerer gezielter Suchanfragen nicht verlässlich ermittelt werden (widersprüchliche bzw. veraltete Quellen) und wurde deshalb bewusst ausgelassen, statt einen Verein zu erraten."
   },
   "letzte_ergebnisse": [
+    {"datum": "2026-10-11", "wettbewerb": "Bundesliga 2026/27 (5. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "2:1", "auswaertsteam": "FC Schalke 04"},
     {"datum": "2026-09-19", "wettbewerb": "Bundesliga 2026/27 (4. Spieltag)", "heimteam": "Eintracht Frankfurt", "ergebnis": "2:2", "auswaertsteam": "SC Freiburg"},
     {"datum": "2026-09-12", "wettbewerb": "Bundesliga 2026/27 (3. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "5:0", "auswaertsteam": "Borussia Mönchengladbach"},
     {"datum": "2026-09-05", "wettbewerb": "Bundesliga 2026/27 (2. Spieltag)", "heimteam": "SC Paderborn 07", "ergebnis": "0:1", "auswaertsteam": "SC Freiburg"},
@@ -45,15 +48,15 @@
     "ergebnisse": [
       {"runde": "1. Runde", "heimteam": "Fortuna Düsseldorf", "ergebnis": "1:5", "auswaertsteam": "SC Freiburg"}
     ],
-    "hinweis": "Souveräner 5:1-Erfolg am 23.08.2026 in Düsseldorf. Die 2. Runde ist terminiert: Mittwoch, 28.10.2026, 18:00 Uhr, Europa-Park Stadion gegen den Zweitliga-Absteiger VfL Wolfsburg (eine Quelle nennt abweichend den 27.10. - DFB-Zeitplan und Vereinsmeldung sprechen aber übereinstimmend für den 28.10.)."
+    "hinweis": "Souveräner 5:1-Erfolg am 23.08.2026 in Düsseldorf. Die 2. Runde ist nach übereinstimmenden Vereins- und DFB-Meldungen terminiert: Mittwoch, 28.10.2026, 18:00 Uhr, Europa-Park Stadion gegen den Zweitligisten VfL Wolfsburg, live bei Sky. Einzelne ältere Quellen nannten noch den 27.10., die aktuelle Vereinsmeldung bestätigt jedoch den 28.10."
   },
   "conference_league": {
-    "status": "vor_ligaphase",
-    "status_label": "Play-offs gewonnen – Ligaphase startet am 15.10.2026",
+    "status": "ligaphase_laeuft",
+    "status_label": "Ligaphase läuft – Auftaktsieg gegen Jablonec",
     "qualifikationsweg": "Play-off-Teilnahme über die Bundesliga-Platzierung 2025/26 - erste Teilnahme des SC Freiburg an diesem Wettbewerb. Play-off-Gegner war Motherwell FC (Schottland): 3:1-Sieg im Hinspiel (20.08., auswärts), 4:1-Sieg im Rückspiel (27.08., daheim), Gesamtscore 7:2.",
     "termine": [
-      {"phase": "Play-offs", "datum": "20. & 27.08.2026"},
-      {"phase": "Ligaphase, 1. Spieltag: SC Freiburg – FK Jablonec", "datum": "15.10.2026"},
+      {"phase": "Play-offs", "datum": "20. & 27.08.2026 (gegen Motherwell FC, gewonnen)"},
+      {"phase": "Ligaphase, 1. Spieltag: SC Freiburg – FK Jablonec", "datum": "15.10.2026 (3:2 gewonnen)"},
       {"phase": "Ligaphase, 2. Spieltag: AS Monaco – SC Freiburg", "datum": "22.10.2026"},
       {"phase": "Ligaphase, 3. Spieltag: Trabzonspor – SC Freiburg", "datum": "05.11.2026"},
       {"phase": "Ligaphase, 4. Spieltag: SC Freiburg – FC Twente Enschede", "datum": "26.11.2026"},
@@ -61,44 +64,55 @@
       {"phase": "Ligaphase, 6. Spieltag: FK Kauno Žalgiris – SC Freiburg", "datum": "17.12.2026"}
     ],
     "tabellenausschnitt": [],
-    "tabellenausschnitt_hinweis": "Die Ligaphase beginnt erst am 15.10.2026 - vor dem ersten Spieltag existiert noch keine Tabelle.",
+    "tabellenausschnitt_hinweis": "Nach dem 1. Spieltag (3:2-Sieg gegen Jablonec, Tordifferenz +1, 3 Punkte) ließ sich die exakte Platzierung des SC Freiburg in der 36-Teams-Ligaphasentabelle trotz mehrerer Suchanfragen nicht verlässlich bestätigen - gefundene Tabellenseiten zeigten teils noch veraltete 0-Punkte-Stände. Daher wird hier auf eine geratene Platzierung verzichtet.",
     "ergebnisse": [
       {"runde": "Play-off Hinspiel", "heimteam": "Motherwell FC", "ergebnis": "1:3", "auswaertsteam": "SC Freiburg"},
-      {"runde": "Play-off Rückspiel", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "Motherwell FC"}
+      {"runde": "Play-off Rückspiel", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "Motherwell FC"},
+      {"runde": "Ligaphase, 1. Spieltag", "heimteam": "SC Freiburg", "ergebnis": "3:2", "auswaertsteam": "FK Jablonec"}
     ]
   },
   "news": [
     {
-      "titel": "Historischer Vergleich vor dem Schalke-Spiel",
-      "zusammenfassung": "Laut ZDF-Statistik gab es bislang 55 Bundesliga-Duelle zwischen SC Freiburg und FC Schalke 04 (23 Siege Freiburg, 23 Siege Schalke, 9 Unentschieden, Tordifferenz 81:77). Bundesliga.com führt Schalke zudem als den Gegner, gegen den Freiburg die meisten Bundesliga-Siege (19) überhaupt verbuchen konnte.",
-      "quelle_url": "https://www.zdfheute.de/sport/fussball-bundesliga/sc-freiburg-fc-schalke-04-liveticker-bundesliga-highlights-saison-2026-27-100.html"
+      "titel": "SC Freiburg erobert dank 2:1 gegen Schalke die Tabellenführung",
+      "zusammenfassung": "Am 11.10. gewann Freiburg trotz Gelb-Roter Karte gegen Yuito Suzuki in der zweiten Halbzeit mit 2:1 gegen Schalke 04 (Tore: M. Eggestein 10., Gantenbein 30. für Schalke, K. Goto 85. per Kopf nach Grifo-Flanke) und verdrängte damit Borussia Dortmund von der Tabellenspitze.",
+      "quelle_url": "https://www.bundesliga.com/de/bundesliga/news/sport-club-freiburg-fc-schalke-04-spieltag-5-spielbericht-highlights-39509"
     },
     {
-      "titel": "Zwölf SC-Profis während der Länderspielpause im Einsatz",
-      "zusammenfassung": "Während der neu zusammengelegten Länderspielpause (23.09.-08.10.2026) waren zwölf Freiburger Spieler für ihre Nationalmannschaften abgestellt, u.a. Derry Scherhant, Max Rosenfelder, Philipp Treu und Yannik Engelhardt (Deutschland), Igor Matanović (Kroatien), Philipp Lienhart (Österreich) sowie Keisuke Goto und Yuito Suzuki (Japan).",
-      "quelle_url": "https://www.bundesliga.com/de/bundesliga/news/spieler-clubs-vereine-landerspiele-international-wm-qualifikation-nations-league-39312"
+      "titel": "Bester Bundesliga-Saisonstart der Vereinsgeschichte",
+      "zusammenfassung": "Mit 13 Punkten aus 5 Spielen (14:4 Tore) steht Freiburg so gut wie nie zuvor nach fünf Spieltagen da. Laut ran.de/Joyn ist es der beste Bundesliga-Start der Vereinsgeschichte; bundesliga.com weist zugleich darauf hin, dass der Spielplan bislang vergleichsweise günstig war und schwerere Aufgaben (Leverkusen, Bayern) folgen.",
+      "quelle_url": "https://ran.joyn.de/sports/fussball/bundesliga/sc-freiburg-schlaegt-auch-schalke04-darum-ist-der-spitzenreiter-der-grosse-gewinner-der-laenderspielpause-die-bessermacher-aus-dem-breisgau-198572"
     },
     {
-      "titel": "Schalke bereitet sich intensiv auf 'schwere Aufgabe' in Freiburg vor",
-      "zusammenfassung": "Laut einem Bericht vom 05.10.2026 stellt sich Schalke 04 unter Trainer Miron Muslic auf eine anspruchsvolle Auswärtsaufgabe beim SC Freiburg ein; Freiburg hat nach vier Spieltagen bereits 12 Saisontore erzielt.",
-      "quelle_url": "https://schalketotal.de/2026/10/05/die-schalke-woche-vor-freiburg/"
+      "titel": "Pflichtspielsieg Nummer neun in Serie: 3:2 gegen Jablonec zum Conference-League-Auftakt",
+      "zusammenfassung": "Am 15.10. gewann Freiburg im Europa-Park Stadion sein erstes Ligaphasenspiel der Vereinsgeschichte mit 3:2 gegen den tschechischen Vertreter FK Jablonec (Grifo per Freistoß, Eigentor Pavlović, Eggestein - Freiburg lag 3:1 vorne, Jablonec kam durch Kuol in der Nachspielzeit noch einmal heran). Die Serie ohne Niederlage wuchs damit auf neun Pflichtspiele.",
+      "quelle_url": "https://www.sportschau.de/regional/swr/swr-freiburg-auch-international-im-flow-sc-bezwingt-jablonec-100.html"
     },
     {
-      "titel": "Eingeschränkte Datenlage zu Kader und Verletzungen",
-      "zusammenfassung": "Aktuelle, verlässliche Vereinsmeldungen von scfreiburg.com zu konkreten Ausfällen oder Transferthemen dieser Woche waren über WebSearch nicht auffindbar (direkter Abruf der Vereinsseite per WebFetch ist in dieser Umgebung blockiert). Für Details wird ein Blick auf scfreiburg.com oder kicker.de kurz vor dem Schalke-Spiel empfohlen.",
-      "quelle_url": "https://www.scfreiburg.com/aktuell/nachrichten"
+      "titel": "DFB-Pokal-Achtelfinalticket: Termin gegen Wolfsburg steht fest",
+      "zusammenfassung": "Der DFB hat die 2. Pokalrunde terminiert: Freiburg empfängt den Zweitligisten VfL Wolfsburg am 28.10.2026 um 18:00 Uhr im Europa-Park Stadion, live übertragen bei Sky.",
+      "quelle_url": "https://www.scfreiburg.com/en/latest/first-team/news/2026-27/dfb-pokal-second-round-tie-scheduled/"
     }
   ],
   "experteneinschaetzungen": [
     {
-      "quelle": "Ruhrnachrichten / Schalke-Vorschau",
-      "einschaetzung": "Freiburg gilt aus Schalker Sicht seit Jahren als unangenehmer Gegner; der Revierclub bereitet sich laut Bericht vom 05.10. entsprechend intensiv auf die Partie im Europa-Park Stadion vor.",
-      "quelle_url": "https://schalketotal.de/2026/10/05/die-schalke-woche-vor-freiburg/"
+      "quelle": "SWR (Pirmin Styrnol)",
+      "einschaetzung": "Der Höhenflug des SC Freiburg an der Tabellenspitze sei längst keine Momentaufnahme mehr, sondern die konsequente Fortsetzung der sportlichen Entwicklung der letzten Jahre (Europa-League-Qualifikation, Europa-League-Finale, DFB-Pokal-Halbfinale).",
+      "quelle_url": "https://www.sportschau.de/regional/swr/swr-der-sc-freiburg-als-spitzenteam-eine-momentaufnahme-die-laengst-keine-mehr-ist-100.html"
     },
     {
-      "quelle": "Bundesliga.com-Vorschau zum 5. Spieltag",
-      "einschaetzung": "Freiburg hat nach vier Spieltagen bereits 12 Tore erzielt und gilt als offensivstark; Schalke sei zuletzt drei Bundesliga-Partien ungeschlagen gewesen, sodass trotz Freiburgs starker Heimbilanz eine enge Partie erwartet werden könne.",
-      "quelle_url": "https://www.bundesliga.com/de/bundesliga/spieltag/2026-2027/5/sport-club-freiburg-vs-fc-schalke-04/liveticker"
+      "quelle": "Badische Zeitung",
+      "einschaetzung": "Der SC Freiburg stehe zu Recht an der Tabellenspitze; Trainer Julian Schuster und die Mannschaft selbst geben sich nach dem Schalke-Sieg aber demonstrativ zurückhaltend und betonen, weiter an den Basics arbeiten zu wollen.",
+      "quelle_url": "https://www.badische-zeitung.de/warum-der-sc-freiburg-zu-recht-an-der-tabellenspitze-steht"
+    },
+    {
+      "quelle": "bundesliga.com-Analyse",
+      "einschaetzung": "Fünf Spiele, 13 Punkte - besser hätte der Saisonstart kaum laufen können; gleichzeitig war der Spielplan bislang vergleichsweise machbar, mit Leverkusen und Bayern stehen nun die ersten echten Prüfsteine an.",
+      "quelle_url": "https://www.bundesliga.com/de/bundesliga/news/sc-freiburg-traumstart-vereinsrekord-tabellenfuhrer-schuster-39532"
+    },
+    {
+      "quelle": "ran.de / Joyn",
+      "einschaetzung": "Freiburg sei der große Gewinner der Länderspielpause und stehe mit dem besten Saisonstart der Vereinsgeschichte verdient an der Spitze der Bundesliga.",
+      "quelle_url": "https://ran.joyn.de/sports/fussball/bundesliga/sc-freiburg-schlaegt-auch-schalke04-darum-ist-der-spitzenreiter-der-grosse-gewinner-der-laenderspielpause-die-bessermacher-aus-dem-breisgau-198572"
     }
   ]
 }
