@@ -427,3 +427,42 @@ Experteneinschaetzungen:
 
 Hinweis: api.openligadb.de bleibt vollstaendig per WebFetch gesperrt (DNS-Aufloesung schlaegt fuer alle externen Domains fehl), ebenso Wikipedia/fussballdaten.de. Alle Daten stammen aus WebSearch-Recherchen. Platz 5 der Bundesliga-Tabelle liess sich trotz mehrerer Anfragen nicht verlaesslich ermitteln und wurde ausgelassen. Der Leverkusen-Termin ist umstritten (17.10. vs. 18.10.). Die genaue Platzierung in der Conference-League-Ligaphasentabelle nach dem 1. Spieltag liess sich nicht verlaesslich rekonstruieren. Frische Verletzungs-/Kadernews waren diese Woche nicht auffindbar.
 ```
+
+## 2026-10-23
+
+```
+Naechste 5 Spiele:
+2026-10-25 - Bundesliga (7. Spieltag) - SC Freiburg vs. FC Bayern München
+2026-10-28 - DFB-Pokal (2. Runde) - SC Freiburg vs. VfL Wolfsburg
+2026-10-31 - Bundesliga (8. Spieltag) - FC Augsburg vs. SC Freiburg
+2026-11-05 - Conference League (Ligaphase, 3. Spieltag) - Trabzonspor vs. SC Freiburg
+2026-11-08 - Bundesliga (9. Spieltag) - SC Freiburg vs. 1. FC Union Berlin
+
+Bundesliga: Läuft, naechstes Spiel 25.10.2026, 17:30 Uhr, Heimspiel vs. FC Bayern München (7. Spieltag). Tabellenplatz 3, 13 Punkte, 6 Spiele (4S/1U/1N), Tordifferenz +9.
+
+Letzte Ergebnisse:
+- 18.10.2026 (6. Spieltag): Bayer Leverkusen 2:1 SC Freiburg
+- 11.10.2026 (5. Spieltag): SC Freiburg 2:1 FC Schalke 04
+- 19.09.2026 (4. Spieltag): Eintracht Frankfurt 2:2 SC Freiburg
+- 12.09.2026 (3. Spieltag): SC Freiburg 5:0 Borussia Mönchengladbach
+- 05.09.2026 (2. Spieltag): SC Paderborn 07 0:1 SC Freiburg
+
+DFB-Pokal: 1. Runde gewonnen – Heimspiel gegen Wolfsburg in der 2. Runde steht bevor - 28.10.2026, 18:00 Uhr, Europa-Park Stadion gegen VfL Wolfsburg
+
+Conference League: Ligaphase läuft – erste Niederlage nach Auftaktsieg - 0:3 bei AS Monaco am 22.10. (nach 3:2-Sieg gegen Jablonec zum Auftakt); naechster Termin 05.11.2026 auswärts bei Trabzonspor
+
+News der Woche:
+- Erste Saisonniederlage: 1:2 in Leverkusen (18.10.), Fan-Protest mit Tennisbällen unterbrach die Partie, Schuster kritisiert einfache Gegentore
+- Erste Europapokal-Niederlage: 0:3 bei AS Monaco (22.10.) nach starker Rotation durch Schuster (acht Wechsel zur Startelf)
+- Trotz Doppelschlag weiterhin Platz 3 in der Bundesliga, nur einen Punkt hinter der Spitze (Bayern/Dortmund je 14 Punkte)
+- Topspiel gegen Bayern München am 25.10., 17:30 Uhr, live bei DAZN
+- DFB-Pokal-2.-Runden-Termin gegen Wolfsburg bestätigt: 28.10., 18:00 Uhr, Sky
+
+Experteneinschaetzungen:
+- Julian Schuster: Unentschieden in Leverkusen wäre verdient gewesen, kritisiert einfache Gegentore und Spielunterbrechung durch Fan-Protest
+- Flashscore: Beiden Teams fehlten nach der Europapokalwoche Frische und Ideen in der Schlussphase
+- AJC/AP: Niederlage kostete die Tabellenführung, Freiburg bleibt aber nur einen Punkt hinter der Spitze
+- Sofascore: Monaco war der von Schuster rotierten Freiburger Startelf in allen Belangen überlegen
+
+Hinweis: api.openligadb.de, scfreiburg.com und kicker.de bleiben vollstaendig per WebFetch gesperrt (DNS-Aufloesung schlaegt fuer alle externen Domains fehl). Alle Daten stammen aus WebSearch-Recherchen. Die Bundesliga-Tabelle basiert auf einem Quellen-Konsens (Wikipedia, fussballdaten.de, BuLi-Box); die Sportschau-Blitztabelle wich ab und wurde verworfen. Die exakten Anstoßzeiten der Spiele gegen Augsburg (8. Spieltag) und Union Berlin (9. Spieltag) waren laut Quellen noch nicht final von der DFL terminiert. Die genaue Platzierung in der Conference-League-Ligaphasentabelle nach dem 2. Spieltag liess sich nicht verlaesslich mit einer zweiten Quelle bestaetigen und wurde daher ausgelassen.
+```
