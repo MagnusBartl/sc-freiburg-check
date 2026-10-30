@@ -466,3 +466,40 @@ Experteneinschaetzungen:
 
 Hinweis: api.openligadb.de, scfreiburg.com und kicker.de bleiben vollstaendig per WebFetch gesperrt (DNS-Aufloesung schlaegt fuer alle externen Domains fehl). Alle Daten stammen aus WebSearch-Recherchen. Die Bundesliga-Tabelle basiert auf einem Quellen-Konsens (Wikipedia, fussballdaten.de, BuLi-Box); die Sportschau-Blitztabelle wich ab und wurde verworfen. Die exakten Anstoßzeiten der Spiele gegen Augsburg (8. Spieltag) und Union Berlin (9. Spieltag) waren laut Quellen noch nicht final von der DFL terminiert. Die genaue Platzierung in der Conference-League-Ligaphasentabelle nach dem 2. Spieltag liess sich nicht verlaesslich mit einer zweiten Quelle bestaetigen und wurde daher ausgelassen.
 ```
+
+## 2026-10-30
+
+```
+Naechste 5 Spiele:
+2026-10-31 - Bundesliga (8. Spieltag) - FC Augsburg vs. SC Freiburg
+2026-11-05 - Conference League (Ligaphase, 3. Spieltag) - Trabzonspor vs. SC Freiburg
+2026-11-08 - Bundesliga (9. Spieltag) - SC Freiburg vs. 1. FC Union Berlin
+2026-11-21 - Bundesliga (10. Spieltag) - SV Elversberg vs. SC Freiburg
+2026-11-26 - Conference League (Ligaphase, 4. Spieltag) - SC Freiburg vs. FC Twente Enschede
+
+Bundesliga: Läuft, naechstes Spiel 31.10.2026, 15:30 Uhr, Auswaertsspiel bei FC Augsburg (8. Spieltag). Tabellenplatz 3, 13 Punkte, 7 Spiele (4S/1U/2N), Tordifferenz +7.
+
+Letzte Ergebnisse:
+- 25.10.2026 (7. Spieltag): SC Freiburg 1:3 FC Bayern München
+- 18.10.2026 (6. Spieltag): Bayer Leverkusen 2:1 SC Freiburg
+- 11.10.2026 (5. Spieltag): SC Freiburg 2:1 FC Schalke 04
+- 19.09.2026 (4. Spieltag): Eintracht Frankfurt 2:2 SC Freiburg
+- 12.09.2026 (3. Spieltag): SC Freiburg 5:0 Borussia Mönchengladbach
+
+DFB-Pokal: 2. Runde gewonnen – Achtelfinale erreicht, Gegner wird am 01.11. ausgelost - 3:2-Sieg (1:2) gegen VfL Wolfsburg am 28.10., Spiele der Runde am 01./02.12.2026
+
+Conference League: Ligaphase läuft – erste Niederlage nach Auftaktsieg - 0:3 bei AS Monaco am 22.10. (nach 3:2-Sieg gegen Jablonec zum Auftakt); naechster Termin 05.11.2026 auswärts bei Trabzonspor
+
+News der Woche:
+- Last-Minute-Drama im Pokal: Einwechselspieler Keisuke Goto dreht mit zwei Toren das 2.-Runden-Spiel gegen Wolfsburg (3:2), Freiburg zum dritten Mal in Folge im Achtelfinale
+- Erste Heimniederlage der Saison: 1:3 gegen den FC Bayern (25.10.), der ohne Cheftrainer Kompany (Assistent Danks vertrat ihn) antrat und wieder Tabellenführer wurde; Freiburg bleibt Platz 3
+- DFB-Pokal-Achtelfinale: Auslosung am 01.11.2026, Spiele am 01./02.12.2026 - Gegner noch offen
+- Nächste Aufgabe nach englischer Woche: Auswärts bei Augsburg am 31.10., 15:30 Uhr
+
+Experteneinschaetzungen:
+- Vincenzo Grifo: Trotz 1:3-Niederlage von der Moral in der Schlussphase überzeugt, sieht aber Anfälligkeit für Gegenangriffe durch hohes Pressing
+- Julian Schuster (nach Bayern-Spiel): Verteidigt den mutigen Ansatz, man sei näher am 2:2 als am Endstand 1:3 gewesen
+- Julian Schuster (vor Pokalspiel): Spricht über persönliche Pokal-Rechnung mit Wolfsburg, bezeichnet die Wölfe als sehr torgefährlich
+
+Hinweis: api.openligadb.de und praktisch alle anderen externen Domains (kicker.de, bulibox.de, wikipedia.org, news.de, volksstimme.de) bleiben per WebFetch vollstaendig gesperrt (DNS-Aufloesung schlaegt fehl). Alle Daten stammen aus WebSearch-Recherchen. Die Bundesliga-Tabelle basiert auf einem Quellen-Konsens (BuLi-Box, kicker-Spielplan); die exakte Tordifferenz des achtplatzierten SV Elversberg liess sich nicht verlaesslich bestaetigen und wurde ausgelassen. Der Gegner im DFB-Pokal-Achtelfinale steht erst nach der Auslosung am 01.11. fest. Die genaue Platzierung in der Conference-League-Ligaphasentabelle liess sich weiterhin nicht bestaetigen, da der 3. Spieltag erst am 05.11. ausgetragen wird.
+```
