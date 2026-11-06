@@ -1,112 +1,114 @@
 {
-  "aktualisiert_am": "2026-10-30",
+  "aktualisiert_am": "2026-11-06",
   "saison": "2026/27",
-  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausführungsumgebung per WebFetch weiterhin vollständig gesperrt (DNS-Auflösung schlägt für diese und praktisch alle anderen externen Domains per direktem WebFetch fehl, u.a. kicker.de, bulibox.de, wikipedia.org, news.de, volksstimme.de). Alle Zahlen stammen daher ausschließlich aus WebSearch-Recherchen. Die Bundesliga-Tabelle nach dem 7. Spieltag basiert auf einem Konsens mehrerer Quellen (u.a. BuLi-Box, kicker-Spielplan); die exakte Tordifferenz des achtplatzierten SV Elversberg (ebenfalls 10 Punkte) ließ sich trotz mehrerer Anfragen nicht verlässlich bestätigen und wurde daher nicht in den Tabellenausschnitt aufgenommen, um keine Zahl zu erfinden. Der Gegner im DFB-Pokal-Achtelfinale steht noch nicht fest (Auslosung erst am 01.11.2026). Die Tabelle der Conference-League-Ligaphase ließ sich weiterhin nicht zuverlässig mit exakten Platzierungen rekonstruieren, da der 3. Spieltag erst am 05.11.2026 ausgetragen wird.",
+  "hinweis_datenquelle": "api.openligadb.de ist in dieser Ausführungsumgebung per WebFetch weiterhin vollständig gesperrt (DNS-Auflösung schlägt für diese und praktisch alle anderen externen Domains per direktem WebFetch fehl, u.a. kicker.de, wikipedia.org, sportschau.de, ligainsider.de). Alle Zahlen stammen daher ausschließlich aus WebSearch-Recherchen. Für die Bundesliga-Punkte von Bayern München und Borussia Dortmund nach dem 8. Spieltag gab es widersprüchliche Quellen (Sportschau nannte abweichend 20:17 Punkte, während sport.de, bulibox.de und fussballnationalmannschaft.net übereinstimmend 18:18 Punkte zeigten); hier wurde der Mehrheitskonsens (18:18) verwendet. Die genaue Tabellenplatzierung des SC Freiburg in der Conference-League-Ligaphase nach dem 3. Spieltag ließ sich trotz mehrerer Anfragen nicht verlässlich bestätigen (Quellen nennen widersprüchlich Platz 10, 11 oder 14 bei jeweils 6 Punkten) und wurde daher nicht aufgenommen, um keine Zahl zu erfinden. Der Wochentag des Bundesliga-Spiels gegen RB Leipzig am 29.11. wird von einer Fanseite abweichend auf den 28.11. datiert; hier wurde das offizielle Vereinsdatum (29.11., Sonntag) verwendet.",
   "naechste_spiele": [
-    {"datum": "2026-10-31", "wettbewerb": "Bundesliga (8. Spieltag)", "heimteam": "FC Augsburg", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, WWK Arena"},
-    {"datum": "2026-11-05", "wettbewerb": "Conference League (Ligaphase, 3. Spieltag)", "heimteam": "Trabzonspor", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 18:45 Uhr, auswärts in der Türkei"},
     {"datum": "2026-11-08", "wettbewerb": "Bundesliga (9. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "1. FC Union Berlin", "hinweis": "Anstoß 17:30 Uhr, Europa-Park Stadion"},
-    {"datum": "2026-11-21", "wettbewerb": "Bundesliga (10. Spieltag)", "heimteam": "SV Elversberg", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr"},
-    {"datum": "2026-11-26", "wettbewerb": "Conference League (Ligaphase, 4. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Twente Enschede", "hinweis": "Heimspiel, Europa-Park Stadion"}
+    {"datum": "2026-11-21", "wettbewerb": "Bundesliga (10. Spieltag)", "heimteam": "SV Elversberg", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 15:30 Uhr, Auswärtsspiel"},
+    {"datum": "2026-11-26", "wettbewerb": "Conference League (Ligaphase, 4. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "FC Twente Enschede", "hinweis": "Heimspiel, Europa-Park Stadion"},
+    {"datum": "2026-11-29", "wettbewerb": "Bundesliga (11. Spieltag)", "heimteam": "SC Freiburg", "auswaertsteam": "RB Leipzig", "hinweis": "Laut Vereinsangabe Sonntag, 29.11.; eine Fanseite nennt abweichend Samstag, 28.11. - vor Anpfiff verifizieren"},
+    {"datum": "2026-12-02", "wettbewerb": "DFB-Pokal (Achtelfinale)", "heimteam": "1. FC Kaiserslautern", "auswaertsteam": "SC Freiburg", "hinweis": "Anstoß 18:00 Uhr, Fritz-Walter-Stadion, Auswärtsspiel beim Zweitligisten"}
   ],
   "bundesliga": {
     "status": "laeuft",
     "status_label": "Läuft",
-    "naechstes_spiel": "31.10.2026, 15:30 Uhr, Auswärtsspiel bei FC Augsburg (8. Spieltag)",
+    "naechstes_spiel": "08.11.2026, 17:30 Uhr, Heimspiel gegen 1. FC Union Berlin (9. Spieltag)",
     "tabellenplatz": 3,
-    "punkte": 13,
-    "spiele": 7,
-    "siege": 4,
+    "punkte": 16,
+    "spiele": 8,
+    "siege": 5,
     "unentschieden": 1,
     "niederlagen": 2,
-    "tordifferenz": 7,
+    "tordifferenz": 8,
     "tabellenausschnitt": [
-      {"platz": 1, "verein": "FC Bayern München", "spiele": 7, "tordifferenz": 19, "punkte": 17, "hervorheben": false},
-      {"platz": 2, "verein": "Borussia Dortmund", "spiele": 7, "tordifferenz": 8, "punkte": 17, "hervorheben": false},
-      {"platz": 3, "verein": "SC Freiburg", "spiele": 7, "tordifferenz": 7, "punkte": 13, "hervorheben": true},
-      {"platz": 4, "verein": "Bayer Leverkusen", "spiele": 7, "tordifferenz": 4, "punkte": 13, "hervorheben": false},
-      {"platz": 5, "verein": "RB Leipzig", "spiele": 7, "tordifferenz": 9, "punkte": 12, "hervorheben": false},
-      {"platz": 6, "verein": "SV Werder Bremen", "spiele": 7, "tordifferenz": 1, "punkte": 12, "hervorheben": false},
-      {"platz": 7, "verein": "1. FSV Mainz 05", "spiele": 7, "tordifferenz": 3, "punkte": 10, "hervorheben": false}
+      {"platz": 1, "verein": "FC Bayern München", "spiele": 8, "tordifferenz": 19, "punkte": 18, "hervorheben": false},
+      {"platz": 2, "verein": "Borussia Dortmund", "spiele": 8, "tordifferenz": 8, "punkte": 18, "hervorheben": false},
+      {"platz": 3, "verein": "SC Freiburg", "spiele": 8, "tordifferenz": 8, "punkte": 16, "hervorheben": true},
+      {"platz": 4, "verein": "RB Leipzig", "spiele": 8, "tordifferenz": 11, "punkte": 15, "hervorheben": false},
+      {"platz": 5, "verein": "SV Werder Bremen", "spiele": 8, "tordifferenz": 3, "punkte": 15, "hervorheben": false},
+      {"platz": 6, "verein": "Bayer Leverkusen", "spiele": 8, "tordifferenz": 2, "punkte": 13, "hervorheben": false},
+      {"platz": 7, "verein": "SV Elversberg", "spiele": 8, "tordifferenz": 0, "punkte": 13, "hervorheben": false},
+      {"platz": 8, "verein": "Eintracht Frankfurt", "spiele": 8, "tordifferenz": -5, "punkte": 11, "hervorheben": false}
     ],
-    "tabellenausschnitt_hinweis": "SC Freiburg steht nach dem 7. Spieltag auf Platz 3, daher stehen nur zwei Vereine vor dem SC in der Tabelle. Nach Freiburg konnten vier Vereine mit belastbaren Tordifferenz-Werten bestätigt werden (Leverkusen, RB Leipzig, Werder Bremen, Mainz); der achtplatzierte SV Elversberg (ebenfalls 10 Punkte) ließ sich trotz mehrerer Anfragen nicht mit einer verlässlichen Tordifferenz bestätigen und wurde daher ausgelassen."
+    "tabellenausschnitt_hinweis": "Nur zwei Vereine stehen aktuell vor dem SC Freiburg (Platz 3), daher enthält der Ausschnitt beide Vereine davor plus die fünf Vereine danach (insgesamt 8 statt 11 Einträge)."
   },
   "letzte_ergebnisse": [
+    {"datum": "2026-10-31", "wettbewerb": "Bundesliga 2026/27 (8. Spieltag)", "heimteam": "FC Augsburg", "ergebnis": "1:2", "auswaertsteam": "SC Freiburg"},
     {"datum": "2026-10-25", "wettbewerb": "Bundesliga 2026/27 (7. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "1:3", "auswaertsteam": "FC Bayern München"},
     {"datum": "2026-10-18", "wettbewerb": "Bundesliga 2026/27 (6. Spieltag)", "heimteam": "Bayer Leverkusen", "ergebnis": "2:1", "auswaertsteam": "SC Freiburg"},
     {"datum": "2026-10-11", "wettbewerb": "Bundesliga 2026/27 (5. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "2:1", "auswaertsteam": "FC Schalke 04"},
-    {"datum": "2026-09-19", "wettbewerb": "Bundesliga 2026/27 (4. Spieltag)", "heimteam": "Eintracht Frankfurt", "ergebnis": "2:2", "auswaertsteam": "SC Freiburg"},
-    {"datum": "2026-09-12", "wettbewerb": "Bundesliga 2026/27 (3. Spieltag)", "heimteam": "SC Freiburg", "ergebnis": "5:0", "auswaertsteam": "Borussia Mönchengladbach"}
+    {"datum": "2026-09-19", "wettbewerb": "Bundesliga 2026/27 (4. Spieltag)", "heimteam": "Eintracht Frankfurt", "ergebnis": "2:2", "auswaertsteam": "SC Freiburg"}
   ],
   "dfb_pokal": {
-    "status": "achtelfinale_erreicht",
-    "status_label": "2. Runde gewonnen – Achtelfinale erreicht, Gegner wird am 01.11. ausgelost",
-    "naechste_runde": {"runde": "Achtelfinale", "datum": "Auslosung 01.11.2026, Spiele am 01./02.12.2026", "gegner": "noch nicht bekannt (Auslosung steht aus)", "ort": "noch nicht bekannt"},
+    "status": "achtelfinale_angesetzt",
+    "status_label": "Achtelfinale erreicht - Spiel am 02.12. bei 1. FC Kaiserslautern",
+    "naechste_runde": {"runde": "Achtelfinale", "datum": "02.12.2026, 18:00 Uhr", "gegner": "1. FC Kaiserslautern", "ort": "Fritz-Walter-Stadion, Kaiserslautern (auswärts)"},
     "ergebnisse": [
       {"runde": "1. Runde", "heimteam": "Fortuna Düsseldorf", "ergebnis": "1:5", "auswaertsteam": "SC Freiburg"},
       {"runde": "2. Runde", "heimteam": "SC Freiburg", "ergebnis": "3:2", "auswaertsteam": "VfL Wolfsburg"}
     ],
-    "hinweis": "Freiburg gewann die 2. Runde am 28.10.2026 im Europa-Park Stadion mit 3:2 (Halbzeit 1:2) gegen den Zweitligisten VfL Wolfsburg; Einwechselspieler Keisuke Goto drehte mit zwei späten Toren die zuvor knifflige Partie. Der SC zieht damit zum dritten Mal in Folge ins DFB-Pokal-Achtelfinale ein. Die Achtelfinal-Auslosung findet am 01.11.2026 statt, die Spiele werden am 01./02.12.2026 ausgetragen - der Gegner steht noch nicht fest."
+    "hinweis": "Die Achtelfinal-Auslosung fand am 01.11.2026 im Deutschen Fußballmuseum in Dortmund statt: Freiburg trifft auswärts auf den Zweitligisten 1. FC Kaiserslautern, Anstoß am 02.12.2026 um 18:00 Uhr im Fritz-Walter-Stadion."
   },
   "conference_league": {
     "status": "ligaphase_laeuft",
-    "status_label": "Ligaphase läuft – erste Niederlage nach Auftaktsieg",
+    "status_label": "Ligaphase läuft - 6 Punkte aus 3 Spielen nach Auswärtssieg bei Trabzonspor",
     "qualifikationsweg": "Play-off-Teilnahme über die Bundesliga-Platzierung 2025/26 - erste Teilnahme des SC Freiburg an diesem Wettbewerb. Play-off-Gegner war Motherwell FC (Schottland): 3:1-Sieg im Hinspiel (20.08., auswärts), 4:1-Sieg im Rückspiel (27.08., daheim), Gesamtscore 7:2.",
     "termine": [
       {"phase": "Play-offs", "datum": "20. & 27.08.2026 (gegen Motherwell FC, gewonnen)"},
       {"phase": "Ligaphase, 1. Spieltag: SC Freiburg – FK Jablonec", "datum": "15.10.2026 (3:2 gewonnen)"},
       {"phase": "Ligaphase, 2. Spieltag: AS Monaco – SC Freiburg", "datum": "22.10.2026 (0:3 verloren)"},
-      {"phase": "Ligaphase, 3. Spieltag: Trabzonspor – SC Freiburg", "datum": "05.11.2026"},
+      {"phase": "Ligaphase, 3. Spieltag: Trabzonspor – SC Freiburg", "datum": "05.11.2026 (0:1 gewonnen)"},
       {"phase": "Ligaphase, 4. Spieltag: SC Freiburg – FC Twente Enschede", "datum": "26.11.2026"},
       {"phase": "Ligaphase, 5. Spieltag: SC Freiburg – Panathinaikos FC", "datum": "10.12.2026"},
       {"phase": "Ligaphase, 6. Spieltag: FK Kauno Žalgiris – SC Freiburg", "datum": "17.12.2026"}
     ],
     "tabellenausschnitt": [],
-    "tabellenausschnitt_hinweis": "Der 3. Spieltag der Ligaphase (05.11.2026 bei Trabzonspor) wurde noch nicht ausgetragen, daher gibt es seit dem 2. Spieltag keine neue Tabellensituation. Die exakte Platzierung des SC Freiburg in der 36-Teams-Ligaphasentabelle nach dem 2. Spieltag ließ sich trotz mehrerer Suchanfragen weiterhin nicht verlässlich bestätigen, daher wird hier auf eine unsichere Platzierung verzichtet.",
+    "tabellenausschnitt_hinweis": "Freiburg hat nach dem 3. Spieltag 6 Punkte, die genaue Platzierung in der 36-Teams-Ligaphasentabelle ließ sich aber trotz mehrerer Anfragen nicht verlässlich bestätigen (Quellen nennen widersprüchlich Platz 10, 11 oder 14). Um keine Zahl zu erfinden, wird hier auf einen Tabellenausschnitt verzichtet.",
     "ergebnisse": [
       {"runde": "Play-off Hinspiel", "heimteam": "Motherwell FC", "ergebnis": "1:3", "auswaertsteam": "SC Freiburg"},
       {"runde": "Play-off Rückspiel", "heimteam": "SC Freiburg", "ergebnis": "4:1", "auswaertsteam": "Motherwell FC"},
       {"runde": "Ligaphase, 1. Spieltag", "heimteam": "SC Freiburg", "ergebnis": "3:2", "auswaertsteam": "FK Jablonec"},
-      {"runde": "Ligaphase, 2. Spieltag", "heimteam": "AS Monaco", "ergebnis": "3:0", "auswaertsteam": "SC Freiburg"}
+      {"runde": "Ligaphase, 2. Spieltag", "heimteam": "AS Monaco", "ergebnis": "3:0", "auswaertsteam": "SC Freiburg"},
+      {"runde": "Ligaphase, 3. Spieltag", "heimteam": "Trabzonspor", "ergebnis": "0:1", "auswaertsteam": "SC Freiburg"}
     ]
   },
   "news": [
     {
-      "titel": "Last-Minute-Drama im Pokal: Goto schießt Freiburg ins Achtelfinale",
-      "zusammenfassung": "Am 28.10. gewann Freiburg die 2. DFB-Pokal-Runde im Europa-Park Stadion mit 3:2 (1:2) gegen den Zweitligisten VfL Wolfsburg. Nach einem 1:2-Rückstand zur Halbzeit drehte Einwechselspieler Keisuke Goto mit zwei Toren das Spiel in der turbulenten Schlussphase. Es ist der dritte Achtelfinaleinzug des SC in Folge.",
-      "quelle_url": "https://www.zdfheute.de/sport/fussball-dfb-pokal/video/sc-freiburg-vfl-wolfsburg-2-runde-zusammenfassung-100.html"
+      "titel": "DFB-Pokal-Achtelfinale: Freiburg muss zum Zweitligisten nach Kaiserslautern",
+      "zusammenfassung": "Bei der Auslosung am 01.11.2026 im Deutschen Fußballmuseum in Dortmund wurde dem SC Freiburg mit dem 1. FC Kaiserslautern ein Zweitligist als Achtelfinalgegner zugelost. Das Spiel findet am 02.12.2026 (18:00 Uhr) im Fritz-Walter-Stadion statt.",
+      "quelle_url": "https://fck.de/blog/achtelfinal-auslosung-fckscf2627/"
     },
     {
-      "titel": "Erste Heimniederlage der Saison: 1:3 gegen den FC Bayern",
-      "zusammenfassung": "Am 25.10. verlor Freiburg das Topspiel des 7. Spieltags im eigenen Stadion mit 1:3 gegen den FC Bayern München, der ohne Cheftrainer Vincent Kompany (dieser war ausgefallen, Assistent Aaron Danks vertrat ihn) antrat und damit wieder an die Tabellenspitze zog. Freiburg bleibt trotz der Niederlage auf Platz 3.",
-      "quelle_url": "https://fcbayern.com/de/news/2026/10/die-stimmen-zum-bundesliga-spiel-beim-sc-freiburg"
+      "titel": "Doppelter Jokereinsatz rettet Freiburg bei Augsburg",
+      "zusammenfassung": "Nach einem 0:1-Rückstand durch Michael Gregoritsch (18.) drehten die eingewechselten Igor Matanović (65.) und Cyriaque Irié (85.) das Spiel beim FC Augsburg zum 2:1-Auswärtssieg - Freiburgs Schlüsselsieg zur Festigung von Tabellenplatz 3 am 8. Spieltag.",
+      "quelle_url": "https://www.ligainsider.de/fc-augsburg/21/joker-drehen-spiel-freiburg-siegt-in-augsburg-420116/"
     },
     {
-      "titel": "DFB-Pokal-Achtelfinale: Auslosung am 1. November, Spiele im Dezember",
-      "zusammenfassung": "Die Auslosung des DFB-Pokal-Achtelfinales findet am Sonntag, 01.11.2026, statt; die Partien selbst werden am 01./02.12.2026 ausgetragen. Freiburgs Gegner steht damit noch nicht fest.",
-      "quelle_url": "https://www.dfb.de/news/detail/dfb-pokal-die-auslosung-vom-achtelfinale-heute-live-im-free-tv-256258"
+      "titel": "Kübler-Tor sichert Pflichtsieg in der Türkei",
+      "zusammenfassung": "Mit einem Treffer von Lukas Kübler in der 14. Minute gewann der SC Freiburg am 05.11. mit 1:0 bei Trabzonspor und kommt nach drei Spieltagen der Conference-League-Ligaphase auf sechs Punkte. Torhüter Mio Backhaus hielt gegen Kapitän Mohamed Salah und Co. die Null.",
+      "quelle_url": "https://www.zdfheute.de/sport/fussball-champions-league/fussball-conference-league-trabzonspor-sc-freiburg-100.html"
     },
     {
-      "titel": "Nächste Aufgabe: Auswärts bei Augsburg",
-      "zusammenfassung": "Nach der Englischen Woche mit Bayern-Spiel und Pokalpartie reist Freiburg am 31.10. (15:30 Uhr) zum 8. Bundesliga-Spieltag zu Fußball-Kontrahent FC Augsburg in die WWK Arena.",
-      "quelle_url": "https://www.scfreiburg.com/en/latest/first-team/news/2026-27/dates-and-kick-off-times-confirmed-for-matchdays-5-to-11/"
+      "titel": "Matanović im Aufwind: Jokertore prägen starke Form",
+      "zusammenfassung": "Stürmer Igor Matanović trifft zuletzt regelmäßig von der Bank aus und gilt als einer der Erfolgsgaranten der jüngsten Siege, unter anderem mit dem Ausgleichstreffer in Augsburg. Medien attestieren ihm eine klare Aufwärtsentwicklung seit seinem Wechsel nach Freiburg.",
+      "quelle_url": "https://www.getfootballnewsgermany.com/2026/igor-matanovic-rise/"
     }
   ],
   "experteneinschaetzungen": [
     {
-      "quelle": "Vincenzo Grifo (Kapitän, nach der Bayern-Niederlage)",
-      "einschaetzung": "Zeigte sich trotz der 1:3-Niederlage von der Moral seiner Mannschaft in der Schlussphase überzeugt ('Wir müssen an uns glauben'), räumte aber ein, dass das hohe Pressing Freiburg anfällig für Gegenangriffe machte, und sah dennoch Gefahrenmomente aus Standardsituationen.",
-      "quelle_url": "https://bulinews.com/believe-ourselves-grifo-reflects-late-freiburg-fightback-against-bayern"
+      "quelle": "UEFA.com (Spielbericht Trabzonspor – Freiburg)",
+      "einschaetzung": "Würdigt die kompakte und abgeklärte Defensivleistung Freiburgs bei Trabzonspor, die trotz großer Drangphasen der Türken und Chancen von Mohamed Salah zum 1:0-Auswärtssieg führte und den SC in der Ligaphase auf Kurs zur K.o.-Runde hält.",
+      "quelle_url": "https://de.uefa.com/uefaconferenceleague/news/02ab-22004d3bd99e-4642d73aa9da-1000--3-spieltag-der-uefa-conference-league-freiburg-gewinnt-bei-t/"
     },
     {
-      "quelle": "Julian Schuster (Cheftrainer, nach dem Bayern-Spiel)",
-      "einschaetzung": "Verteidigte den mutigen, offensiven Ansatz seiner Mannschaft trotz der Niederlage und betonte, dass man zur Halbzeit das Ziel ausgegeben habe, nochmal heranzukommen - am Ende sei man näher am 2:2 als am Endstand 1:3 gewesen.",
-      "quelle_url": "https://bulinews.com/that-not-who-are-schuster-defends-freiburg-bold-approach-against-bayern"
+      "quelle": "getfootballnewsgermany.com",
+      "einschaetzung": "Beschreibt Igor Matanović als zunehmend verlässlichen Anspieler von der Bank, der zuletzt in Serie getroffen hat und Freiburgs Offensive in der Schlussphase von engen Spielen entscheidend beleben kann.",
+      "quelle_url": "https://www.getfootballnewsgermany.com/2026/igor-matanovic-rise/"
     },
     {
-      "quelle": "Julian Schuster (vor dem Pokalspiel gegen Wolfsburg)",
-      "einschaetzung": "Sprach vor der Partie offen über seine persönliche Pokal-Rechnung mit Wolfsburg (frühere Niederlage 2015) und bezeichnete die Wölfe als sehr torgefährlich - am Ende setzte sich sein Team dank der Moral in der Schlussphase durch.",
-      "quelle_url": "https://www.volksstimme.de/panorama/sc-coach-schuster-das-kitzelt-mich-jetzt-so-ein-bisschen-4346006"
+      "quelle": "bulinews.com",
+      "einschaetzung": "Ordnet den Last-Minute-Sieg in Augsburg als wichtigen Schritt ein, um den Anschluss an die etablierten Spitzenteams nicht zu verlieren, und hebt die Rolle der Einwechselspieler als Freiburgs aktuelles Erfolgsrezept hervor.",
+      "quelle_url": "https://bulinews.com/freiburg-close-gap-der-klassiker-rivals-thanks-supersubs"
     }
   ]
 }

@@ -503,3 +503,40 @@ Experteneinschaetzungen:
 
 Hinweis: api.openligadb.de und praktisch alle anderen externen Domains (kicker.de, bulibox.de, wikipedia.org, news.de, volksstimme.de) bleiben per WebFetch vollstaendig gesperrt (DNS-Aufloesung schlaegt fehl). Alle Daten stammen aus WebSearch-Recherchen. Die Bundesliga-Tabelle basiert auf einem Quellen-Konsens (BuLi-Box, kicker-Spielplan); die exakte Tordifferenz des achtplatzierten SV Elversberg liess sich nicht verlaesslich bestaetigen und wurde ausgelassen. Der Gegner im DFB-Pokal-Achtelfinale steht erst nach der Auslosung am 01.11. fest. Die genaue Platzierung in der Conference-League-Ligaphasentabelle liess sich weiterhin nicht bestaetigen, da der 3. Spieltag erst am 05.11. ausgetragen wird.
 ```
+
+## 2026-11-06
+
+```
+Naechste 5 Spiele:
+2026-11-08 - Bundesliga (9. Spieltag) - SC Freiburg vs. 1. FC Union Berlin
+2026-11-21 - Bundesliga (10. Spieltag) - SV Elversberg vs. SC Freiburg
+2026-11-26 - Conference League (Ligaphase, 4. Spieltag) - SC Freiburg vs. FC Twente Enschede
+2026-11-29 - Bundesliga (11. Spieltag) - SC Freiburg vs. RB Leipzig
+2026-12-02 - DFB-Pokal (Achtelfinale) - 1. FC Kaiserslautern vs. SC Freiburg
+
+Bundesliga: Läuft, naechstes Spiel 08.11.2026, 17:30 Uhr, Heimspiel gegen 1. FC Union Berlin (9. Spieltag). Tabellenplatz 3, 16 Punkte, 8 Spiele (5S/1U/2N), Tordifferenz +8.
+
+Letzte Ergebnisse:
+- 31.10.2026 (8. Spieltag): FC Augsburg 1:2 SC Freiburg
+- 25.10.2026 (7. Spieltag): SC Freiburg 1:3 FC Bayern München
+- 18.10.2026 (6. Spieltag): Bayer Leverkusen 2:1 SC Freiburg
+- 11.10.2026 (5. Spieltag): SC Freiburg 2:1 FC Schalke 04
+- 19.09.2026 (4. Spieltag): Eintracht Frankfurt 2:2 SC Freiburg
+
+DFB-Pokal: Achtelfinale erreicht - Spiel am 02.12. bei 1. FC Kaiserslautern - Auslosung am 01.11.2026 ergab ein Auswärtsspiel beim Zweitligisten, Anstoß 18:00 Uhr im Fritz-Walter-Stadion
+
+Conference League: Ligaphase läuft - 6 Punkte aus 3 Spielen nach Auswärtssieg bei Trabzonspor - 1:0-Sieg (Tor: Kübler, 14.) am 05.11., naechster Termin 26.11.2026 daheim gegen FC Twente Enschede
+
+News der Woche:
+- DFB-Pokal-Achtelfinale: Freiburg muss zum Zweitligisten nach Kaiserslautern (Auslosung 01.11., Anstoß 02.12., 18:00 Uhr, Fritz-Walter-Stadion)
+- Doppelter Jokereinsatz rettet Freiburg bei Augsburg: nach 0:1-Rückstand (Gregoritsch, 18.) drehten die eingewechselten Matanović (65.) und Irié (85.) das Spiel zum 2:1-Auswärtssieg
+- Kübler-Tor sichert Pflichtsieg in der Türkei: 1:0 bei Trabzonspor am 05.11., sechs Punkte nach drei Spieltagen der Ligaphase
+- Matanović im Aufwind: Jokertore prägen seine starke Form zuletzt
+
+Experteneinschaetzungen:
+- UEFA.com: würdigt die kompakte Defensivleistung Freiburgs bei Trabzonspor trotz Drangphasen und Salah-Chancen
+- getfootballnewsgermany.com: beschreibt Matanović als zunehmend verlässlichen Anspieler von der Bank mit Serie an Torbeteiligungen
+- bulinews.com: ordnet den Last-Minute-Sieg in Augsburg als wichtigen Schritt ein, um den Anschluss an die Spitzenteams nicht zu verlieren, Einwechselspieler als Erfolgsrezept
+
+Hinweis: api.openligadb.de und praktisch alle anderen externen Domains (kicker.de, wikipedia.org, sportschau.de, ligainsider.de) bleiben per WebFetch vollstaendig gesperrt (DNS-Aufloesung schlaegt fehl). Alle Daten stammen aus WebSearch-Recherchen. Fuer die Bundesliga-Punkte von Bayern/Dortmund nach dem 8. Spieltag gab es widersprüchliche Quellen (Sportschau: 20:17 vs. Mehrheitskonsens aus sport.de/bulibox/fussballnationalmannschaft.net: 18:18 Punkte); hier wurde der Mehrheitskonsens verwendet. Die genaue Tabellenplatzierung des SC Freiburg in der Conference-League-Ligaphase nach dem 3. Spieltag liess sich trotz mehrerer Anfragen nicht verlaesslich bestaetigen (Quellen nennen widerspruechlich Platz 10, 11 oder 14) und wurde daher nicht aufgenommen. Der Wochentag des Bundesliga-Spiels gegen RB Leipzig am 29.11. wird von einer Fanseite abweichend auf den 28.11. datiert; hier wurde das offizielle Vereinsdatum (29.11.) verwendet.
+```
